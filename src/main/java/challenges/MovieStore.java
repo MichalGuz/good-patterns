@@ -44,6 +44,7 @@ public class MovieStore {
     public void printMoviesDifferentWay(){
         String result = getMovies().values().stream()
                 .flatMap(list -> list.stream())
+                .collect(Collectors.joining("!", "\n", "\n"));
     }
 
     public static void main(String[] args) {
