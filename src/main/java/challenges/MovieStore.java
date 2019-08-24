@@ -1,6 +1,7 @@
 package challenges;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -21,6 +22,12 @@ public class MovieStore {
         List<String> horror = new ArrayList<>();
         horror.add("Horror's title #1");
         horror.add("Horror's title #2");
+
+        Map<String, List<String>> moviesByFilmGenres = new HashMap<>();
+        moviesByFilmGenres.put("DRA", drama);
+        moviesByFilmGenres.put("COM", comedy);
+        moviesByFilmGenres.put("CRI", crime);
+        moviesByFilmGenres.put("HOR", horror);
     }
 
 }
