@@ -45,6 +45,8 @@ public class MovieStore {
         String result = getMovies().values().stream()
                 .flatMap(list -> list.stream())
                 .collect(Collectors.joining("!", "\n", "\n"));
+
+        System.out.println(result);
     }
 
     public static void main(String[] args) {
