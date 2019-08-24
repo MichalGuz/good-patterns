@@ -35,6 +35,6 @@ public class MovieStore {
 
     public void printMovies(){
         getMovies().entrySet().stream()
-
+                .map(entry -> entry.getValue().stream())
     }
 }
