@@ -40,4 +40,9 @@ public class MovieStore {
                 .map(l -> l = l.concat("!"))
                 .forEach(System.out::print);
     }
+
+    public static void main(String[] args) {
+        MovieStore movieStore = new MovieStore();
+        movieStore.printMovies();
+    }
 }
