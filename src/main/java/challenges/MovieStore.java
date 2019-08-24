@@ -38,5 +38,6 @@ public class MovieStore {
                 .map(entry -> entry.getValue().stream())
                 .flatMap(list -> list)
                 .map(l -> l = l.concat("!"))
+                .forEach(System.out::print);
     }
 }
