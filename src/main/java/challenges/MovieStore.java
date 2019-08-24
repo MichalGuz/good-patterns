@@ -37,5 +37,6 @@ public class MovieStore {
         getMovies().entrySet().stream()
                 .map(entry -> entry.getValue().stream())
                 .flatMap(list -> list)
+                .map(l -> l = l.concat("!"))
     }
 }
