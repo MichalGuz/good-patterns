@@ -34,6 +34,7 @@ public class MovieStore {
     }
 
     public void printMovies(){
+        getMovies().entrySet().stream()
 
     }
 }
