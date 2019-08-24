@@ -28,6 +28,8 @@ public class MovieStore {
         moviesByFilmGenres.put("COM", comedy);
         moviesByFilmGenres.put("CRI", crime);
         moviesByFilmGenres.put("HOR", horror);
+
+        return moviesByFilmGenres;
     }
 
 }
