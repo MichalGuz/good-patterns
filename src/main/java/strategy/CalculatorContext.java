@@ -7,4 +7,8 @@ public class CalculatorContext {
         this.calculator = calculator;
     }
 
+    public double processCalculation(double x, double y){
+        double result = calculator.calculate(x,y);
+        return result;
+    }
 }
