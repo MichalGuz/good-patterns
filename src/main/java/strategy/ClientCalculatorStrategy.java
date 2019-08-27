@@ -10,5 +10,7 @@ public class ClientCalculatorStrategy {
         System.out.println("Result of add method is: " + result);
 
         context.set(new SubtractNumbersStrategy());
+        result = context.processCalculation(8,4);
+        System.out.println("Result of subtract method is: " + result);
     }
 }
