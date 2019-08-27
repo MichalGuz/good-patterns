@@ -14,5 +14,7 @@ public class ClientCalculatorStrategy {
         System.out.println("Result of subtract method is: " + result);
 
         context.set(new MultiplyNumbersStrategy());
+        result = context.processCalculation(8,4);
+        System.out.println("Result of multiply method is: " + result);
     }
 }
