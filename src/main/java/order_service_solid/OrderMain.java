@@ -8,6 +8,7 @@ public class OrderMain {
         Product product1 = new Product("watch", "01234567", 650.0);
         OrderData orderData = new OrderData(LocalDate.of(2019, 8, 28), "0000001", 1, 650.0);
 
-
+        ProductOrderProcessor orderProcessor = new ProductOrderProcessor(new OrderServiceProcessor(), new OrderRepositoryProcessor(), new OrderMailService());
     }
+
 }
