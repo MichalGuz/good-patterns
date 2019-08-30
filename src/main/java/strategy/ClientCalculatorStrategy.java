@@ -20,6 +20,5 @@ public class ClientCalculatorStrategy {
         context.set(new DivideNumbersStrategy());
         result = context.processCalculation(8, 4);
         System.out.println("Result of divide method is " + result);
-
     }
 }
