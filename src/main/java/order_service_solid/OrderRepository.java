@@ -1,5 +1,5 @@
 package order_service_solid;
 
 public interface OrderRepository {
-    boolean createOrder(Customer customer, OrderData orderData);
+    boolean createOrder(Customer customer, Product product, OrderData orderData);
 }
