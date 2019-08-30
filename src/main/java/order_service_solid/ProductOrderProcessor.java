@@ -18,6 +18,8 @@ public class ProductOrderProcessor {
             informationService.inform(orderRequest.getCustomer());
             orderRepository.createOrder(orderRequest.getCustomer(), orderRequest.getProduct(), orderRequest.getOrderData());
             return new OrderDto(orderRequest.getCustomer(), true);
+        } else {
+            return new OrderDto(orderRequest.getCustomer(), false);
         }
     }
 }
