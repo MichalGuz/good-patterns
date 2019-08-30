@@ -10,6 +10,7 @@ public class OrderMain {
 
         ProductOrderProcessor orderProcessor = new ProductOrderProcessor(new OrderServiceProcessor(), new OrderRepositoryProcessor(), new OrderMailService());
         OrderRequest orderRequest = new OrderRequest(customerOne, product1, orderData);
+        orderProcessor.process(orderRequest);
     }
 
 }
