@@ -12,5 +12,7 @@ public class ProductOrderProcessor {
     }
 
     public OrderDto process(final OrderRequest orderRequest){
+        boolean isOrder = orderService.order(orderRequest.getCustomer(), orderRequest.getProduct(), orderRequest.getOrderData());
+
     }
 }
