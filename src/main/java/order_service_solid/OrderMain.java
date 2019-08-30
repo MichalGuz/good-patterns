@@ -9,6 +9,7 @@ public class OrderMain {
         OrderData orderData = new OrderData(LocalDate.of(2019, 8, 28), "0000001", 1, 650.0);
 
         ProductOrderProcessor orderProcessor = new ProductOrderProcessor(new OrderServiceProcessor(), new OrderRepositoryProcessor(), new OrderMailService());
+        OrderRequest orderRequest = new OrderRequest(customerOne, product1, orderData);
     }
 
 }
