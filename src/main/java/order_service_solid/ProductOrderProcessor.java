@@ -10,4 +10,7 @@ public class ProductOrderProcessor {
         this.orderRepository = orderRepository;
         this.informationService = informationService;
     }
+
+    public OrderDto process(final OrderRequest orderRequest){
+    }
 }
