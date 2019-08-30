@@ -23,20 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/order_service_solid/ProductOrderProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="204">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/order_service_solid/OrderService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+              <caret line="3" column="73" lean-forward="true" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -53,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/order_service_solid/OrderRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -137,13 +137,13 @@
         <option value="$PROJECT_DIR$/src/main/java/strategy/DivideNumbersStrategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy/CalculatorContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy/ClientCalculatorStrategy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/order_service_solid/ProductOrderProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/order_service_solid/OrderService.java" />
         <option value="$PROJECT_DIR$/src/main/java/order_service_solid/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/order_service_solid/OrderData.java" />
         <option value="$PROJECT_DIR$/src/main/java/order_service_solid/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/order_service_solid/InformationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/order_service_solid/OrderService.java" />
         <option value="$PROJECT_DIR$/src/main/java/order_service_solid/OrderRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/order_service_solid/ProductOrderProcessor.java" />
       </list>
     </option>
   </component>
@@ -420,13 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/order_service_solid/ProductOrderProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/order_service_solid/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
@@ -483,15 +476,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/order_service_solid/OrderRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/order_service_solid/OrderService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <caret line="3" column="73" lean-forward="true" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/order_service_solid/ProductOrderProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
