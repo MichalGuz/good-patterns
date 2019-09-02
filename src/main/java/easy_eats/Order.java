@@ -12,4 +12,16 @@ public class Order {
         this.dateOfOrder = dateOfOrder;
         this.totalPrice = totalPrice;
     }
+
+    public String getOrderId() {
+        return orderId;
+    }
+
+    public LocalDate getDateOfOrder() {
+        return dateOfOrder;
+    }
+
+    public Double getTotalPrice() {
+        return totalPrice;
+    }
 }
