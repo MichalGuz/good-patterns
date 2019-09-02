@@ -12,5 +12,4 @@ public class OrderMain {
         OrderRequest orderRequest = new OrderRequest(customerOne, product1, orderData);
         orderProcessor.process(orderRequest);
     }
-
 }
