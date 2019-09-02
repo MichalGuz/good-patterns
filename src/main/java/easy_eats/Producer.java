@@ -11,5 +11,15 @@ public class Producer {
         this.account = account;
     }
 
+    public String getName() {
+        return name;
+    }
 
+    public String getContact() {
+        return contact;
+    }
+
+    public String getAccount() {
+        return account;
+    }
 }
