@@ -1,5 +1,5 @@
 package easy_eats;
 
-public interface EasyEatsRepository {
+public interface EasyEatsOrderRepository {
     boolean createOrder(Customer customer, Product product, Order order);
 }
