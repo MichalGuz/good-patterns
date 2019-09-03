@@ -1,6 +1,5 @@
 package easy_eats;
 
-public class EasyEatsProcessor {
-    public void process(){
-    };
+public interface EasyEatsProcessor {
+    public void process();
 }
