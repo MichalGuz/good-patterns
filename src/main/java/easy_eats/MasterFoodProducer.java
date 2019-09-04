@@ -1,6 +1,6 @@
 package easy_eats;
 
-public class MasterFoodProducer implements EasyEatsProcessor {
+public class MasterFoodProducer implements EasyEatsProducerProcessor {
    @Override
    public void process(){
        System.out.println("MasterFood");

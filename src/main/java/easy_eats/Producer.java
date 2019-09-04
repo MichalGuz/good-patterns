@@ -4,9 +4,9 @@ public class Producer {
     private String name;
     private String contact;
     private String account;
-    private EasyEatsProcessor processor;
+    private EasyEatsProducerProcessor processor;
 
-    public Producer(String name, String contact, String account, EasyEatsProcessor processor) {
+    public Producer(String name, String contact, String account, EasyEatsProducerProcessor processor) {
         this.name = name;
         this.contact = contact;
         this.account = account;
@@ -25,7 +25,7 @@ public class Producer {
         return account;
     }
 
-    public EasyEatsProcessor getProcessor() {
+    public EasyEatsProducerProcessor getProcessor() {
         return processor;
     }
 }
