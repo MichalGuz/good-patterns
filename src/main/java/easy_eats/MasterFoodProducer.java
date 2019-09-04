@@ -3,7 +3,7 @@ package easy_eats;
 public class MasterFoodProducer implements EasyEatsProducerProcessor, Producer {
    @Override
    public void producersProcess(){
-       System.out.println("MasterFood");
+       System.out.println("MasterFood - something special");
    }
 
     @Override
