@@ -6,7 +6,6 @@ public class OrganicFoodProducer implements EasyEatsProducerProcessor, Producer 
         System.out.println("Organic food - only the best harvest.");
     }
 
-
     @Override
     public String getName(){
         return "Organic Food";
