@@ -12,4 +12,8 @@ public class EasyEatsApplication {
         this.contact = contact;
         this.producerProcessor = producerProcessor;
     }
+
+    public void process(final OrderRequest orderRequest){
+        boolean isOrder;
+    }
 }
