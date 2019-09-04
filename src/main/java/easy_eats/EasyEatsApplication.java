@@ -14,6 +14,6 @@ public class EasyEatsApplication {
     }
 
     public void process(final OrderRequest orderRequest){
-        boolean isOrder;
+        boolean isOrder = service.order(orderRequest.getCustomer(), orderRequest.getProduct(), orderRequest.getOrder());
     }
 }
