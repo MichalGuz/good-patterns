@@ -9,8 +9,7 @@ public class EasyEatsMain {
         Order order1 = new Order("190904-0001", LocalDate.of(2019, 9,4 ), 200.00);
 
         OrderRequest request = new OrderRequest(customer1, product1,order1);
-        EasyEatsApplication app = new EasyEatsApplication(new EasyEatsService(), new EasyEaysRepo(), new EasyEatsMail(), new OrganicFoodProducer());
+        EasyEatsApplication app = new EasyEatsApplication(new EasyEatsService(), new EasyEatsRepo(), new EasyEatsMail(), new OrganicFoodProducer());
         app.process(request);
-
     }
 }
