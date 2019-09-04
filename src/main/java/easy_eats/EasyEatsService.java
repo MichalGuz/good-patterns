@@ -8,6 +8,7 @@ public class EasyEatsService implements EasyEatsOrderService {
                 + "Purchaser: " + customer.getCustomersName() + ", ID of User: " + customer.getCustomersId() + ".\n"
                 + "Details of the order:\n" + "[Product ID] " + product.getProductsId()
                 + "\n[Product] " + product.getProductsName() + "\n[Price] " + product.getProductsPrice()
+                + "\n[Producer] " + product.getProducer().getName() + "\n[Producer's e-mail] " + product.getProducer().getContact()
                 + "\n[ID of order] " + order.getOrderId() + "\n[Total price: ] " + order.getTotalPrice());
         return true;
     }
