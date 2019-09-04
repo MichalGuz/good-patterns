@@ -6,5 +6,10 @@ public class EasyEatsApplication {
     private EasyEatsContactService contact;
     private EasyEatsProducerProcessor producerProcessor;
 
-
+    public EasyEatsApplication(EasyEatsOrderService service, EasyEatsOrderRepository repository, EasyEatsContactService contact, EasyEatsProducerProcessor producerProcessor) {
+        this.service = service;
+        this.repository = repository;
+        this.contact = contact;
+        this.producerProcessor = producerProcessor;
+    }
 }
