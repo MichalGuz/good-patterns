@@ -24,4 +24,9 @@ public final class Settings {
         System.out.println("Loading settings from file.");
         return true;
     }
+
+    boolean saveSettings() {
+        System.out.println("Saving settings to file.");
+        return true;
+    }
 }
