@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="singleton.SettingsFileManagerTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-10T22:04:48" hostname="Dell-Komputer" time="0.028">
+<testsuite name="singleton.SettingsFileManagerTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-10T22:11:25" hostname="Dell-Komputer" time="0.003">
   <properties/>
-  <testcase name="testGetFileName" classname="singleton.SettingsFileManagerTestSuite" time="0.028"/>
+  <testcase name="testLoadSettings" classname="singleton.SettingsFileManagerTestSuite" time="0.003"/>
   <system-out><![CDATA[Opening the settings file.
-Opened:myapp.settings
+Loading settings from file.
 Closing the seetings file.
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

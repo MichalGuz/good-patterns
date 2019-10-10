@@ -38,4 +38,11 @@ public class SettingsFileManagerTestSuite {
         // then
         Assert.assertTrue(result);
     }
+
+    @Test
+    public void testSaveSettings() {
+        // given
+        // when
+        boolean result = settingsFileManager.saveSettings();
+    }
 }
