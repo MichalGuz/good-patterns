@@ -32,6 +32,7 @@ public class SettingsFileManagerTestSuite {
     @Test
     public void testLoadSettings() {
         // given
-
+        // when
+        boolean result = settingsFileManager.load();
     }
 }
