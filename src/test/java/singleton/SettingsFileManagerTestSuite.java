@@ -20,6 +20,8 @@ public class SettingsFileManagerTestSuite {
 
     @Test
     public void testGetFileName() {
-
+        // when
+        String finleName = settingsFileManager.getFileName();
+        System.out.println("Opened:" + fileName);
     }
 }
