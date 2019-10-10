@@ -1,4 +1,5 @@
 package singleton;
 
-public class Settings {
+public final class Settings {
+    private String fileName = "";
 }
