@@ -34,5 +34,8 @@ public class SettingsFileManagerTestSuite {
         // given
         // when
         boolean result = settingsFileManager.load();
+
+        // then
+        Assert.assertTrue(result);
     }
 }
