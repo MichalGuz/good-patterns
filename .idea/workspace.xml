@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/Settings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/flights_finder/FlightFinderMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/flights_finder/FlightFinderMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/flights_finder/FlightsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/flights_finder/FlightsRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/flights_finder/RepositoryInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/flights_finder/RepositoryInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flights_finder/FlightFinderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flights_finder/FlightFinderMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flights_finder/FlightsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flights_finder/FlightsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/flights_finder/RepositoryInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flights_finder/RepositoryInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singleton/Settings.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -68,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/singleton/Settings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="51">
+              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -153,6 +139,7 @@
         <option value="$PROJECT_DIR$/src/main/java/flights_finder/RepositoryInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/flights_finder/FlightFinderMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/flights_finder/FlightsRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/singleton/Settings.java" />
       </list>
     </option>
   </component>
@@ -815,8 +802,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/singleton/Settings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="51">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
         </state>
       </provider>
     </entry>
