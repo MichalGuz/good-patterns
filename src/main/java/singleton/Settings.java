@@ -14,4 +14,9 @@ public final class Settings {
        this.fileName = fileName;
         System.out.println("Opening the settings file.");
     }
+
+    public void close() {
+        this.fileName = "";
+        System.out.println("Closing the seetings file.");
+    }
 }
