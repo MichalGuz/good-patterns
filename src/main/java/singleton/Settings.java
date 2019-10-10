@@ -19,4 +19,9 @@ public final class Settings {
         this.fileName = "";
         System.out.println("Closing the seetings file.");
     }
+
+    public boolean load() {
+        System.out.println("Loading settings from file.");
+        return true;
+    }
 }
