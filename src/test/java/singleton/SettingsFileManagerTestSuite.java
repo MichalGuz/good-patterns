@@ -1,6 +1,7 @@
 package singleton;
 
 import org.junit.AfterClass;
+import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -23,5 +24,14 @@ public class SettingsFileManagerTestSuite {
         // when
         String fileName = settingsFileManager.getFileName();
         System.out.println("Opened:" + fileName);
+
+        // then
+        Assert.assertEquals("myapp.settings", fileName);
+    }
+
+    @Test
+    public void testLoadSettings() {
+        // given
+
     }
 }
