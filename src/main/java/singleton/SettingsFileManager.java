@@ -1,9 +1,9 @@
 package singleton;
 
-public final class Settings {
+public final class SettingsFileManager {
     private String fileName = "";
 
-    public Settings() {
+    public SettingsFileManager() {
     }
 
     public String getFileName() {
