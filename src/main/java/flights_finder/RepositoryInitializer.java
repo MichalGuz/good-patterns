@@ -6,5 +6,5 @@ public class RepositoryInitializer {
 //
 //    void addFlight(Flight flight){
 //        repository.getListOfConnections().add(flight);
-    }
 }
+
