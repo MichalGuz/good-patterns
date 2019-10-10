@@ -1,5 +1,7 @@
 package singleton;
 
+import org.junit.Test;
+
 public class SettingsFileManagerTestSuite {
     private static SettingsFileManager settingsFileManager;
 
@@ -12,6 +14,7 @@ public class SettingsFileManagerTestSuite {
         settingsFileManager.close();
     }
 
+    @Test
     public void testGetFileName() {
 
     }
