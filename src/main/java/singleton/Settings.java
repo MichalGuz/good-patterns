@@ -5,4 +5,8 @@ public final class Settings {
 
     public Settings() {
     }
+
+    public String getFileName() {
+        return fileName;
+    }
 }
