@@ -32,7 +32,7 @@ public class SettingsFileManagerTestSuite {
     public void testLoadSettings() {
         // given
         // when
-        boolean result = settingsFileManager.load();
+        boolean result = SettingsFileManager.getInstance().load();
 
         // then
         Assert.assertTrue(result);
