@@ -15,7 +15,7 @@ public class SettingsFileManagerTestSuite {
 
     @AfterClass
     public static void closeSettingsFile() {
-        settingsFileManager.close();
+        SettingsFileManager.getInstance().close();
     }
 
     @Test
