@@ -9,7 +9,11 @@ public final class SettingsFileManager {
 
     public static SettingsFileManager getInstance() {
         if(settingsFileManagerInstance == null) {
-            settingsFileManagerInstance = new SettingsFileManager();
+            synchronized (SettingsFileManager.class) {
+                if(settingsFileManagerInstance == null) {
+                    settingsFileManagerInstance = new SettingsFileManager();
+                }
+            }
         }
         return settingsFileManagerInstance;
     }
