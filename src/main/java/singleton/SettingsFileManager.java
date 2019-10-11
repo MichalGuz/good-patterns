@@ -4,7 +4,7 @@ public final class SettingsFileManager {
     private static SettingsFileManager settingsFileManagerInstance = null;
     private String fileName = "";
 
-    public SettingsFileManager() {
+    private SettingsFileManager() {
     }
 
     public String getFileName() {
