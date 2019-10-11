@@ -10,8 +10,7 @@ public class SettingsFileManagerTestSuite {
 
     @BeforeClass
     public static void openSettingsFIle() {
-        settingsFileManager = new SettingsFileManager();
-        settingsFileManager.open("myapp.settings");
+        SettingsFileManager.getInstance().open("myapp.settings");
     }
 
     @AfterClass
