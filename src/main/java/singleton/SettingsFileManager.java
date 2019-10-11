@@ -7,6 +7,9 @@ public final class SettingsFileManager {
     private SettingsFileManager() {
     }
 
+    public static SettingsFileManager getInstance() {
+    }
+
     public String getFileName() {
         return fileName;
     }
