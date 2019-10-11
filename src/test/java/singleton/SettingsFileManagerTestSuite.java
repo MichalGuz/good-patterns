@@ -42,7 +42,7 @@ public class SettingsFileManagerTestSuite {
     public void testSaveSettings() {
         // given
         // when
-        boolean result = settingsFileManager.saveSettings();
+        boolean result = SettingsFileManager.getInstance().saveSettings();
 
         // then
         Assert.assertTrue(result);
