@@ -8,6 +8,10 @@ public final class SettingsFileManager {
     }
 
     public static SettingsFileManager getInstance() {
+        if(settingsFileManagerInstance == null) {
+            settingsFileManagerInstance = new SettingsFileManager();
+        }
+        return settingsFileManagerInstance;
     }
 
     public String getFileName() {
