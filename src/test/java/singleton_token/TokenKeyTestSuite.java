@@ -4,6 +4,8 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class TokenKeyTestSuite {
+    private static TokenKey tokenKey;
+
     @Test
     public void testGetTokenKey() {
         // given
