@@ -1,5 +1,6 @@
 package sigleton_logger;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class SingletonLoggerTestSuite {
@@ -13,5 +14,7 @@ public class SingletonLoggerTestSuite {
         logger.log(log);
         String lastLog = logger.getLastLog();
 
+        // then
+        Assert.assertEquals(lastLog, log);
     }
 }
