@@ -1,6 +1,7 @@
 package singleton_token;
 
 public final class TokenKey {
+    private static TokenKey tokenKeyInstance = null;
     private String tokenKey = "";
 
     public void key(String key){
