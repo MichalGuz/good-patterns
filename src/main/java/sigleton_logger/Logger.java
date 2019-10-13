@@ -7,4 +7,8 @@ public class Logger {
         lastLog = log;
         System.out.println("Log [ " + log + "]");
     }
+
+    public String getLastLog() {
+        return lastLog;
+    }
 }
