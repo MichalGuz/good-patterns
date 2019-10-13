@@ -10,9 +10,8 @@ public class TokenKeyTestSuite {
         // given
 
         // when
-        TokenKey
-                key(new String("78ad32feg45KW2"));
-        String key = TokenKey.getTokenKey();
+        TokenKey.getInstance().key("78ad32feg45KW2");
+        String key = TokenKey.getInstance().getTokenKey();
 
         // then
         Assert.assertEquals("78ad32feg45KW2", key);
