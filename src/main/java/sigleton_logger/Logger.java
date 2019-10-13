@@ -1,6 +1,7 @@
 package sigleton_logger;
 
 public class Logger {
+    private static Logger logger = null;
     private String lastLog = "";
 
     public void log(String log){
