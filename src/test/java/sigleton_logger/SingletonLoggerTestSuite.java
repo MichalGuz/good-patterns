@@ -12,7 +12,7 @@ public class SingletonLoggerTestSuite {
 
         // when
         Logger.getInstance().log(log);
-        String lastLog = logger.getLastLog();
+        String lastLog = Logger.getInstance().getLastLog();
 
         // then
         Assert.assertEquals(lastLog, log);
