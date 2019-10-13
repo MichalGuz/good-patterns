@@ -3,7 +3,7 @@ package sigleton_logger;
 import sun.rmi.runtime.Log;
 
 public class Logger {
-    private static Logger logger = null;
+    private static Logger loggerInstance = null;
     private String lastLog = "";
 
     private Logger(){};
@@ -13,7 +13,9 @@ public class Logger {
         System.out.println("Log [ " + log + "]");
     }
 
-    public static Logger getInstance(){}
+    public static Logger getInstance(){
+
+    }
 
     public String getLastLog() {
         return lastLog;
