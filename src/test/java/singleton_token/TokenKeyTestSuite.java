@@ -7,5 +7,9 @@ public class TokenKeyTestSuite {
     public void testGetTokenKey() {
         // given
         TokenKey tokenKey = new TokenKey();
+
+        // when
+        tokenKey.key(new String("78ad32feg45KW2"));
+        String key = tokenKey.getTokenKey();
     }
 }
