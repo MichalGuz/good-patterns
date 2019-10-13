@@ -6,7 +6,7 @@ public final class TokenKey {
 
     private TokenKey(){};
 
-    public TokenKey getInstance(){
+    public static TokenKey getInstance(){
         synchronized(TokenKey.class) {
             if (tokenKeyInstance == null) {
                 if (tokenKeyInstance == null) {

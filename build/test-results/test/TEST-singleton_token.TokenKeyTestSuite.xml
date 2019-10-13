@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="singleton_token.TokenKeyTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-13T17:52:28" hostname="Dell-Komputer" time="0.026">
-  <properties/>
-  <testcase name="testGetTokenKey" classname="singleton_token.TokenKeyTestSuite" time="0.026"/>
-  <system-out><![CDATA[Key [78ad32feg45KW2]
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
