@@ -4,7 +4,8 @@ import org.junit.Test;
 
 public class TokenKeyTestSuite {
     @Test
-    public void testGetTokenKey(){
-
+    public void testGetTokenKey() {
+        // given
+        TokenKey tokenKey = new TokenKey();
     }
 }
