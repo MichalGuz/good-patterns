@@ -8,6 +8,7 @@ public class TokenKeyTestSuite {
     @Test
     public void testGetTokenKey() {
         // given
+        // nothing
 
         // when
         TokenKey.getInstance().key("78ad32feg45KW2");
