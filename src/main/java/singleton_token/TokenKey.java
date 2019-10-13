@@ -1,4 +1,5 @@
 package singleton_token;
 
-public class TokenKey {
+public final class TokenKey {
+    private TokenKey tokenKey;
 }
