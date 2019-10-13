@@ -2,8 +2,8 @@ package sigleton_logger;
 
 import org.junit.Assert;
 import org.junit.Test;
-
 public class SingletonLoggerTestSuite {
+    private static Logger logger;
     @Test
     public void testGetLastLogger(){
         // given
