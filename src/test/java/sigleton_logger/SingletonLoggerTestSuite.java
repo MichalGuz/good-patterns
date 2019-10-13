@@ -11,7 +11,7 @@ public class SingletonLoggerTestSuite {
         String log = "2019.10.13 18:38 main_user";
 
         // when
-        logger.log(log);
+        Logger.getInstance().log(log);
         String lastLog = logger.getLastLog();
 
         // then
