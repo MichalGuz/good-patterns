@@ -1,8 +1,6 @@
 package sigleton_logger;
 
-import sun.rmi.runtime.Log;
-
-public class Logger {
+public final class Logger {
     private static Logger loggerInstance = null;
     private String lastLog = "";
 
