@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="sigleton_logger.SingletonLoggerTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-13T17:30:48" hostname="Dell-Komputer" time="0.031">
-  <properties/>
-  <testcase name="testGetLastLogger" classname="sigleton_logger.SingletonLoggerTestSuite" time="0.031"/>
-  <system-out><![CDATA[Log [ 2019.10.13 18:38 main_user]
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
