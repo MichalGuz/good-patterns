@@ -6,6 +6,13 @@ public final class TokenKey {
 
     private TokenKey(){};
 
+    public TokenKey getInstance(){
+        if(tokenKeyInstance == null) {
+            tokenKeyInstance = new TokenKey();
+        }
+        return tokenKeyInstance;
+    }
+
     public void key(String key){
         tokenKey = key;
         System.out.println("Key [" + key + "]");
