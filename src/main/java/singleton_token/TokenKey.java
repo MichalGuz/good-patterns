@@ -1,5 +1,10 @@
 package singleton_token;
 
 public final class TokenKey {
-    private TokenKey tokenKey;
+    private String tokenKey = "";
+
+    public void key(String key){
+        tokenKey = key;
+        System.out.println("Key [" + key + "]");
+    }
 }
