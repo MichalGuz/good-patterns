@@ -7,4 +7,8 @@ public final class TokenKey {
         tokenKey = key;
         System.out.println("Key [" + key + "]");
     }
+
+    public String getTokenKey(){
+        return tokenKey;
+    }
 }
