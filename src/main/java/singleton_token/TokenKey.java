@@ -7,7 +7,7 @@ public final class TokenKey {
     private TokenKey(){};
 
     public TokenKey getInstance(){
-        synchronized() {
+        synchronized(TokenKey.class) {
             if (tokenKeyInstance == null) {
                 if (tokenKeyInstance == null) {
                     tokenKeyInstance = new TokenKey();
