@@ -10,4 +10,12 @@ public final class TaskList {
     public TaskList(final String name) {
         this.name = name;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public List<Task> getTasks() {
+        return tasks;
+    }
 }
