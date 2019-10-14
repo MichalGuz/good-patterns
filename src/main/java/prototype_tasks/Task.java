@@ -1,5 +1,9 @@
 package prototype_tasks;
 
 public final class Task {
+    final private String name;
 
+    public Task(final String name) {
+        this.name = name;
+    }
 }
