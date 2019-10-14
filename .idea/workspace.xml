@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/singleton_token/TokenKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singleton_token/TokenKey.java" afterDir="false" />
-    </list>
+    <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -28,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/sigleton_logger/SingletonLoggerTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+            <state relative-caret-position="119">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,24 +35,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/singleton_token/TokenKey.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="136">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
               <folding>
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#604#605#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/singleton_token/TokenKeyTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/sigleton_logger/Logger.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" />
+              <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
               <folding>
                 <element signature="e#601#602#0" expanded="true" />
                 <element signature="e#631#632#0" expanded="true" />
@@ -140,8 +138,8 @@
         <option value="$PROJECT_DIR$/src/test/java/singleton/SettingsFileManagerTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/sigleton_logger/Logger.java" />
         <option value="$PROJECT_DIR$/src/test/java/sigleton_logger/SingletonLoggerTestSuite.java" />
-        <option value="$PROJECT_DIR$/src/test/java/singleton_token/TokenKeyTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/singleton_token/TokenKey.java" />
+        <option value="$PROJECT_DIR$/src/test/java/singleton_token/TokenKeyTestSuite.java" />
       </list>
     </option>
   </component>
@@ -283,12 +281,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SettingsFileManagerTestSuite.testGetFileName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SettingsFileManagerTestSuite.testLoadSettings" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;singleton.SettingsFileManagerTestSuite.testGetFileName&quot;" />
+        <option name="scriptParameters" value="--tests &quot;singleton.SettingsFileManagerTestSuite.testLoadSettings&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -303,12 +301,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SettingsFileManagerTestSuite.testLoadSettings" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SingletonLoggerTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;singleton.SettingsFileManagerTestSuite.testLoadSettings&quot;" />
+        <option name="scriptParameters" value="--tests &quot;sigleton_logger.SingletonLoggerTestSuite&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -382,10 +380,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.TokenKeyTestSuite.testGetTokenKey" />
+        <item itemvalue="Gradle.SingletonLoggerTestSuite" />
         <item itemvalue="Gradle.SingletonLoggerTestSuite.testGetLastLogger" />
         <item itemvalue="Gradle.SettingsFileManagerTestSuite" />
         <item itemvalue="Gradle.SettingsFileManagerTestSuite.testLoadSettings" />
-        <item itemvalue="Gradle.SettingsFileManagerTestSuite.testGetFileName" />
       </list>
     </recent_temporary>
   </component>
@@ -403,9 +401,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SettingsFileManagerTestSuite_testGetFileName - 2019.10.11 at 00h 04m 49s.xml">
-      <configuration name="SettingsFileManagerTestSuite.testGetFileName" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="SettingsFileManagerTestSuite_testLoadSettings - 2019.10.11 at 00h 11m 26s.xml">
       <configuration name="SettingsFileManagerTestSuite.testLoadSettings" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -430,10 +425,15 @@
     <history-entry file="TokenKeyTestSuite_testGetTokenKey - 2019.10.13 at 19h 52m 28s.xml">
       <configuration name="TokenKeyTestSuite.testGetTokenKey" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="SingletonLoggerTestSuite - 2019.10.13 at 20h 09m 08s.xml">
+      <configuration name="SingletonLoggerTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TokenKeyTestSuite_testGetTokenKey - 2019.10.13 at 20h 13m 44s.xml">
+      <configuration name="TokenKeyTestSuite.testGetTokenKey" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3341424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -930,8 +930,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sigleton_logger/SingletonLoggerTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        <state relative-caret-position="119">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -941,7 +941,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/sigleton_logger/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
+          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
           <folding>
             <element signature="e#601#602#0" expanded="true" />
             <element signature="e#631#632#0" expanded="true" />
@@ -949,23 +949,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/singleton_token/TokenKeyTestSuite.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/singleton_token/TokenKey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        <state relative-caret-position="136">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/singleton_token/TokenKey.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/singleton_token/TokenKeyTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
