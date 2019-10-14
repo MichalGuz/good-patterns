@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="" />
+    <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/prototype_tasks/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/prototype_tasks/Task.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -26,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/sigleton_logger/SingletonLoggerTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="102">
               <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -40,15 +42,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-              <folding>
-                <element signature="e#604#605#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/singleton_token/TokenKeyTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -60,11 +58,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/prototype_tasks/Task.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sigleton_logger/Logger.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+              <caret column="24" selection-start-column="24" selection-end-column="24" />
               <folding>
                 <element signature="e#601#602#0" expanded="true" />
                 <element signature="e#631#632#0" expanded="true" />
@@ -89,7 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/strategy/CalculatorToTransform.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy/CalculatorStrategyInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy/AddNumbersStrategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy/SubtractNumbersStrategy.java" />
@@ -140,6 +146,7 @@
         <option value="$PROJECT_DIR$/src/test/java/sigleton_logger/SingletonLoggerTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/singleton_token/TokenKey.java" />
         <option value="$PROJECT_DIR$/src/test/java/singleton_token/TokenKeyTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/prototype_tasks/Task.java" />
       </list>
     </option>
   </component>
@@ -155,8 +162,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,23 +193,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sigleton_logger" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="good-patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="good-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="good-patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="good-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton_token" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype_tasks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="good-patterns" type="b2602c69:ProjectViewProjectNode" />
@@ -231,6 +220,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -434,8 +425,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3341424" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3398058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -494,13 +486,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/strategy/ClientCalculatorStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/strategy/CalculatorContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -930,21 +915,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sigleton_logger/SingletonLoggerTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="102">
           <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sigleton_logger/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
-          <folding>
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -960,6 +934,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sigleton_logger/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+          <folding>
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/singleton_token/TokenKeyTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -967,6 +952,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/prototype_tasks/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>

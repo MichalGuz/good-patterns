@@ -1,4 +1,5 @@
 package prototype_tasks;
 
-public class Task {
+public final class Task {
+
 }
