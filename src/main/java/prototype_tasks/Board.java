@@ -7,4 +7,5 @@ public final class Board {
     private final String name;
     private final Set<TaskList> lists new HashSet;
 
+}
 
