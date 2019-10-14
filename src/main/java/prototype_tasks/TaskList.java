@@ -6,4 +6,8 @@ import java.util.List;
 public final class TaskList {
     final private String name;
     final private List<Task> tasks = new ArrayList<>();
+
+    public TaskList(final String name) {
+        this.name = name;
+    }
 }
