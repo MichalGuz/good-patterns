@@ -10,4 +10,9 @@ public final class Task {
     public String getName() {
         return name;
     }
+
+    @Override
+    public String toString() {
+        return "         Task [" + name + "]";
+    }
 }
