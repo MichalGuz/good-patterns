@@ -14,6 +14,12 @@ public final class Board {
         return name;
     }
 
-
+    @Override
+    public String toString() {
+        return "Board{" +
+                "name='" + name + '\'' +
+                ", lists=" + lists +
+                '}';
+    }
 }
 
