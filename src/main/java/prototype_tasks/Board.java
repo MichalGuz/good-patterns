@@ -1,4 +1,4 @@
 package prototype_tasks;
 
-public class Board {
+public final class Board {
 }
