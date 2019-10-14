@@ -18,4 +18,12 @@ public final class TaskList {
     public List<Task> getTasks() {
         return tasks;
     }
+
+    @Override
+    public String toString() {
+        return "TaskList{" +
+                "name='" + name + '\'' +
+                ", tasks=" + tasks +
+                '}';
+    }
 }
