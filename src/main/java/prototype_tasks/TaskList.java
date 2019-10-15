@@ -21,6 +21,10 @@ public final class TaskList {
 
     @Override
     public String toString() {
-        return "List {" + name + "}\n";
+        String s = "     List [" + name + "]";
+        for (Task task: tasks){
+            s = s + "\n" + task.toString();
+        }
+        return s;
     }
 }
