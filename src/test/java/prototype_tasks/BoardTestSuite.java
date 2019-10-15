@@ -1,5 +1,6 @@
 package prototype_tasks;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.stream.IntStream;
@@ -32,5 +33,10 @@ public class BoardTestSuite {
         board.getLists().add(listInProgress);
         board.getLists().add(listDone);
         System.out.println(board);
+
+        // when
+
+        // then
+        Assert.assertEquals(3, board.getLists().size());
     }
 }
