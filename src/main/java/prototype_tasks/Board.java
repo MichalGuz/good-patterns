@@ -21,7 +21,7 @@ public final class Board {
 
     @Override
     public String toString() {
-        String s = "Board [" + name + "]";
+        String s = "Board [" + name + "]\n";
         for (TaskList list : lists) {
             s = s + list.toString() + "\n";
         }
