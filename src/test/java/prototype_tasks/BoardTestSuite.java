@@ -14,6 +14,8 @@ public class BoardTestSuite {
                 .limit(10)
                 .forEach(n -> listToDo.getTasks().add(new Task("To Do Task number" + n)));
 
+    // creating the TaskList for tasks in progress
+        TaskList listInProgress = new TaskList("In Progress Tasks");
     }
 
 
