@@ -29,8 +29,6 @@ public class BoardTestSuite {
         // creating the Board and assising  the lists
         Board board = new Board("Project #1");
         board.getLists().add(listToDo);
-        board.getLists().add(listInProgress);
-
-
-
-}
+        board.getLists().add(listInProgress)
+        board.getLists().add(listDone);
+    }
