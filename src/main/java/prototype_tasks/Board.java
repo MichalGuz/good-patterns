@@ -15,6 +15,10 @@ public final class Board {
         return name;
     }
 
+    public Set<TaskList> getLists() {
+        return lists;
+    }
+
     @Override
     public String toString() {
         return "Board{" +
