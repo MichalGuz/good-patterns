@@ -21,7 +21,11 @@ public final class Board {
 
     @Override
     public String toString() {
-        return "Board {" + name + "}\n";
+        String s = "Board [" + name + "]";
+        for (TaskList list : lists) {
+            s = s + list.toString() + "\n";
+        }
+        return  s;
     }
 }
 
