@@ -19,6 +19,12 @@ public class BoardTestSuite {
         IntStream.iterate(1, n -> n + 1)
                 .limit(10)
                 .forEach(n -> listInProgress.getTasks().add(new Task("In Progress Task" + n)));
+
+    // creating the TaskList for done tasks
+        TaskList listDone = new TaskList("Done Tasks");
+        IntStream.iterate(1, n -> n +1)
+                .limit(10)
+                .forEach(n -> listDone.getTasks().add(new Task("Done Task" + n)));
     }
 
 
