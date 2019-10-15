@@ -21,10 +21,7 @@ public final class Board {
 
     @Override
     public String toString() {
-        return "Board{" +
-                "name='" + name + '\'' +
-                ", lists=" + lists +
-                '}';
+        return "Board {" + name + "}\n";
     }
 }
 
