@@ -25,6 +25,10 @@ public class BoardTestSuite {
         IntStream.iterate(1, n -> n +1)
                 .limit(10)
                 .forEach(n -> listDone.getTasks().add(new Task("Done Task" + n)));
+
+        // creating the Board and assising  the lists
+        Board board = new Board("Project #1");
+        board.getLists().add(listToDo);
     }
 
 
