@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="prototype_tasks.BoardTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-15T22:41:54" hostname="Dell-Komputer" time="0.069">
+  <properties/>
+  <testcase name="testToString" classname="prototype_tasks.BoardTestSuite" time="0.069"/>
+  <system-out><![CDATA[Board{name='Project #1', lists=[TaskList{name='In Progress Tasks', tasks=[         Task [In Progress Task 1
+],          Task [In Progress Task 2
+],          Task [In Progress Task 3
+],          Task [In Progress Task 4
+],          Task [In Progress Task 5
+],          Task [In Progress Task 6
+],          Task [In Progress Task 7
+],          Task [In Progress Task 8
+],          Task [In Progress Task 9
+],          Task [In Progress Task 10
+]]}, TaskList{name='Done Tasks', tasks=[         Task [Done Task1],          Task [Done Task2],          Task [Done Task3],          Task [Done Task4],          Task [Done Task5],          Task [Done Task6],          Task [Done Task7],          Task [Done Task8],          Task [Done Task9],          Task [Done Task10]]}, TaskList{name='To Do Tasks', tasks=[         Task [To Do Task number 1
+],          Task [To Do Task number 2
+],          Task [To Do Task number 3
+],          Task [To Do Task number 4
+],          Task [To Do Task number 5
+],          Task [To Do Task number 6
+],          Task [To Do Task number 7
+],          Task [To Do Task number 8
+],          Task [To Do Task number 9
+],          Task [To Do Task number 10
+]]}]}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
