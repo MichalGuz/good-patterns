@@ -21,9 +21,6 @@ public final class TaskList {
 
     @Override
     public String toString() {
-        return "TaskList{" +
-                "name='" + name + '\'' +
-                ", tasks=" + tasks +
-                '}';
+        return "List {" + name + "}\n";
     }
 }
