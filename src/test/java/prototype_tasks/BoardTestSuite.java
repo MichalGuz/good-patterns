@@ -16,6 +16,9 @@ public class BoardTestSuite {
 
     // creating the TaskList for tasks in progress
         TaskList listInProgress = new TaskList("In Progress Tasks");
+        IntStream.iterate(1, n -> n + 1)
+                .limit(10)
+                .forEach(n -> listInProgress.getTasks().add(new Task("In Progress Task" + n)));
     }
 
 
