@@ -42,6 +42,9 @@ public class BoardTestSuite {
             System.out.println(e);
         }
 
+        // making a deep clone of object board
+        Board deepClonedBoard = null;
+
         System.out.println(board);
         System.out.println(clonedBoard);
 
