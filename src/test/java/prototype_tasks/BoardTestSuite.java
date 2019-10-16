@@ -46,6 +46,7 @@ public class BoardTestSuite {
         System.out.println(clonedBoard);
 
         // when
+        board.getLists().remove(listToDo);
 
         // then
         Assert.assertEquals(3, board.getLists().size());
