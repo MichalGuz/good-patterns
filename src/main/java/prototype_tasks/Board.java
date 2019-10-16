@@ -29,7 +29,12 @@ public final class Board {
         for (TaskList list : lists) {
             s = s + list.toString() + "\n";
         }
-        return  s;
+        return s;
+    }
+
+    public Board shallowCopy() throws CloneNotSupportedException {
+        return (Board)super.clone();
     }
 }
+
 
