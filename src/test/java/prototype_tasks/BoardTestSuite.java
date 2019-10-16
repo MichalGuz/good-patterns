@@ -44,6 +44,10 @@ public class BoardTestSuite {
 
         // making a deep clone of object board
         Board deepClonedBoard = null;
+        try {
+            deepClonedBoard = board.deepCopy();
+            deepClonedBoard.setName("Project #3");
+        }
 
         System.out.println(board);
         System.out.println(clonedBoard);
