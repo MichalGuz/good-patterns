@@ -44,6 +44,8 @@ public final class Board extends Prototype{
             for (Task task: theList.getTasks()) {
                 clonedList.getTasks().add(task);
             }
+
+            clonedBoard.getLists().add(clonedList);
         }
         return clonedBoard;
     }
