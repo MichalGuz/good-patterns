@@ -47,6 +47,8 @@ public class BoardTestSuite {
         try {
             deepClonedBoard = board.deepCopy();
             deepClonedBoard.setName("Project #3");
+        } catch (CloneNotSupportedException e) {
+            System.out.println(e);
         }
 
         System.out.println(board);
