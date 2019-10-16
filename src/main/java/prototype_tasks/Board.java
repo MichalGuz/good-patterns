@@ -35,6 +35,10 @@ public final class Board extends Prototype{
     public Board shallowCopy() throws CloneNotSupportedException {
         return (Board)super.clone();
     }
+
+    public Board deepCopy() throws CloneNotSupportedException {
+        return clonedBoard;
+    }
 }
 
 
