@@ -50,6 +50,6 @@ public class BoardTestSuite {
 
         // then
         Assert.assertEquals(2, board.getLists().size());
-        Assert.assertEquals(3, clonedBoard.getLists().size());
+        Assert.assertEquals(2, clonedBoard.getLists().size());
     }
 }
