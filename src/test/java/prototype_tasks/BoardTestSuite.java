@@ -39,6 +39,8 @@ public class BoardTestSuite {
         try {
             clonedBoard = board.shallowCopy();
             clonedBoard.setName("Project #2");
+        } catch (CloneNotSupportedException e) {
+            System.out.println(e);
         }
         // when
 
