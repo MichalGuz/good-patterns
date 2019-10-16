@@ -62,5 +62,6 @@ public class BoardTestSuite {
         Assert.assertEquals(2, clonedBoard.getLists().size());
         Assert.assertEquals(3, deepClonedBoard.getLists().size());
         Assert.assertEquals(clonedBoard.getLists(), board.getLists());
+        Assert.assertNotEquals(deepClonedBoard.getLists(), board.getLists());
     }
 }
