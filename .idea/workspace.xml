@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/prototype_tasks/BoardTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/prototype_tasks/BoardTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/prototype_tasks.BoardTestSuite.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/prototype_tasks.BoardTestSuite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/prototype_tasks.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/prototype_tasks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-prototype_tasks.BoardTestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-prototype_tasks.BoardTestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -25,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/prototype_tasks/Task.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="221">
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
               <folding>
                 <element signature="e#182#183#0" expanded="true" />
                 <element signature="e#209#210#0" expanded="true" />
@@ -43,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/prototype_tasks/TaskList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="357">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#298#299#0" expanded="true" />
@@ -59,14 +70,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/prototype_tasks/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="272">
+              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#254#255#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
                 <element signature="e#350#351#0" expanded="true" />
                 <element signature="e#378#379#0" expanded="true" />
               </folding>
@@ -74,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/prototype_tasks/BoardTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="21" column="87" selection-start-line="21" selection-start-column="87" selection-end-line="21" selection-end-column="87" />
+            <state relative-caret-position="204">
+              <caret line="15" column="87" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,10 +169,10 @@
         <option value="$PROJECT_DIR$/src/test/java/sigleton_logger/SingletonLoggerTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/singleton_token/TokenKey.java" />
         <option value="$PROJECT_DIR$/src/test/java/singleton_token/TokenKeyTestSuite.java" />
-        <option value="$PROJECT_DIR$/src/main/java/prototype_tasks/Task.java" />
         <option value="$PROJECT_DIR$/src/main/java/prototype_tasks/TaskList.java" />
         <option value="$PROJECT_DIR$/src/main/java/prototype_tasks/Board.java" />
         <option value="$PROJECT_DIR$/src/test/java/prototype_tasks/BoardTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/prototype_tasks/Task.java" />
       </list>
     </option>
   </component>
@@ -247,8 +254,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -419,41 +426,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SettingsFileManagerTestSuite_testLoadSettings - 2019.10.11 at 00h 11m 26s.xml">
-      <configuration name="SettingsFileManagerTestSuite.testLoadSettings" configurationId="GradleRunConfiguration" />
+    <history-entry file="BoardTestSuite_testToString - 2019.10.16 at 00h 41m 09s.xml">
+      <configuration name="BoardTestSuite.testToString" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SettingsFileManagerTestSuite_testLoadSettings - 2019.10.11 at 00h 17m 18s.xml">
-      <configuration name="SettingsFileManagerTestSuite.testLoadSettings" configurationId="GradleRunConfiguration" />
+    <history-entry file="BoardTestSuite_testToString - 2019.10.16 at 00h 41m 56s.xml">
+      <configuration name="BoardTestSuite.testToString" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SettingsFileManagerTestSuite - 2019.10.11 at 20h 18m 13s.xml">
-      <configuration name="SettingsFileManagerTestSuite" configurationId="GradleRunConfiguration" />
+    <history-entry file="BoardTestSuite_testToString - 2019.10.16 at 00h 49m 34s.xml">
+      <configuration name="BoardTestSuite.testToString" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SettingsFileManagerTestSuite - 2019.10.11 at 20h 43m 20s.xml">
-      <configuration name="SettingsFileManagerTestSuite" configurationId="GradleRunConfiguration" />
+    <history-entry file="BoardTestSuite_testToString - 2019.10.16 at 00h 55m 46s.xml">
+      <configuration name="BoardTestSuite.testToString" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SingletonLoggerTestSuite_testGetLastLogger - 2019.10.13 at 18h 44m 20s.xml">
-      <configuration name="SingletonLoggerTestSuite.testGetLastLogger" configurationId="GradleRunConfiguration" />
+    <history-entry file="BoardTestSuite_testToString - 2019.10.16 at 00h 56m 24s.xml">
+      <configuration name="BoardTestSuite.testToString" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SingletonLoggerTestSuite_testGetLastLogger - 2019.10.13 at 19h 30m 16s.xml">
-      <configuration name="SingletonLoggerTestSuite.testGetLastLogger" configurationId="GradleRunConfiguration" />
+    <history-entry file="BoardTestSuite_testToString - 2019.10.16 at 00h 57m 33s.xml">
+      <configuration name="BoardTestSuite.testToString" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SingletonLoggerTestSuite_testGetLastLogger - 2019.10.13 at 19h 30m 50s.xml">
-      <configuration name="SingletonLoggerTestSuite.testGetLastLogger" configurationId="GradleRunConfiguration" />
+    <history-entry file="BoardTestSuite_testToString - 2019.10.16 at 00h 58m 48s.xml">
+      <configuration name="BoardTestSuite.testToString" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TokenKeyTestSuite_testGetTokenKey - 2019.10.13 at 19h 52m 28s.xml">
-      <configuration name="TokenKeyTestSuite.testGetTokenKey" configurationId="GradleRunConfiguration" />
+    <history-entry file="BoardTestSuite_testToString - 2019.10.16 at 00h 59m 15s.xml">
+      <configuration name="BoardTestSuite.testToString" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SingletonLoggerTestSuite - 2019.10.13 at 20h 09m 08s.xml">
-      <configuration name="SingletonLoggerTestSuite" configurationId="GradleRunConfiguration" />
+    <history-entry file="BoardTestSuite_testToString - 2019.10.16 at 00h 59m 33s.xml">
+      <configuration name="BoardTestSuite.testToString" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TokenKeyTestSuite_testGetTokenKey - 2019.10.13 at 20h 13m 44s.xml">
-      <configuration name="TokenKeyTestSuite.testGetTokenKey" configurationId="GradleRunConfiguration" />
+    <history-entry file="BoardTestSuite_testToString - 2019.10.16 at 01h 00m 45s.xml">
+      <configuration name="BoardTestSuite.testToString" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34546927" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3511327" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -462,12 +469,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919093" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919093" weight="0.32919255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" weight="0.32919255" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5008091" side_tool="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
@@ -934,21 +941,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sigleton_logger/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-          <folding>
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/prototype_tasks/Task.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="221">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
           <folding>
             <element signature="e#182#183#0" expanded="true" />
             <element signature="e#209#210#0" expanded="true" />
@@ -960,8 +956,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/prototype_tasks/TaskList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="357">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#298#299#0" expanded="true" />
@@ -974,14 +970,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/prototype_tasks/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="272">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
             <element signature="e#350#351#0" expanded="true" />
             <element signature="e#378#379#0" expanded="true" />
           </folding>
@@ -990,10 +982,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/prototype_tasks/BoardTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="87" selection-start-line="21" selection-start-column="87" selection-end-line="21" selection-end-column="87" />
+        <state relative-caret-position="204">
+          <caret line="15" column="87" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sigleton_logger/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+          <folding>
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
           </folding>
         </state>
       </provider>
