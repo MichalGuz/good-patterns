@@ -34,6 +34,8 @@ public class BoardTestSuite {
         board.getLists().add(listDone);
         System.out.println(board);
 
+        // making a shallow clone of object board
+        Board clonedBoard = null;
         // when
 
         // then
