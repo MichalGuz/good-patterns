@@ -37,6 +37,8 @@ public final class Board extends Prototype{
     }
 
     public Board deepCopy() throws CloneNotSupportedException {
+        Board clonedBoard = (Board)super.clone();
+
         return clonedBoard;
     }
 }
