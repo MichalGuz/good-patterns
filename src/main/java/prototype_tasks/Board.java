@@ -41,6 +41,9 @@ public final class Board extends Prototype{
         clonedBoard.lists = new HashSet<>();
         for (TaskList theList: lists) {
             TaskList clonedList = new TaskList(theList.getName());
+            for (Task task: theList.getTasks()) {
+                clonedList.getTasks().add(task);
+            }
         }
         return clonedBoard;
     }
