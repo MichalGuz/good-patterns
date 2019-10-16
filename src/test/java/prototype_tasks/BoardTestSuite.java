@@ -36,6 +36,10 @@ public class BoardTestSuite {
 
         // making a shallow clone of object board
         Board clonedBoard = null;
+        try {
+            clonedBoard = board.shallowCopy();
+            clonedBoard.setName("Project #2");
+        }
         // when
 
         // then
