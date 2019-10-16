@@ -49,7 +49,7 @@ public class BoardTestSuite {
         board.getLists().remove(listToDo);
 
         // then
-        Assert.assertEquals(3, board.getLists().size());
+        Assert.assertEquals(2, board.getLists().size());
         Assert.assertEquals(3, clonedBoard.getLists().size());
     }
 }
