@@ -10,4 +10,12 @@ public final class Library {
     public Library(final String name) {
         this.name = name;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public Set<Book> getBooks() {
+        return books;
+    }
 }
