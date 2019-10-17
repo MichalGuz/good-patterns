@@ -15,5 +15,8 @@ public class LibraryTestSuite {
             LocalDate localDate = new RandomDate().getRandomDate();
             library.getBooks().add(new Book(title, author, localDate));
         }
+
+        System.out.println("The size of set 'books' = " + library.getBooks().size());
+
      }
 }
