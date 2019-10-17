@@ -17,6 +17,7 @@ public class LibraryTestSuite {
             library.getBooks().add(new Book(title, author, localDate));
         }
 
+        // making a shallow clone of object library
         Library clonedLibrary = null;
         try {
             clonedLibrary = library.shallowCopy();
