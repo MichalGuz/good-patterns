@@ -17,6 +17,8 @@ public class LibraryTestSuite {
             library.getBooks().add(new Book(title, author, localDate));
         }
 
+        Library clonedLibrary = null;
+
         System.out.println("List of books in library: ");
         library.getBooks().stream()
                 .forEach(System.out::println);
