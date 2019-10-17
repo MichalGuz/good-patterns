@@ -7,9 +7,23 @@ public final class Book {
     final String author;
     final LocalDate dateOfRelease;
 
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public LocalDate getDateOfRelease() {
+        return dateOfRelease;
+    }
+
     public Book(final String title, final String author, final LocalDate dateOfRelease) {
         this.title = title;
         this.author = author;
         this.dateOfRelease = dateOfRelease;
+
+
     }
 }
