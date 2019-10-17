@@ -22,4 +22,8 @@ public final class Library extends PrototypeLibrary {
     public void setName(String name) {
         this.name = name;
     }
+
+    public Library shallowCopy() throws CloneNotSupportedException {
+
+    }
 }
