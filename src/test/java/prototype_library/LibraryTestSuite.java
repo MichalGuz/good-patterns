@@ -18,6 +18,11 @@ public class LibraryTestSuite {
         }
 
         Library clonedLibrary = null;
+        try {
+            clonedLibrary = library.shallowCopy();
+            clonedLibrary.setName("library #2");
+
+        }
 
         System.out.println("List of books in library: ");
         library.getBooks().stream()
