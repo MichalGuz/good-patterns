@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class RandomDate {
     private Random generator = new Random();
-    private int randomDayOfYear= generator.nextInt(365);
+    private int randomDayOfYear = generator.nextInt(365);
     private int randomYear = (generator.nextInt(119) + 1900);
 
     public LocalDate getRandomDate() {
