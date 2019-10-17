@@ -21,5 +21,7 @@ public class LibraryTestSuite {
         library.getBooks().stream()
                 .forEach(System.out::println);
 
+        // when
+        int numberOfBooks = library.getBooks().size();
      }
 }
