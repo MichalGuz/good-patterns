@@ -1,12 +1,12 @@
 package prototype_library;
 
-import java.time.LocalDate;
-import java.util.Random;
+import org.junit.Test;
 
 public class LibraryTestSuite {
+    @Test
     public void testGetBooks() {
         // given
-        Random generator = new Random();
+        Library library = new Library("library #1");
 
-    }
+       }
 }

@@ -8,8 +8,8 @@ public class RandomDate {
     private int randomDayOfYear= generator.nextInt(365);
     private int randomYear = (generator.nextInt(119) + 1900);
 
-    public LocalDate getRandomDay() {
-        LocalDate randomDay = LocalDate.ofYearDay(randomYear, randomDayOfYear);
-        return randomDay;
+    public LocalDate getRandomDate() {
+        LocalDate randomDate = LocalDate.ofYearDay(randomYear, randomDayOfYear);
+        return randomDate;
     }
 }

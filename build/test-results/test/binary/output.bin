@@ -1,83 +1,22 @@
-Board [Project #1]
-     List [Done Tasks]
-         Task [Done Task1]
-         Task [Done Task2]
-         Task [Done Task3]
-         Task [Done Task4]
-         Task [Done Task5]
-         Task [Done Task6]
-         Task [Done Task7]
-         Task [Done Task8]
-         Task [Done Task9]
-         Task [Done Task10]
-     List [In Progress Tasks]
-$         Task [In Progress Tasks 1]
-$         Task [In Progress Tasks 2]
-$         Task [In Progress Tasks 3]
-$         Task [In Progress Tasks 4]
-$         Task [In Progress Tasks 5]
-$         Task [In Progress Tasks 6]
-$         Task [In Progress Tasks 7]
-$         Task [In Progress Tasks 8]
-$         Task [In Progress Tasks 9]
-%         Task [In Progress Tasks 10]
-
-Board [Project #2]
-     List [Done Tasks]
-         Task [Done Task1]
-         Task [Done Task2]
-         Task [Done Task3]
-         Task [Done Task4]
-         Task [Done Task5]
-         Task [Done Task6]
-         Task [Done Task7]
-         Task [Done Task8]
-         Task [Done Task9]
-         Task [Done Task10]
-     List [In Progress Tasks]
-$         Task [In Progress Tasks 1]
-$         Task [In Progress Tasks 2]
-$         Task [In Progress Tasks 3]
-$         Task [In Progress Tasks 4]
-$         Task [In Progress Tasks 5]
-$         Task [In Progress Tasks 6]
-$         Task [In Progress Tasks 7]
-$         Task [In Progress Tasks 8]
-$         Task [In Progress Tasks 9]
-%         Task [In Progress Tasks 10]
-
-Board [Project #3]
-     List [To Do Tasks]
-$         Task [To Do Task number 1]
-$         Task [To Do Task number 2]
-$         Task [To Do Task number 3]
-$         Task [To Do Task number 4]
-$         Task [To Do Task number 5]
-$         Task [To Do Task number 6]
-$         Task [To Do Task number 7]
-$         Task [To Do Task number 8]
-$         Task [To Do Task number 9]
-%         Task [To Do Task number 10]
-     List [Done Tasks]
-         Task [Done Task1]
-         Task [Done Task2]
-         Task [Done Task3]
-         Task [Done Task4]
-         Task [Done Task5]
-         Task [Done Task6]
-         Task [Done Task7]
-         Task [Done Task8]
-         Task [Done Task9]
-         Task [Done Task10]
-     List [In Progress Tasks]
-$         Task [In Progress Tasks 1]
-$         Task [In Progress Tasks 2]
-$         Task [In Progress Tasks 3]
-$         Task [In Progress Tasks 4]
-$         Task [In Progress Tasks 5]
-$         Task [In Progress Tasks 6]
-$         Task [In Progress Tasks 7]
-$         Task [In Progress Tasks 8]
-$         Task [In Progress Tasks 9]
-%         Task [In Progress Tasks 10]
-
+The size of set 'books' = 20
+List of books in library: 
+BBook{title='title2', author='author2', dateOfRelease=1964-07-06}
+BBook{title='title7', author='author7', dateOfRelease=1921-01-10}
+DBook{title='title10', author='author10', dateOfRelease=2004-02-08}
+BBook{title='title6', author='author6', dateOfRelease=1902-07-21}
+DBook{title='title13', author='author13', dateOfRelease=1973-05-23}
+DBook{title='title16', author='author16', dateOfRelease=1926-05-19}
+BBook{title='title3', author='author3', dateOfRelease=1960-08-07}
+DBook{title='title15', author='author15', dateOfRelease=1966-07-27}
+BBook{title='title0', author='author0', dateOfRelease=1934-12-20}
+DBook{title='title12', author='author12', dateOfRelease=2001-08-21}
+BBook{title='title8', author='author8', dateOfRelease=1909-06-19}
+DBook{title='title19', author='author19', dateOfRelease=1972-07-15}
+BBook{title='title1', author='author1', dateOfRelease=1982-10-14}
+BBook{title='title9', author='author9', dateOfRelease=1990-06-09}
+DBook{title='title14', author='author14', dateOfRelease=1958-10-31}
+DBook{title='title17', author='author17', dateOfRelease=2016-01-16}
+DBook{title='title11', author='author11', dateOfRelease=1908-10-16}
+BBook{title='title5', author='author5', dateOfRelease=2011-02-07}
+DBook{title='title18', author='author18', dateOfRelease=1974-08-29}
+BBook{title='title4', author='author4', dateOfRelease=2002-11-12}
