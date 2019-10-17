@@ -36,8 +36,10 @@ public class LibraryTestSuite {
 
         // when
         int numberOfBooks = library.getBooks().size();
+        int numberOfBooksInClonedLibrary = clonedLibrary.getBooks().size();
 
         // then
         Assert.assertEquals(20, numberOfBooks);
+        Assert.assertEquals(20, numberOfBooksInClonedLibrary);
      }
 }
