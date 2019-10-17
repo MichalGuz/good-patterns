@@ -1,5 +1,6 @@
 package prototype_library;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.time.LocalDate;
@@ -23,5 +24,8 @@ public class LibraryTestSuite {
 
         // when
         int numberOfBooks = library.getBooks().size();
+
+        // then
+        Assert.assertEquals(20, numberOfBooks);
      }
 }
