@@ -24,6 +24,6 @@ public final class Library extends PrototypeLibrary {
     }
 
     public Library shallowCopy() throws CloneNotSupportedException {
-
+        return (Library)super.clone();
     }
 }
