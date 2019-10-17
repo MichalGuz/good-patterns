@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/prototype_tasks/BoardTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/prototype_tasks/BoardTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -84,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/prototype_tasks/BoardTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="48" column="50" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
+            <state relative-caret-position="234">
+              <caret line="64" column="76" selection-start-line="64" selection-start-column="76" selection-end-line="64" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -425,9 +425,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BoardTestSuite_testToString - 2019.10.16 at 21h 05m 16s.xml">
-      <configuration name="BoardTestSuite.testToString" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="BoardTestSuite_testToString - 2019.10.16 at 21h 06m 14s.xml">
       <configuration name="BoardTestSuite.testToString" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -453,6 +450,9 @@
       <configuration name="BoardTestSuite.testToString" configurationId="GradleRunConfiguration" />
     </history-entry>
     <history-entry file="BoardTestSuite_testToString - 2019.10.16 at 21h 29m 35s.xml">
+      <configuration name="BoardTestSuite.testToString" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="BoardTestSuite_testToString - 2019.10.16 at 22h 16m 28s.xml">
       <configuration name="BoardTestSuite.testToString" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
@@ -990,8 +990,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/prototype_tasks/BoardTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="48" column="50" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
+        <state relative-caret-position="234">
+          <caret line="64" column="76" selection-start-line="64" selection-start-column="76" selection-end-line="64" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
