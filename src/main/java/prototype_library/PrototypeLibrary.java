@@ -1,4 +1,5 @@
 package prototype_library;
 
-public class PrototypeLibrary {
+public class PrototypeLibrary implements Cloneable {
+
 }
