@@ -7,7 +7,7 @@ public final class Library extends PrototypeLibrary {
     private String name;
     private final Set<Book> books = new HashSet<>();
 
-    public Library(final String name) {
+    public Library(String name) {
         this.name = name;
     }
 
@@ -17,5 +17,9 @@ public final class Library extends PrototypeLibrary {
 
     public Set<Book> getBooks() {
         return books;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
