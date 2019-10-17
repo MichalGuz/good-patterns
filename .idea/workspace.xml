@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/prototype_library/LibraryTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/prototype_library/LibraryTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/prototype_library/LibraryTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/prototype_library/LibraryTestSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/prototype_library.LibraryTestSuite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/prototype_library.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-prototype_library.LibraryTestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/prototype_library/RandomDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/prototype_library/RandomDate.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -124,11 +141,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/prototype_library/LibraryTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" column="85" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
+            <state relative-caret-position="307">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,11 +153,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/prototype_library/RandomDate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -226,8 +243,8 @@
         <option value="$PROJECT_DIR$/src/test/java/prototype_tasks/BoardTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/prototype_library/Book.java" />
         <option value="$PROJECT_DIR$/src/main/java/prototype_library/Library.java" />
-        <option value="$PROJECT_DIR$/src/test/java/prototype_library/RandomDate.java" />
         <option value="$PROJECT_DIR$/src/test/java/prototype_library/LibraryTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/test/java/prototype_library/RandomDate.java" />
       </list>
     </option>
   </component>
@@ -466,12 +483,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibraryTestSuite_testGetBooks - 2019.10.17 at 23h 29m 05s.xml">
-      <configuration name="LibraryTestSuite.testGetBooks" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="LibraryTestSuite_testGetBooks - 2019.10.17 at 23h 31m 28s.xml">
-      <configuration name="LibraryTestSuite.testGetBooks" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="LibraryTestSuite_testGetBooks - 2019.10.17 at 23h 32m 23s.xml">
       <configuration name="LibraryTestSuite.testGetBooks" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -494,6 +505,12 @@
       <configuration name="LibraryTestSuite.testGetBooks" configurationId="GradleRunConfiguration" />
     </history-entry>
     <history-entry file="LibraryTestSuite_testGetBooks - 2019.10.18 at 00h 07m 26s.xml">
+      <configuration name="LibraryTestSuite.testGetBooks" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="LibraryTestSuite_testGetBooks - 2019.10.18 at 00h 24m 03s.xml">
+      <configuration name="LibraryTestSuite.testGetBooks" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="LibraryTestSuite_testGetBooks - 2019.10.18 at 00h 25m 44s.xml">
       <configuration name="LibraryTestSuite.testGetBooks" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
@@ -1027,20 +1044,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/prototype_library/RandomDate.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/prototype_library/LibraryTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="307">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/prototype_library/LibraryTestSuite.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/prototype_library/RandomDate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="85" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
