@@ -17,7 +17,6 @@ public class LibraryTestSuite {
             library.getBooks().add(new Book(title, author, localDate));
         }
 
-        System.out.println("The size of set 'books' = " + library.getBooks().size());
         System.out.println("List of books in library: ");
         library.getBooks().stream()
                 .forEach(System.out::println);
