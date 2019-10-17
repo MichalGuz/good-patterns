@@ -21,7 +21,8 @@ public class LibraryTestSuite {
         try {
             clonedLibrary = library.shallowCopy();
             clonedLibrary.setName("library #2");
-
+        } catch (CloneNotSupportedException e) {
+            System.out.println(e);
         }
 
         System.out.println("List of books in library: ");
