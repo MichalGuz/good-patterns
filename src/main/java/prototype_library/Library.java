@@ -27,5 +27,7 @@ public final class Library extends PrototypeLibrary {
         return (Library)super.clone();
     }
 
-    public Library deepCopy() {}
+    public Library deepCopy() {
+        Library clonedLibrary = (Library)super.clone();
+    }
 }
