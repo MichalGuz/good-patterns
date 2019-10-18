@@ -1,28 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="prototype_library.LibraryTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-17T22:25:43" hostname="Dell-Komputer" time="0.103">
+<testsuite name="prototype_library.LibraryTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-17T23:09:57" hostname="Dell-Komputer" time="0.186">
   <properties/>
-  <testcase name="testGetBooks" classname="prototype_library.LibraryTestSuite" time="0.103"/>
+  <testcase name="testGetBooks" classname="prototype_library.LibraryTestSuite" time="0.186"/>
   <system-out><![CDATA[List of books in library: 
-Book{title='title8', author='author8', dateOfRelease=1941-07-04}
-Book{title='title14', author='author14', dateOfRelease=1980-03-25}
-Book{title='title6', author='author6', dateOfRelease=1988-05-01}
-Book{title='title16', author='author16', dateOfRelease=1914-10-01}
-Book{title='title17', author='author17', dateOfRelease=1967-05-14}
-Book{title='title18', author='author18', dateOfRelease=1997-08-26}
-Book{title='title3', author='author3', dateOfRelease=1949-04-13}
-Book{title='title12', author='author12', dateOfRelease=2003-08-28}
-Book{title='title1', author='author1', dateOfRelease=1989-01-18}
-Book{title='title0', author='author0', dateOfRelease=1997-09-08}
-Book{title='title11', author='author11', dateOfRelease=1974-08-13}
-Book{title='title13', author='author13', dateOfRelease=1923-04-30}
-Book{title='title19', author='author19', dateOfRelease=1994-10-16}
-Book{title='title5', author='author5', dateOfRelease=1958-12-15}
-Book{title='title15', author='author15', dateOfRelease=1903-09-10}
-Book{title='title10', author='author10', dateOfRelease=1979-01-01}
-Book{title='title4', author='author4', dateOfRelease=1978-07-25}
-Book{title='title9', author='author9', dateOfRelease=2012-12-08}
-Book{title='title2', author='author2', dateOfRelease=1902-01-14}
-Book{title='title7', author='author7', dateOfRelease=1900-11-18}
+prototype_library.Book@4d2edc4e
+prototype_library.Book@53f66377
+prototype_library.Book@1a929296
+prototype_library.Book@4eb387b6
+prototype_library.Book@64554e93
+prototype_library.Book@26c8c92e
+prototype_library.Book@34f535b2
+prototype_library.Book@6d7eb879
+prototype_library.Book@1ce254ea
+prototype_library.Book@5d32c9f9
+prototype_library.Book@1a17a3b9
+prototype_library.Book@71eb0125
+prototype_library.Book@327fb950
+prototype_library.Book@484e221e
+prototype_library.Book@6add66ad
+prototype_library.Book@68272ab2
+prototype_library.Book@7a1fa768
+prototype_library.Book@7544f9fc
+prototype_library.Book@69cec115
+prototype_library.Book@3abe62c2
+List of books in (shallow) cloned library: 
+prototype_library.Book@4d2edc4e
+prototype_library.Book@53f66377
+prototype_library.Book@1a929296
+prototype_library.Book@4eb387b6
+prototype_library.Book@64554e93
+prototype_library.Book@26c8c92e
+prototype_library.Book@34f535b2
+prototype_library.Book@6d7eb879
+prototype_library.Book@1ce254ea
+prototype_library.Book@5d32c9f9
+prototype_library.Book@1a17a3b9
+prototype_library.Book@71eb0125
+prototype_library.Book@327fb950
+prototype_library.Book@484e221e
+prototype_library.Book@6add66ad
+prototype_library.Book@68272ab2
+prototype_library.Book@7a1fa768
+prototype_library.Book@7544f9fc
+prototype_library.Book@69cec115
+prototype_library.Book@3abe62c2
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

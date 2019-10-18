@@ -26,6 +26,9 @@ public class LibraryTestSuite {
             System.out.println(e);
         }
 
+        // making a deep clone of object library
+        Library deepClonedLibrary = null;
+
         System.out.println("List of books in library: ");
         library.getBooks().stream()
                 .forEach(System.out::println);

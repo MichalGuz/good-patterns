@@ -1,21 +1,42 @@
 List of books in library: 
-BBook{title='title8', author='author8', dateOfRelease=1941-07-04}
-DBook{title='title14', author='author14', dateOfRelease=1980-03-25}
-BBook{title='title6', author='author6', dateOfRelease=1988-05-01}
-DBook{title='title16', author='author16', dateOfRelease=1914-10-01}
-DBook{title='title17', author='author17', dateOfRelease=1967-05-14}
-DBook{title='title18', author='author18', dateOfRelease=1997-08-26}
-BBook{title='title3', author='author3', dateOfRelease=1949-04-13}
-DBook{title='title12', author='author12', dateOfRelease=2003-08-28}
-BBook{title='title1', author='author1', dateOfRelease=1989-01-18}
-BBook{title='title0', author='author0', dateOfRelease=1997-09-08}
-DBook{title='title11', author='author11', dateOfRelease=1974-08-13}
-DBook{title='title13', author='author13', dateOfRelease=1923-04-30}
-DBook{title='title19', author='author19', dateOfRelease=1994-10-16}
-BBook{title='title5', author='author5', dateOfRelease=1958-12-15}
-DBook{title='title15', author='author15', dateOfRelease=1903-09-10}
-DBook{title='title10', author='author10', dateOfRelease=1979-01-01}
-BBook{title='title4', author='author4', dateOfRelease=1978-07-25}
-BBook{title='title9', author='author9', dateOfRelease=2012-12-08}
-BBook{title='title2', author='author2', dateOfRelease=1902-01-14}
-BBook{title='title7', author='author7', dateOfRelease=1900-11-18}
+!prototype_library.Book@4d2edc4e
+!prototype_library.Book@53f66377
+!prototype_library.Book@1a929296
+!prototype_library.Book@4eb387b6
+!prototype_library.Book@64554e93
+!prototype_library.Book@26c8c92e
+!prototype_library.Book@34f535b2
+!prototype_library.Book@6d7eb879
+!prototype_library.Book@1ce254ea
+!prototype_library.Book@5d32c9f9
+!prototype_library.Book@1a17a3b9
+!prototype_library.Book@71eb0125
+!prototype_library.Book@327fb950
+!prototype_library.Book@484e221e
+!prototype_library.Book@6add66ad
+!prototype_library.Book@68272ab2
+!prototype_library.Book@7a1fa768
+!prototype_library.Book@7544f9fc
+!prototype_library.Book@69cec115
+!prototype_library.Book@3abe62c2
+-List of books in (shallow) cloned library: 
+!prototype_library.Book@4d2edc4e
+!prototype_library.Book@53f66377
+!prototype_library.Book@1a929296
+!prototype_library.Book@4eb387b6
+!prototype_library.Book@64554e93
+!prototype_library.Book@26c8c92e
+!prototype_library.Book@34f535b2
+!prototype_library.Book@6d7eb879
+!prototype_library.Book@1ce254ea
+!prototype_library.Book@5d32c9f9
+!prototype_library.Book@1a17a3b9
+!prototype_library.Book@71eb0125
+!prototype_library.Book@327fb950
+!prototype_library.Book@484e221e
+!prototype_library.Book@6add66ad
+!prototype_library.Book@68272ab2
+!prototype_library.Book@7a1fa768
+!prototype_library.Book@7544f9fc
+!prototype_library.Book@69cec115
+!prototype_library.Book@3abe62c2
