@@ -4,10 +4,10 @@ import java.time.LocalDate;
 
 public final class Transaction {
     private final String transactionId;
-    private final int transactionAmount;
+    private final double transactionAmount;
     private LocalDate transactionDate;
 
-    public Transaction(final String transactionId, final int transactionAmount, int year, int month, int day) {
+    public Transaction(final String transactionId, final double transactionAmount, int year, int month, int day) {
         this.transactionId = transactionId;
         this.transactionAmount = transactionAmount;
         this.transactionDate = LocalDate.of(year, month, day);
@@ -17,7 +17,7 @@ public final class Transaction {
         return transactionId;
     }
 
-    public int getTransactionAmount() {
+    public double getTransactionAmount() {
         return transactionAmount;
     }
 
