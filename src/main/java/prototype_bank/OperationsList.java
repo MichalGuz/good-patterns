@@ -10,4 +10,12 @@ public final class OperationsList {
     public OperationsList(final String name) {
         this.name = name;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public List<Transaction> getTransactions() {
+        return transactions;
+    }
 }
