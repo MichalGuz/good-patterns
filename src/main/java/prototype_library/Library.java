@@ -35,5 +35,6 @@ public final class Library extends PrototypeLibrary {
         for(Book book: books) {
             deepClonedLibrary.getBooks().add(book);
         }
+        return deepClonedLibrary;
     }
 }
