@@ -59,5 +59,7 @@ public class LibraryTestSuite {
         Assert.assertEquals(20, numberOfBooksInDeepClonedLibrary);
 
         deepClonedLibrary.getBooks().clear();
+        System.out.println("After clearing the library 3 the size of collection is: " + deepClonedLibrary.getBooks().size());
+        System.out.println("The size of library 1 is:" + library.getBooks().size());
     }
 }
