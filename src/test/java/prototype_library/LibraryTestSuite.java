@@ -30,6 +30,7 @@ public class LibraryTestSuite {
         Library deepClonedLibrary = null;
         try {
             deepClonedLibrary = library.deepCopy();
+            deepClonedLibrary.setName("library #3");
         }
         System.out.println("List of books in library: ");
         library.getBooks().stream()
