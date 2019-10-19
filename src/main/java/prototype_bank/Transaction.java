@@ -5,11 +5,11 @@ import java.time.LocalDate;
 public final class Transaction {
     private final String transactionId;
     private final int transcationAmount;
-    private final LocalDate transactionDate;
+    private LocalDate transactionDate;
 
-    public Transaction(final String transactionId, final int transcationAmount, final LocalDate transactionDate) {
+    public Transaction(final String transactionId, final int transcationAmount, int year, int month, int day) {
         this.transactionId = transactionId;
         this.transcationAmount = transcationAmount;
-        this.transactionDate = transactionDate;
+        this.transactionDate = LocalDate.of(year, month, day);
     }
 }
