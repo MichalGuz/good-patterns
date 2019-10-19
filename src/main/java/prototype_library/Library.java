@@ -2,6 +2,7 @@ package prototype_library;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public final class Library extends PrototypeLibrary {
     private String name;
@@ -28,7 +29,7 @@ public final class Library extends PrototypeLibrary {
     }
 
     public Library deepCopy() throws CloneNotSupportedException {
-        Library clonedLibrary = (Library)super.clone();
-        clonedLibrary.books = new HashSet<>();
+        Library deepClonedLibrary = (Library)super.clone();
+        deepClonedLibrary.books = new HashSet<>();
     }
 }
