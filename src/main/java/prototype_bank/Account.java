@@ -21,7 +21,7 @@ public final class Account {
 
     @Override
     public String toString() {
-        String s = "  List [ " + name + " ]";
+        String s = "  Account #[ " + name + " ]";
         for (Transaction t: transactions) {
             s = s + "\n" + transactions.toString();
         }
