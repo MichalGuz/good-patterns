@@ -55,5 +55,7 @@ public class LibraryTestSuite {
         // then
         Assert.assertEquals(20, numberOfBooks);
         Assert.assertEquals(20, numberOfBooksInClonedLibrary);
+        Assert.assertEquals(20, numberOfBooksInDeepClonedLibrary);
+
       }
 }
