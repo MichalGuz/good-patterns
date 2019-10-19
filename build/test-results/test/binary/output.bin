@@ -1,67 +1,63 @@
-'List of books in library library #1: 
-DBook{title='title11', author='author11', dateOfRelease=1976-02-14}
-DBook{title='title19', author='author19', dateOfRelease=1964-12-11}
-BBook{title='title7', author='author7', dateOfRelease=1965-01-01}
-DBook{title='title13', author='author13', dateOfRelease=2007-01-03}
-BBook{title='title3', author='author3', dateOfRelease=1936-10-07}
-DBook{title='title16', author='author16', dateOfRelease=1945-08-04}
-BBook{title='title6', author='author6', dateOfRelease=1985-05-18}
-BBook{title='title0', author='author0', dateOfRelease=1980-10-19}
-BBook{title='title5', author='author5', dateOfRelease=1933-10-28}
-BBook{title='title9', author='author9', dateOfRelease=1967-04-04}
-DBook{title='title10', author='author10', dateOfRelease=1980-12-26}
-DBook{title='title17', author='author17', dateOfRelease=1930-12-26}
-BBook{title='title4', author='author4', dateOfRelease=2008-01-09}
-BBook{title='title1', author='author1', dateOfRelease=2016-03-09}
-DBook{title='title18', author='author18', dateOfRelease=2005-08-12}
-DBook{title='title12', author='author12', dateOfRelease=1994-12-07}
-BBook{title='title8', author='author8', dateOfRelease=2007-07-13}
-BBook{title='title2', author='author2', dateOfRelease=1929-04-12}
-DBook{title='title14', author='author14', dateOfRelease=1904-02-12}
-DBook{title='title15', author='author15', dateOfRelease=1910-12-10}
-8List of books in (shallow) cloned library library #2: 
-DBook{title='title11', author='author11', dateOfRelease=1976-02-14}
-DBook{title='title19', author='author19', dateOfRelease=1964-12-11}
-BBook{title='title7', author='author7', dateOfRelease=1965-01-01}
-DBook{title='title13', author='author13', dateOfRelease=2007-01-03}
-BBook{title='title3', author='author3', dateOfRelease=1936-10-07}
-DBook{title='title16', author='author16', dateOfRelease=1945-08-04}
-BBook{title='title6', author='author6', dateOfRelease=1985-05-18}
-BBook{title='title0', author='author0', dateOfRelease=1980-10-19}
-BBook{title='title5', author='author5', dateOfRelease=1933-10-28}
-BBook{title='title9', author='author9', dateOfRelease=1967-04-04}
-DBook{title='title10', author='author10', dateOfRelease=1980-12-26}
-DBook{title='title17', author='author17', dateOfRelease=1930-12-26}
-BBook{title='title4', author='author4', dateOfRelease=2008-01-09}
-BBook{title='title1', author='author1', dateOfRelease=2016-03-09}
-DBook{title='title18', author='author18', dateOfRelease=2005-08-12}
-DBook{title='title12', author='author12', dateOfRelease=1994-12-07}
-BBook{title='title8', author='author8', dateOfRelease=2007-07-13}
-BBook{title='title2', author='author2', dateOfRelease=1929-04-12}
-DBook{title='title14', author='author14', dateOfRelease=1904-02-12}
-DBook{title='title15', author='author15', dateOfRelease=1910-12-10}
-5List of books in (deep) cloned library library #3: 
-DBook{title='title11', author='author11', dateOfRelease=1976-02-14}
-DBook{title='title19', author='author19', dateOfRelease=1964-12-11}
-BBook{title='title7', author='author7', dateOfRelease=1965-01-01}
-DBook{title='title13', author='author13', dateOfRelease=2007-01-03}
-BBook{title='title3', author='author3', dateOfRelease=1936-10-07}
-DBook{title='title16', author='author16', dateOfRelease=1945-08-04}
-BBook{title='title6', author='author6', dateOfRelease=1985-05-18}
-BBook{title='title0', author='author0', dateOfRelease=1980-10-19}
-BBook{title='title5', author='author5', dateOfRelease=1933-10-28}
-BBook{title='title9', author='author9', dateOfRelease=1967-04-04}
-DBook{title='title10', author='author10', dateOfRelease=1980-12-26}
-DBook{title='title17', author='author17', dateOfRelease=1930-12-26}
-BBook{title='title4', author='author4', dateOfRelease=2008-01-09}
-BBook{title='title1', author='author1', dateOfRelease=2016-03-09}
-DBook{title='title18', author='author18', dateOfRelease=2005-08-12}
-DBook{title='title12', author='author12', dateOfRelease=1994-12-07}
-BBook{title='title8', author='author8', dateOfRelease=2007-07-13}
-BBook{title='title2', author='author2', dateOfRelease=1929-04-12}
-DBook{title='title14', author='author14', dateOfRelease=1904-02-12}
-DBook{title='title15', author='author15', dateOfRelease=1910-12-10}
-20
-20
-;After clearing the library 3 the size of collection is: 0
-The size of library 1 is:20
+List of books in library: 
+BBook{title='title5', author='author5', dateOfRelease=1914-08-07}
+DBook{title='title14', author='author14', dateOfRelease=2008-07-15}
+DBook{title='title12', author='author12', dateOfRelease=1966-01-24}
+DBook{title='title18', author='author18', dateOfRelease=2018-08-22}
+BBook{title='title4', author='author4', dateOfRelease=1920-10-19}
+DBook{title='title16', author='author16', dateOfRelease=1934-04-07}
+BBook{title='title9', author='author9', dateOfRelease=1973-02-04}
+DBook{title='title13', author='author13', dateOfRelease=1941-11-23}
+BBook{title='title0', author='author0', dateOfRelease=1951-09-04}
+BBook{title='title2', author='author2', dateOfRelease=1938-10-24}
+BBook{title='title7', author='author7', dateOfRelease=1980-01-08}
+BBook{title='title6', author='author6', dateOfRelease=1910-02-18}
+DBook{title='title17', author='author17', dateOfRelease=1903-10-15}
+DBook{title='title10', author='author10', dateOfRelease=1942-06-05}
+DBook{title='title19', author='author19', dateOfRelease=1929-05-08}
+BBook{title='title1', author='author1', dateOfRelease=1937-11-04}
+BBook{title='title3', author='author3', dateOfRelease=2001-04-22}
+DBook{title='title11', author='author11', dateOfRelease=1908-06-25}
+BBook{title='title8', author='author8', dateOfRelease=1982-06-25}
+DBook{title='title15', author='author15', dateOfRelease=1943-01-19}
+-List of books in (shallow) cloned library: 
+BBook{title='title5', author='author5', dateOfRelease=1914-08-07}
+DBook{title='title14', author='author14', dateOfRelease=2008-07-15}
+DBook{title='title12', author='author12', dateOfRelease=1966-01-24}
+DBook{title='title18', author='author18', dateOfRelease=2018-08-22}
+BBook{title='title4', author='author4', dateOfRelease=1920-10-19}
+DBook{title='title16', author='author16', dateOfRelease=1934-04-07}
+BBook{title='title9', author='author9', dateOfRelease=1973-02-04}
+DBook{title='title13', author='author13', dateOfRelease=1941-11-23}
+BBook{title='title0', author='author0', dateOfRelease=1951-09-04}
+BBook{title='title2', author='author2', dateOfRelease=1938-10-24}
+BBook{title='title7', author='author7', dateOfRelease=1980-01-08}
+BBook{title='title6', author='author6', dateOfRelease=1910-02-18}
+DBook{title='title17', author='author17', dateOfRelease=1903-10-15}
+DBook{title='title10', author='author10', dateOfRelease=1942-06-05}
+DBook{title='title19', author='author19', dateOfRelease=1929-05-08}
+BBook{title='title1', author='author1', dateOfRelease=1937-11-04}
+BBook{title='title3', author='author3', dateOfRelease=2001-04-22}
+DBook{title='title11', author='author11', dateOfRelease=1908-06-25}
+BBook{title='title8', author='author8', dateOfRelease=1982-06-25}
+DBook{title='title15', author='author15', dateOfRelease=1943-01-19}
+*List of books in (deep) cloned library: 
+BBook{title='title5', author='author5', dateOfRelease=1914-08-07}
+DBook{title='title14', author='author14', dateOfRelease=2008-07-15}
+DBook{title='title12', author='author12', dateOfRelease=1966-01-24}
+DBook{title='title18', author='author18', dateOfRelease=2018-08-22}
+BBook{title='title4', author='author4', dateOfRelease=1920-10-19}
+DBook{title='title16', author='author16', dateOfRelease=1934-04-07}
+BBook{title='title9', author='author9', dateOfRelease=1973-02-04}
+DBook{title='title13', author='author13', dateOfRelease=1941-11-23}
+BBook{title='title0', author='author0', dateOfRelease=1951-09-04}
+BBook{title='title2', author='author2', dateOfRelease=1938-10-24}
+BBook{title='title7', author='author7', dateOfRelease=1980-01-08}
+BBook{title='title6', author='author6', dateOfRelease=1910-02-18}
+DBook{title='title17', author='author17', dateOfRelease=1903-10-15}
+DBook{title='title10', author='author10', dateOfRelease=1942-06-05}
+DBook{title='title19', author='author19', dateOfRelease=1929-05-08}
+BBook{title='title1', author='author1', dateOfRelease=1937-11-04}
+BBook{title='title3', author='author3', dateOfRelease=2001-04-22}
+DBook{title='title11', author='author11', dateOfRelease=1908-06-25}
+BBook{title='title8', author='author8', dateOfRelease=1982-06-25}
+DBook{title='title15', author='author15', dateOfRelease=1943-01-19}

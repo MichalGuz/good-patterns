@@ -35,7 +35,7 @@ public class LibraryTestSuite {
             System.out.println(e);
         }
 
-        System.out.println("List of books in library: ");
+        System.out.println("List of books in library" + library.getName() + ": ");
         library.getBooks().stream()
                 .forEach(System.out::println);
 
