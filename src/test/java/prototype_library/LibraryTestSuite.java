@@ -39,7 +39,6 @@ public class LibraryTestSuite {
         library.getBooks().stream()
                 .forEach(System.out::println);
 
-
         System.out.println("List of books in (shallow) cloned library: ");
         clonedLibrary.getBooks().stream()
                 .forEach(System.out::println);
@@ -51,6 +50,7 @@ public class LibraryTestSuite {
         // when
         int numberOfBooks = library.getBooks().size();
         int numberOfBooksInClonedLibrary = clonedLibrary.getBooks().size();
+        int numberOfBooksInDeepClonedLibrary = deepClonedLibrary.getBooks().size();
 
         // then
         Assert.assertEquals(20, numberOfBooks);
