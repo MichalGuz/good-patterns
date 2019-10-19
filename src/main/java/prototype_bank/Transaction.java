@@ -12,4 +12,21 @@ public final class Transaction {
         this.transactionAmount = transactionAmount;
         this.transactionDate = LocalDate.of(year, month, day);
     }
+
+    public String getTransactionId(){
+        return transactionId;
+    }
+
+    public int getTransactionAmount() {
+        return transactionAmount;
+    }
+
+    public LocalDate getTransactionDate() {
+        return transactionDate;
+    }
+
+    @Override
+    public String toString() {
+        return "[Transaction ID: " + transactionId + "] |amount| " + transactionAmount + " @ |data| " + transactionDate + ";";
+    }
 }
