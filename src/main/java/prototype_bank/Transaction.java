@@ -7,6 +7,9 @@ public final class Transaction {
     private final int transcationAmount;
     private final LocalDate transactionDate;
 
-
-
+    public Transaction(final String transactionId, final int transcationAmount, final LocalDate transactionDate) {
+        this.transactionId = transactionId;
+        this.transcationAmount = transcationAmount;
+        this.transactionDate = transactionDate;
+    }
 }
