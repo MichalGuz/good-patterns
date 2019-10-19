@@ -18,4 +18,13 @@ public final class Customer {
     public Set<Account> getAccounts() {
         return accounts;
     }
+
+    @Override
+    public String toString() {
+        String s = "Customer # " + customerId + "\n";
+        for (Account a: accounts) {
+            s = s + a.toString();
+        }
+        return s;
+    }
 }
