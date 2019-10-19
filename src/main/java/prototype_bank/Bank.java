@@ -18,4 +18,13 @@ public final class Bank {
     public List<Customer> getCustomers() {
         return customers;
     }
+
+    @Override
+    public String toString() {
+        String s = "Bank [ " + bankBranch + " ]\n";
+        for (Customer c : customers) {
+            s = s + c.toString();
+        }
+        return s;
+    }
 }
