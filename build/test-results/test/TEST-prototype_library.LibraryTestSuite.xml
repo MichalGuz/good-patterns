@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="prototype_library.LibraryTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-19T10:35:15" hostname="Dell-Komputer" time="0.254">
+<testsuite name="prototype_library.LibraryTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-19T10:39:18" hostname="Dell-Komputer" time="0.791">
   <properties/>
-  <testcase name="testGetBooks" classname="prototype_library.LibraryTestSuite" time="0.254"/>
-  <system-out><![CDATA[List of books in library: 
-Book{title='title5', author='author5', dateOfRelease=1914-08-07}
-Book{title='title14', author='author14', dateOfRelease=2008-07-15}
-Book{title='title12', author='author12', dateOfRelease=1966-01-24}
-Book{title='title18', author='author18', dateOfRelease=2018-08-22}
-Book{title='title4', author='author4', dateOfRelease=1920-10-19}
-Book{title='title16', author='author16', dateOfRelease=1934-04-07}
-Book{title='title9', author='author9', dateOfRelease=1973-02-04}
-Book{title='title13', author='author13', dateOfRelease=1941-11-23}
-Book{title='title0', author='author0', dateOfRelease=1951-09-04}
-Book{title='title2', author='author2', dateOfRelease=1938-10-24}
-Book{title='title7', author='author7', dateOfRelease=1980-01-08}
-Book{title='title6', author='author6', dateOfRelease=1910-02-18}
-Book{title='title17', author='author17', dateOfRelease=1903-10-15}
-Book{title='title10', author='author10', dateOfRelease=1942-06-05}
-Book{title='title19', author='author19', dateOfRelease=1929-05-08}
-Book{title='title1', author='author1', dateOfRelease=1937-11-04}
-Book{title='title3', author='author3', dateOfRelease=2001-04-22}
-Book{title='title11', author='author11', dateOfRelease=1908-06-25}
-Book{title='title8', author='author8', dateOfRelease=1982-06-25}
-Book{title='title15', author='author15', dateOfRelease=1943-01-19}
-List of books in (shallow) cloned library: 
-Book{title='title5', author='author5', dateOfRelease=1914-08-07}
-Book{title='title14', author='author14', dateOfRelease=2008-07-15}
-Book{title='title12', author='author12', dateOfRelease=1966-01-24}
-Book{title='title18', author='author18', dateOfRelease=2018-08-22}
-Book{title='title4', author='author4', dateOfRelease=1920-10-19}
-Book{title='title16', author='author16', dateOfRelease=1934-04-07}
-Book{title='title9', author='author9', dateOfRelease=1973-02-04}
-Book{title='title13', author='author13', dateOfRelease=1941-11-23}
-Book{title='title0', author='author0', dateOfRelease=1951-09-04}
-Book{title='title2', author='author2', dateOfRelease=1938-10-24}
-Book{title='title7', author='author7', dateOfRelease=1980-01-08}
-Book{title='title6', author='author6', dateOfRelease=1910-02-18}
-Book{title='title17', author='author17', dateOfRelease=1903-10-15}
-Book{title='title10', author='author10', dateOfRelease=1942-06-05}
-Book{title='title19', author='author19', dateOfRelease=1929-05-08}
-Book{title='title1', author='author1', dateOfRelease=1937-11-04}
-Book{title='title3', author='author3', dateOfRelease=2001-04-22}
-Book{title='title11', author='author11', dateOfRelease=1908-06-25}
-Book{title='title8', author='author8', dateOfRelease=1982-06-25}
-Book{title='title15', author='author15', dateOfRelease=1943-01-19}
-List of books in (deep) cloned library: 
-Book{title='title5', author='author5', dateOfRelease=1914-08-07}
-Book{title='title14', author='author14', dateOfRelease=2008-07-15}
-Book{title='title12', author='author12', dateOfRelease=1966-01-24}
-Book{title='title18', author='author18', dateOfRelease=2018-08-22}
-Book{title='title4', author='author4', dateOfRelease=1920-10-19}
-Book{title='title16', author='author16', dateOfRelease=1934-04-07}
-Book{title='title9', author='author9', dateOfRelease=1973-02-04}
-Book{title='title13', author='author13', dateOfRelease=1941-11-23}
-Book{title='title0', author='author0', dateOfRelease=1951-09-04}
-Book{title='title2', author='author2', dateOfRelease=1938-10-24}
-Book{title='title7', author='author7', dateOfRelease=1980-01-08}
-Book{title='title6', author='author6', dateOfRelease=1910-02-18}
-Book{title='title17', author='author17', dateOfRelease=1903-10-15}
-Book{title='title10', author='author10', dateOfRelease=1942-06-05}
-Book{title='title19', author='author19', dateOfRelease=1929-05-08}
-Book{title='title1', author='author1', dateOfRelease=1937-11-04}
-Book{title='title3', author='author3', dateOfRelease=2001-04-22}
-Book{title='title11', author='author11', dateOfRelease=1908-06-25}
-Book{title='title8', author='author8', dateOfRelease=1982-06-25}
-Book{title='title15', author='author15', dateOfRelease=1943-01-19}
+  <testcase name="testGetBooks" classname="prototype_library.LibraryTestSuite" time="0.791"/>
+  <system-out><![CDATA[List of books in librarylibrary #1: 
+Book{title='title5', author='author5', dateOfRelease=2006-07-08}
+Book{title='title14', author='author14', dateOfRelease=2012-10-10}
+Book{title='title12', author='author12', dateOfRelease=1949-12-17}
+Book{title='title18', author='author18', dateOfRelease=1960-12-28}
+Book{title='title4', author='author4', dateOfRelease=1964-09-07}
+Book{title='title16', author='author16', dateOfRelease=2004-03-10}
+Book{title='title9', author='author9', dateOfRelease=1958-12-29}
+Book{title='title13', author='author13', dateOfRelease=2011-02-23}
+Book{title='title0', author='author0', dateOfRelease=1955-01-24}
+Book{title='title2', author='author2', dateOfRelease=2017-10-19}
+Book{title='title7', author='author7', dateOfRelease=1975-08-01}
+Book{title='title6', author='author6', dateOfRelease=1928-04-30}
+Book{title='title17', author='author17', dateOfRelease=1994-08-22}
+Book{title='title10', author='author10', dateOfRelease=1944-08-16}
+Book{title='title19', author='author19', dateOfRelease=1990-04-04}
+Book{title='title1', author='author1', dateOfRelease=2001-05-23}
+Book{title='title3', author='author3', dateOfRelease=1958-04-14}
+Book{title='title11', author='author11', dateOfRelease=1955-01-25}
+Book{title='title8', author='author8', dateOfRelease=1905-07-24}
+Book{title='title15', author='author15', dateOfRelease=1989-07-20}
+List of books in (shallow) cloned librarylibrary #2: 
+Book{title='title5', author='author5', dateOfRelease=2006-07-08}
+Book{title='title14', author='author14', dateOfRelease=2012-10-10}
+Book{title='title12', author='author12', dateOfRelease=1949-12-17}
+Book{title='title18', author='author18', dateOfRelease=1960-12-28}
+Book{title='title4', author='author4', dateOfRelease=1964-09-07}
+Book{title='title16', author='author16', dateOfRelease=2004-03-10}
+Book{title='title9', author='author9', dateOfRelease=1958-12-29}
+Book{title='title13', author='author13', dateOfRelease=2011-02-23}
+Book{title='title0', author='author0', dateOfRelease=1955-01-24}
+Book{title='title2', author='author2', dateOfRelease=2017-10-19}
+Book{title='title7', author='author7', dateOfRelease=1975-08-01}
+Book{title='title6', author='author6', dateOfRelease=1928-04-30}
+Book{title='title17', author='author17', dateOfRelease=1994-08-22}
+Book{title='title10', author='author10', dateOfRelease=1944-08-16}
+Book{title='title19', author='author19', dateOfRelease=1990-04-04}
+Book{title='title1', author='author1', dateOfRelease=2001-05-23}
+Book{title='title3', author='author3', dateOfRelease=1958-04-14}
+Book{title='title11', author='author11', dateOfRelease=1955-01-25}
+Book{title='title8', author='author8', dateOfRelease=1905-07-24}
+Book{title='title15', author='author15', dateOfRelease=1989-07-20}
+List of books in (deep) cloned librarylibrary #3: 
+Book{title='title5', author='author5', dateOfRelease=2006-07-08}
+Book{title='title14', author='author14', dateOfRelease=2012-10-10}
+Book{title='title12', author='author12', dateOfRelease=1949-12-17}
+Book{title='title18', author='author18', dateOfRelease=1960-12-28}
+Book{title='title4', author='author4', dateOfRelease=1964-09-07}
+Book{title='title16', author='author16', dateOfRelease=2004-03-10}
+Book{title='title9', author='author9', dateOfRelease=1958-12-29}
+Book{title='title13', author='author13', dateOfRelease=2011-02-23}
+Book{title='title0', author='author0', dateOfRelease=1955-01-24}
+Book{title='title2', author='author2', dateOfRelease=2017-10-19}
+Book{title='title7', author='author7', dateOfRelease=1975-08-01}
+Book{title='title6', author='author6', dateOfRelease=1928-04-30}
+Book{title='title17', author='author17', dateOfRelease=1994-08-22}
+Book{title='title10', author='author10', dateOfRelease=1944-08-16}
+Book{title='title19', author='author19', dateOfRelease=1990-04-04}
+Book{title='title1', author='author1', dateOfRelease=2001-05-23}
+Book{title='title3', author='author3', dateOfRelease=1958-04-14}
+Book{title='title11', author='author11', dateOfRelease=1955-01-25}
+Book{title='title8', author='author8', dateOfRelease=1905-07-24}
+Book{title='title15', author='author15', dateOfRelease=1989-07-20}
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

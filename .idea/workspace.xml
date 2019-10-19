@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/prototype_library/LibraryTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/prototype_library/LibraryTestSuite.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -78,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/prototype_library/LibraryTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="333">
+              <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -432,9 +433,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibraryTestSuite_testGetBooks - 2019.10.18 at 21h 57m 35s.xml">
-      <configuration name="LibraryTestSuite.testGetBooks" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="LibraryTestSuite_testGetBooks - 2019.10.18 at 21h 59m 38s.xml">
       <configuration name="LibraryTestSuite.testGetBooks" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -460,6 +458,9 @@
       <configuration name="LibraryTestSuite.testGetBooks" configurationId="GradleRunConfiguration" />
     </history-entry>
     <history-entry file="LibraryTestSuite_testGetBooks - 2019.10.18 at 22h 09m 54s.xml">
+      <configuration name="LibraryTestSuite.testGetBooks" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="LibraryTestSuite_testGetBooks - 2019.10.19 at 12h 35m 18s.xml">
       <configuration name="LibraryTestSuite.testGetBooks" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
@@ -1006,8 +1007,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/prototype_library/LibraryTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="333">
+          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
