@@ -46,6 +46,9 @@ public class BankTestSuite {
         Customer customer3 = new Customer("Customer 3");
         customer3.getAccounts().add(account05);
 
+        bank.getCustomers().add(customer1);
+        bank.getCustomers().add(customer2);
+        bank.getCustomers().add(customer3);
 
     }
 }
