@@ -7,4 +7,15 @@ public final class Bank {
     private final String bankBranch;
     private final List<Customer> customers = new ArrayList<>();
 
+    public Bank(final String bankBranch) {
+        this.bankBranch = bankBranch;
+    }
+
+    public String getBankBranch() {
+        return bankBranch;
+    }
+
+    public List<Customer> getCustomers() {
+        return customers;
+    }
 }
