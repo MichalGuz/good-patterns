@@ -18,4 +18,13 @@ public final class OperationsList {
     public List<Transaction> getTransactions() {
         return transactions;
     }
+
+    @Override
+    public String toString() {
+        String s = "  List [ " + name + " ]";
+        for (Transaction t: transactions) {
+            s = s + "\n" + transactions.toString();
+        }
+        return s;
+    }
 }
