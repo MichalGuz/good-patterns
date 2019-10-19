@@ -34,6 +34,7 @@ public class LibraryTestSuite {
         } catch (CloneNotSupportedException e) {
             System.out.println(e);
         }
+
         System.out.println("List of books in library: ");
         library.getBooks().stream()
                 .forEach(System.out::println);
@@ -41,6 +42,10 @@ public class LibraryTestSuite {
 
         System.out.println("List of books in (shallow) cloned library: ");
         clonedLibrary.getBooks().stream()
+                .forEach(System.out::println);
+
+        System.out.println("List of books in (deep) cloned library: ");
+        deepClonedLibrary.getBooks().stream()
                 .forEach(System.out::println);
 
         // when
