@@ -35,5 +35,17 @@ public class BankTestSuite {
                 .limit(5)
                 .forEach(n -> account05.getTransactions().add(new Transaction("transaction 004" + n, new RandomData().getRandomAmount(), new RandomData().getRandomDate())));
 
+        Customer customer1 = new Customer("Customer 1");
+        customer1.getAccounts().add(account01);
+        customer1.getAccounts().add(account02);
+
+        Customer customer2 = new Customer("Customer 2");
+        customer2.getAccounts().add(account03);
+        customer2.getAccounts().add(account04);
+
+        Customer customer3 = new Customer("Customer 3");
+        customer3.getAccounts().add(account05);
+
+
     }
 }
