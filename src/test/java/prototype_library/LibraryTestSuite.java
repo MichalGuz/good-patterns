@@ -39,7 +39,7 @@ public class LibraryTestSuite {
         library.getBooks().stream()
                 .forEach(System.out::println);
 
-        System.out.println("List of books in (shallow) cloned library: ");
+        System.out.println("List of books in (shallow) cloned library" + clonedLibrary.getName() + ": ");
         clonedLibrary.getBooks().stream()
                 .forEach(System.out::println);
 
