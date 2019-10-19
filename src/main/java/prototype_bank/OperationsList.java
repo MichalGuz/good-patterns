@@ -5,5 +5,9 @@ import java.util.List;
 
 public final class OperationsList {
     private final String name;
-    private final List<Transaction> transactions = new ArrayList<>(;)
+    private final List<Transaction> transactions = new ArrayList<>();
+
+    public OperationsList(final String name) {
+        this.name = name;
+    }
 }
