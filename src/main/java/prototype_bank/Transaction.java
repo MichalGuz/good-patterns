@@ -27,6 +27,6 @@ public final class Transaction {
 
     @Override
     public String toString() {
-        return "[Transaction ID: " + transactionId + "] |amount| " + transactionAmount + " @ |data| " + transactionDate + ";";
+        return "     [Transaction ID: " + transactionId + "] |amount| " + transactionAmount + " @ |data| " + transactionDate + ";";
     }
 }
