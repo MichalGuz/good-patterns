@@ -7,10 +7,10 @@ public final class Transaction {
     private final double transactionAmount;
     private LocalDate transactionDate;
 
-    public Transaction(final String transactionId, final double transactionAmount, int year, int month, int day) {
+    public Transaction(final String transactionId, final double transactionAmount, final LocalDate transactionDate) {
         this.transactionId = transactionId;
         this.transactionAmount = transactionAmount;
-        this.transactionDate = LocalDate.of(year, month, day);
+        this.transactionDate = transactionDate;
     }
 
     public String getTransactionId(){
