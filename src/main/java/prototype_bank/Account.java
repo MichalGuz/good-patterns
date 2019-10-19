@@ -23,7 +23,7 @@ public final class Account {
     public String toString() {
         String s = "  Account #[ " + name + " ]";
         for (Transaction t: transactions) {
-            s = s + "\n" + transactions.toString();
+            s = s + "\n" + t.toString();
         }
         return s;
     }
