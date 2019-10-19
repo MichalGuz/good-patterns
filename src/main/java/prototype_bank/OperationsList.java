@@ -1,4 +1,4 @@
 package prototype_bank;
 
-public class OperationsList {
+public final class OperationsList {
 }
