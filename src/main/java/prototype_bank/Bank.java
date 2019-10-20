@@ -37,5 +37,7 @@ public final class Bank {
     }
 
     public Bank deepCopy()throws CloneNotSupportedException {
+        Bank deepClonedBank = (Bank)super.clone();
+        return deepClonedBank;
     }
 }
