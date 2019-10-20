@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public final class Bank {
-    private final String bankBranch;
+    private String bankBranch;
     private final List<Customer> customers = new ArrayList<>();
 
     public Bank(final String bankBranch) {
