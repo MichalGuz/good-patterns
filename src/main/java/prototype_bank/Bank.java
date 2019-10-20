@@ -41,6 +41,9 @@ public final class Bank {
         deepClonedBank.customers = new ArrayList<>();
         for(Customer c: customers) {
             Customer deepClonedCustomer = new Customer(c.getCustomerId());
+            for(Account a: c.getAccounts()) {
+                Account deepClonedAccount = new Account(a.getName());
+            }
         }
         return deepClonedBank;
     }
