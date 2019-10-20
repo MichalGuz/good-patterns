@@ -53,6 +53,10 @@ public class BankTestSuite {
         // when
         System.out.println(bank);
 
+        // making the shallow copy of bank object
+        Bank clonedBank = null;
+
+
         // then
     }
 }
