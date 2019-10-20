@@ -58,6 +58,8 @@ public class BankTestSuite {
         try {
             clonedBank = bank.shallowCopy();
             clonedBank.setBankBranch("Bank # 1 - shallow copy");
+        } catch (CloneNotSupportedException e) {
+            System.out.println(e);
         }
 
         // then
