@@ -28,11 +28,14 @@ public final class Bank {
         return s;
     }
 
-    public Bank shallowCopy() throws CloneNotSupportedException{
+    public Bank shallowCopy() throws CloneNotSupportedException {
         return (Bank)super.clone();
     }
 
     public void setBankBranch(String bankBranch) {
         this.bankBranch = bankBranch;
+    }
+
+    public Bank deepCopy()throws CloneNotSupportedException {
     }
 }
