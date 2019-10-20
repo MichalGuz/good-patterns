@@ -71,6 +71,8 @@ public class BankTestSuite {
                 .reduce(0,(sum, current) -> sum = sum + current);
 
         // then
+        System.out.println("The \"bankTransactionsNumber\" =: " + bankTransactionsNumber);
+        Assert.assertEquals(25, bankTransactionsNumber);
 
     }
 }
