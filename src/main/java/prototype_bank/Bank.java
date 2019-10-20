@@ -3,7 +3,7 @@ package prototype_bank;
 import java.util.ArrayList;
 import java.util.List;
 
-public final class Bank {
+public final class Bank extends PrototypeBank {
     private String bankBranch;
     private List<Customer> customers = new ArrayList<>();
 

@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="prototype_bank.BankTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-20T14:00:30" hostname="Dell-Komputer" time="0.343">
+<testsuite name="prototype_bank.BankTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-20T22:48:52" hostname="Dell-Komputer" time="0.145">
   <properties/>
-  <testcase name="testGetTransactions" classname="prototype_bank.BankTestSuite" time="0.343"/>
+  <testcase name="testGetTransactions" classname="prototype_bank.BankTestSuite" time="0.145"/>
   <system-out><![CDATA[Bank [ Bank # 1 ]
 Customer # Customer 1
-  Account # [ 12 3456 0000 0000 7890 0000 0001 ]
-     [Transaction ID: transaction 0001] |amount| 48.689216650590836 @ |data| 2018-02-13;
-     [Transaction ID: transaction 0002] |amount| 73.36500157442698 @ |data| 2017-02-05;
-     [Transaction ID: transaction 0003] |amount| 60.390231464574185 @ |data| 2018-02-01;
-     [Transaction ID: transaction 0004] |amount| 2.1537782692384266 @ |data| 2018-06-06;
-     [Transaction ID: transaction 0005] |amount| 18.083895357726377 @ |data| 2017-06-14;
   Account # [ 12 3456 0000 0000 7890 0000 0002 ]
-     [Transaction ID: transaction 0011] |amount| 67.2348489537939 @ |data| 2018-05-28;
-     [Transaction ID: transaction 0012] |amount| 82.56245041025062 @ |data| 2018-12-20;
-     [Transaction ID: transaction 0013] |amount| 30.868834942958934 @ |data| 2018-04-28;
-     [Transaction ID: transaction 0014] |amount| 9.209138978184495 @ |data| 2017-02-02;
-     [Transaction ID: transaction 0015] |amount| 33.76626023190406 @ |data| 2017-10-28;
+     [Transaction ID: transaction 0011] |amount| 82.01555512284753 @ |data| 2018-07-13;
+     [Transaction ID: transaction 0012] |amount| 20.864550293818397 @ |data| 2017-02-22;
+     [Transaction ID: transaction 0013] |amount| 52.45625849815268 @ |data| 2017-05-09;
+     [Transaction ID: transaction 0014] |amount| 82.25434339558794 @ |data| 2017-12-25;
+     [Transaction ID: transaction 0015] |amount| 8.183530189281274 @ |data| 2018-12-10;
+  Account # [ 12 3456 0000 0000 7890 0000 0001 ]
+     [Transaction ID: transaction 0001] |amount| 84.8394212314849 @ |data| 2017-08-05;
+     [Transaction ID: transaction 0002] |amount| 67.65132281656511 @ |data| 2018-04-23;
+     [Transaction ID: transaction 0003] |amount| 11.737739304075722 @ |data| 2017-07-30;
+     [Transaction ID: transaction 0004] |amount| 43.63529568401974 @ |data| 2018-09-23;
+     [Transaction ID: transaction 0005] |amount| 8.456005048124936 @ |data| 2017-04-20;
 Customer # Customer 2
   Account # [ 12 3456 0000 0000 7890 0000 0003 ]
-     [Transaction ID: transaction 0021] |amount| 88.26072112058102 @ |data| 2017-09-02;
-     [Transaction ID: transaction 0022] |amount| 20.99112739235793 @ |data| 2018-09-16;
-     [Transaction ID: transaction 0023] |amount| 20.0580235858303 @ |data| 2018-08-01;
-     [Transaction ID: transaction 0024] |amount| 75.9877896603219 @ |data| 2018-07-13;
-     [Transaction ID: transaction 0025] |amount| 74.54153602804212 @ |data| 2017-06-19;
+     [Transaction ID: transaction 0021] |amount| 82.4196184594918 @ |data| 2017-09-21;
+     [Transaction ID: transaction 0022] |amount| 87.31498332686938 @ |data| 2018-12-24;
+     [Transaction ID: transaction 0023] |amount| 52.27813048066756 @ |data| 2017-07-19;
+     [Transaction ID: transaction 0024] |amount| 80.9878307462518 @ |data| 2017-11-28;
+     [Transaction ID: transaction 0025] |amount| 16.545689633758165 @ |data| 2018-10-24;
   Account # [ 12 3456 0000 0000 7890 0000 0004 ]
-     [Transaction ID: transaction 0031] |amount| 87.43893701629855 @ |data| 2018-05-25;
-     [Transaction ID: transaction 0032] |amount| 7.248899589798141 @ |data| 2017-06-15;
-     [Transaction ID: transaction 0033] |amount| 44.3350550507016 @ |data| 2018-11-15;
-     [Transaction ID: transaction 0034] |amount| 62.6314929412233 @ |data| 2018-11-03;
-     [Transaction ID: transaction 0035] |amount| 31.956879817166794 @ |data| 2018-09-01;
+     [Transaction ID: transaction 0031] |amount| 56.3018115604635 @ |data| 2018-05-11;
+     [Transaction ID: transaction 0032] |amount| 75.65619691293712 @ |data| 2017-01-25;
+     [Transaction ID: transaction 0033] |amount| 6.182259171878779 @ |data| 2017-11-14;
+     [Transaction ID: transaction 0034] |amount| 97.00736258370904 @ |data| 2018-02-07;
+     [Transaction ID: transaction 0035] |amount| 26.081253288395867 @ |data| 2018-01-11;
 Customer # Customer 3
   Account # [ 12 3456 0000 0000 7890 0000 0005 ]
-     [Transaction ID: transaction 0041] |amount| 31.13546623161462 @ |data| 2018-03-24;
-     [Transaction ID: transaction 0042] |amount| 91.8945198969185 @ |data| 2018-06-23;
-     [Transaction ID: transaction 0043] |amount| 83.96036943413861 @ |data| 2018-07-14;
-     [Transaction ID: transaction 0044] |amount| 74.85429265241532 @ |data| 2017-08-01;
-     [Transaction ID: transaction 0045] |amount| 92.2919105842673 @ |data| 2017-01-05;
-java.lang.CloneNotSupportedException: prototype_bank.Bank
-The bankTransactionsnumber ia: 25
+     [Transaction ID: transaction 0041] |amount| 46.13083431907573 @ |data| 2017-07-09;
+     [Transaction ID: transaction 0042] |amount| 32.64149281409144 @ |data| 2017-12-22;
+     [Transaction ID: transaction 0043] |amount| 69.93322408667746 @ |data| 2017-04-06;
+     [Transaction ID: transaction 0044] |amount| 89.12680868700164 @ |data| 2017-01-27;
+     [Transaction ID: transaction 0045] |amount| 95.77420521064357 @ |data| 2017-04-28;
+The "bankTransactionsNumber" =: 25
+The "clonedBankTransactionsNumber" =: 25
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
