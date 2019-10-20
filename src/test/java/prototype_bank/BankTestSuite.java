@@ -100,5 +100,14 @@ public class BankTestSuite {
         Assert.assertEquals(25, clonedBankTransactionsNumber);
         Assert.assertEquals(25, deepClonedBankTransactionsNumber);
 
+        deepClondedBank.getCustomers().clear();
+        System.out.println("After clearing the deepClonedBank the size of collection is: " + deepClondedBank.getCustomers().size());
+        System.out.println("The size of bank # 1 is:" + bank.getCustomers().size());
+
+        clonedBank.getCustomers().clear();
+        System.out.println("After clearing the clonedBank the size of collection is: " + clonedBank.getCustomers().size());
+        System.out.println("The size of bank # 1 is:" + bank.getCustomers().size());
+
+
     }
 }

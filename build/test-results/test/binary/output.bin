@@ -1,36 +1,41 @@
 Bank [ Bank # 1 ]
 Customer # Customer 1
 1  Account # [ 12 3456 0000 0000 7890 0000 0002 ]
-X     [Transaction ID: transaction 0011] |amount| 82.01555512284753 @ |data| 2018-07-13;
-Y     [Transaction ID: transaction 0012] |amount| 20.864550293818397 @ |data| 2017-02-22;
-X     [Transaction ID: transaction 0013] |amount| 52.45625849815268 @ |data| 2017-05-09;
-X     [Transaction ID: transaction 0014] |amount| 82.25434339558794 @ |data| 2017-12-25;
-X     [Transaction ID: transaction 0015] |amount| 8.183530189281274 @ |data| 2018-12-10;
+X     [Transaction ID: transaction 0011] |amount| 95.88318758545874 @ |data| 2018-01-24;
+X     [Transaction ID: transaction 0012] |amount| 9.473999464419192 @ |data| 2017-08-19;
+X     [Transaction ID: transaction 0013] |amount| 7.497688777797751 @ |data| 2017-09-16;
+X     [Transaction ID: transaction 0014] |amount| 69.73443400385813 @ |data| 2017-03-27;
+Y     [Transaction ID: transaction 0015] |amount| 16.662643448590984 @ |data| 2018-03-10;
 1  Account # [ 12 3456 0000 0000 7890 0000 0001 ]
-W     [Transaction ID: transaction 0001] |amount| 84.8394212314849 @ |data| 2017-08-05;
-X     [Transaction ID: transaction 0002] |amount| 67.65132281656511 @ |data| 2018-04-23;
-Y     [Transaction ID: transaction 0003] |amount| 11.737739304075722 @ |data| 2017-07-30;
-X     [Transaction ID: transaction 0004] |amount| 43.63529568401974 @ |data| 2018-09-23;
-X     [Transaction ID: transaction 0005] |amount| 8.456005048124936 @ |data| 2017-04-20;
+X     [Transaction ID: transaction 0001] |amount| 5.475727088398685 @ |data| 2018-05-12;
+W     [Transaction ID: transaction 0002] |amount| 4.28726645694314 @ |data| 2018-04-27;
+W     [Transaction ID: transaction 0003] |amount| 92.5874961947588 @ |data| 2018-12-29;
+X     [Transaction ID: transaction 0004] |amount| 90.08217584459123 @ |data| 2018-05-03;
+X     [Transaction ID: transaction 0005] |amount| 82.37830524337936 @ |data| 2017-05-06;
 Customer # Customer 2
-1  Account # [ 12 3456 0000 0000 7890 0000 0003 ]
-W     [Transaction ID: transaction 0021] |amount| 82.4196184594918 @ |data| 2017-09-21;
-X     [Transaction ID: transaction 0022] |amount| 87.31498332686938 @ |data| 2018-12-24;
-X     [Transaction ID: transaction 0023] |amount| 52.27813048066756 @ |data| 2017-07-19;
-W     [Transaction ID: transaction 0024] |amount| 80.9878307462518 @ |data| 2017-11-28;
-Y     [Transaction ID: transaction 0025] |amount| 16.545689633758165 @ |data| 2018-10-24;
 1  Account # [ 12 3456 0000 0000 7890 0000 0004 ]
-W     [Transaction ID: transaction 0031] |amount| 56.3018115604635 @ |data| 2018-05-11;
-X     [Transaction ID: transaction 0032] |amount| 75.65619691293712 @ |data| 2017-01-25;
-X     [Transaction ID: transaction 0033] |amount| 6.182259171878779 @ |data| 2017-11-14;
-X     [Transaction ID: transaction 0034] |amount| 97.00736258370904 @ |data| 2018-02-07;
-Y     [Transaction ID: transaction 0035] |amount| 26.081253288395867 @ |data| 2018-01-11;
+Y     [Transaction ID: transaction 0031] |amount| 25.587085765131214 @ |data| 2017-04-15;
+X     [Transaction ID: transaction 0032] |amount| 91.87575408299656 @ |data| 2017-10-14;
+W     [Transaction ID: transaction 0033] |amount| 30.6572632951018 @ |data| 2018-12-20;
+X     [Transaction ID: transaction 0034] |amount| 33.23576871230222 @ |data| 2017-08-28;
+X     [Transaction ID: transaction 0035] |amount| 98.42524936870099 @ |data| 2017-10-13;
+1  Account # [ 12 3456 0000 0000 7890 0000 0003 ]
+X     [Transaction ID: transaction 0021] |amount| 48.14072763005933 @ |data| 2018-10-28;
+Y     [Transaction ID: transaction 0022] |amount| 29.886738658470346 @ |data| 2017-11-27;
+W     [Transaction ID: transaction 0023] |amount| 28.3056028754742 @ |data| 2017-01-14;
+X     [Transaction ID: transaction 0024] |amount| 73.20924911918209 @ |data| 2018-06-03;
+W     [Transaction ID: transaction 0025] |amount| 96.7848436821105 @ |data| 2017-02-01;
 Customer # Customer 3
 1  Account # [ 12 3456 0000 0000 7890 0000 0005 ]
-X     [Transaction ID: transaction 0041] |amount| 46.13083431907573 @ |data| 2017-07-09;
-X     [Transaction ID: transaction 0042] |amount| 32.64149281409144 @ |data| 2017-12-22;
-X     [Transaction ID: transaction 0043] |amount| 69.93322408667746 @ |data| 2017-04-06;
-X     [Transaction ID: transaction 0044] |amount| 89.12680868700164 @ |data| 2017-01-27;
-Y     [Transaction ID: transaction 0045] |amount| 95.77420521064357 @ |data| 2017-04-28;
-$The "bankTransactionsNumber" =: 25
-*The "clonedBankTransactionsNumber" =: 25
+X     [Transaction ID: transaction 0041] |amount| 3.743421206808606 @ |data| 2018-01-04;
+X     [Transaction ID: transaction 0042] |amount| 58.79580664850849 @ |data| 2018-07-09;
+W     [Transaction ID: transaction 0043] |amount| 83.1177960058193 @ |data| 2017-11-14;
+X     [Transaction ID: transaction 0044] |amount| 34.96928020557879 @ |data| 2017-06-13;
+Y     [Transaction ID: transaction 0045] |amount| 56.69718085941741 @ |data| 2017-03-13;
+#The "bankTransactionsNumber" = 25
+)The "clonedBankTransactionsNumber" = 25
+-The "deepClonedBankTransactionsNumber" = 25
+@After clearing the deepClonedBank the size of collection is: 0
+The size of bank # 1 is:3
+<After clearing the clonedBank the size of collection is: 0
+The size of bank # 1 is:0
