@@ -85,6 +85,12 @@ public class BankTestSuite {
                 .map(n -> n.getTransactions().size())
                 .reduce(0, (sum, current) -> sum = sum + current);
 
+        int deepClonedBankTransactionsNumeber = deepClondedBank.getCustomers().stream()
+                .map(n -> n.getAccounts())
+                .flatMap(n -> n.stream())
+                .map(n -> n.getTransactions().size())
+                .reduce(0, (sum, current) -> sum = sum + current);
+
         // then
 
         System.out.println("The \"bankTransactionsNumber\" = " + bankTransactionsNumber);
