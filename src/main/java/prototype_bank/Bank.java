@@ -27,4 +27,8 @@ public final class Bank {
         }
         return s;
     }
+
+    public Bank shallowCopy() throws CloneNotSupportedException{
+        return (Bank)super.clone();
+    }
 }
