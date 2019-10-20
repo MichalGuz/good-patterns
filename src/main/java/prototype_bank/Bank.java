@@ -5,7 +5,7 @@ import java.util.List;
 
 public final class Bank {
     private String bankBranch;
-    private final List<Customer> customers = new ArrayList<>();
+    private List<Customer> customers = new ArrayList<>();
 
     public Bank(final String bankBranch) {
         this.bankBranch = bankBranch;
