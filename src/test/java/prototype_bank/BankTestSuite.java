@@ -97,6 +97,8 @@ public class BankTestSuite {
         System.out.println("The \"clonedBankTransactionsNumber\" = " + clonedBankTransactionsNumber);
         System.out.println("The \"deepClonedBankTransactionsNumber\" = " + deepClonedBankTransactionsNumber);
         Assert.assertEquals(25, bankTransactionsNumber);
+        Assert.assertEquals(25, clonedBankTransactionsNumber);
+        Assert.assertEquals(25, deepClonedBankTransactionsNumber);
 
     }
 }
