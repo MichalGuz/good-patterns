@@ -70,7 +70,14 @@ public class BankTestSuite {
                 .map(n -> n.getTransactions().size())
                 .reduce(0,(sum, current) -> sum = sum + current);
 
+        int clonedBankTransactionsNumber = clonedBank.getCustomers().stream()
+                .map(n -> n.getAccounts())
+                .flatMap(n -> n.stream())
+                .map(n -> n.getTransactions().size())
+                .reduce(0, (sum, current) -> sum = sum + current);
+
         // then
+
         System.out.println("The \"bankTransactionsNumber\" =: " + bankTransactionsNumber);
         Assert.assertEquals(25, bankTransactionsNumber);
 
