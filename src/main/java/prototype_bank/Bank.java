@@ -31,4 +31,8 @@ public final class Bank {
     public Bank shallowCopy() throws CloneNotSupportedException{
         return (Bank)super.clone();
     }
+
+    public void setBankBranch(String bankBranch) {
+        this.bankBranch = bankBranch;
+    }
 }
