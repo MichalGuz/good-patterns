@@ -1,7 +1,9 @@
 package prototype_bank;
 
+import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class BankTestSuite {
@@ -62,6 +64,13 @@ public class BankTestSuite {
             System.out.println(e);
         }
 
+        int bankTransactionsNumber = bank.getCustomers().stream()
+                .map(n -> n.getAccounts())
+                .flatMap(n -> n.stream())
+                .map(n -> n.getTransactions().size())
+                .reduce(0,(sum, current) -> sum = sum + current);
+
         // then
+
     }
 }
