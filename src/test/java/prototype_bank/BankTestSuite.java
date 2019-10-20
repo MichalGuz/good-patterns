@@ -55,7 +55,9 @@ public class BankTestSuite {
 
         // making the shallow copy of bank object
         Bank clonedBank = null;
-
+        try {
+            clonedBank = bank.shallowCopy();
+        }
 
         // then
     }
