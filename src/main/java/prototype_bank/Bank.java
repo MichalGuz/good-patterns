@@ -39,6 +39,9 @@ public final class Bank {
     public Bank deepCopy() throws CloneNotSupportedException {
         Bank deepClonedBank = (Bank)super.clone();
         deepClonedBank.customers = new ArrayList<>();
+        for(Customer c: customers) {
+            Customer deepClonedCustomer = new Customer(c.getCustomerId());
+        }
         return deepClonedBank;
     }
 }
