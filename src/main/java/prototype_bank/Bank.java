@@ -36,8 +36,9 @@ public final class Bank {
         this.bankBranch = bankBranch;
     }
 
-    public Bank deepCopy()throws CloneNotSupportedException {
+    public Bank deepCopy() throws CloneNotSupportedException {
         Bank deepClonedBank = (Bank)super.clone();
+        deepClonedBank.customers = new ArrayList<>();
         return deepClonedBank;
     }
 }
