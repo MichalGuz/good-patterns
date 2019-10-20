@@ -66,6 +66,9 @@ public class BankTestSuite {
 
         // making the deep copy of bank object
         Bank deepClondedBank = null;
+        try {
+            deepClondedBank = bank.deepCopy();
+        }
 
         int bankTransactionsNumber = bank.getCustomers().stream()
                 .map(n -> n.getAccounts())
