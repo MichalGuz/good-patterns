@@ -69,6 +69,8 @@ public class BankTestSuite {
         try {
             deepClondedBank = bank.deepCopy();
             deepClondedBank.setBankBranch("Bank # 1 - deep copy");
+        } catch (CloneNotSupportedException e) {
+            System.out.println(e);
         }
 
         int bankTransactionsNumber = bank.getCustomers().stream()
