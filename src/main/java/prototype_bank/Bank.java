@@ -49,6 +49,7 @@ public final class Bank {
                 }
                 deepClonedCustomer.getAccounts().add(deepClonedAccount);
             }
+            deepClonedBank.getCustomers().add(deepClonedCustomer);
         }
         return deepClonedBank;
     }
