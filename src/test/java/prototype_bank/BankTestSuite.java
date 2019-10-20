@@ -50,5 +50,9 @@ public class BankTestSuite {
         bank.getCustomers().add(customer2);
         bank.getCustomers().add(customer3);
 
+        // when
+        System.out.println(bank);
+
+        // then
     }
 }

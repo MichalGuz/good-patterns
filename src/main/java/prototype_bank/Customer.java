@@ -21,7 +21,7 @@ public final class Customer {
 
     @Override
     public String toString() {
-        String s = "Customer # " + customerId + "\n";
+        String s = "\nCustomer # " + customerId;
         for (Account a: accounts) {
             s = s + a.toString();
         }

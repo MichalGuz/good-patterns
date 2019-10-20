@@ -1,83 +1,34 @@
-Board [Project #1]
-     List [Done Tasks]
-         Task [Done Task1]
-         Task [Done Task2]
-         Task [Done Task3]
-         Task [Done Task4]
-         Task [Done Task5]
-         Task [Done Task6]
-         Task [Done Task7]
-         Task [Done Task8]
-         Task [Done Task9]
-         Task [Done Task10]
-     List [In Progress Tasks]
-$         Task [In Progress Tasks 1]
-$         Task [In Progress Tasks 2]
-$         Task [In Progress Tasks 3]
-$         Task [In Progress Tasks 4]
-$         Task [In Progress Tasks 5]
-$         Task [In Progress Tasks 6]
-$         Task [In Progress Tasks 7]
-$         Task [In Progress Tasks 8]
-$         Task [In Progress Tasks 9]
-%         Task [In Progress Tasks 10]
-
-Board [Project #2]
-     List [Done Tasks]
-         Task [Done Task1]
-         Task [Done Task2]
-         Task [Done Task3]
-         Task [Done Task4]
-         Task [Done Task5]
-         Task [Done Task6]
-         Task [Done Task7]
-         Task [Done Task8]
-         Task [Done Task9]
-         Task [Done Task10]
-     List [In Progress Tasks]
-$         Task [In Progress Tasks 1]
-$         Task [In Progress Tasks 2]
-$         Task [In Progress Tasks 3]
-$         Task [In Progress Tasks 4]
-$         Task [In Progress Tasks 5]
-$         Task [In Progress Tasks 6]
-$         Task [In Progress Tasks 7]
-$         Task [In Progress Tasks 8]
-$         Task [In Progress Tasks 9]
-%         Task [In Progress Tasks 10]
-
-Board [Project #3]
-     List [In Progress Tasks]
-$         Task [In Progress Tasks 1]
-$         Task [In Progress Tasks 2]
-$         Task [In Progress Tasks 3]
-$         Task [In Progress Tasks 4]
-$         Task [In Progress Tasks 5]
-$         Task [In Progress Tasks 6]
-$         Task [In Progress Tasks 7]
-$         Task [In Progress Tasks 8]
-$         Task [In Progress Tasks 9]
-%         Task [In Progress Tasks 10]
-     List [To Do Tasks]
-$         Task [To Do Task number 1]
-$         Task [To Do Task number 2]
-$         Task [To Do Task number 3]
-$         Task [To Do Task number 4]
-$         Task [To Do Task number 5]
-$         Task [To Do Task number 6]
-$         Task [To Do Task number 7]
-$         Task [To Do Task number 8]
-$         Task [To Do Task number 9]
-%         Task [To Do Task number 10]
-     List [Done Tasks]
-         Task [Done Task1]
-         Task [Done Task2]
-         Task [Done Task3]
-         Task [Done Task4]
-         Task [Done Task5]
-         Task [Done Task6]
-         Task [Done Task7]
-         Task [Done Task8]
-         Task [Done Task9]
-         Task [Done Task10]
-
+Bank [ Bank # 1 ]
+Customer # Customer 1
+1  Account # [ 12 3456 0000 0000 7890 0000 0002 ]
+X     [Transaction ID: transaction 0011] |amount| 43.97929588950981 @ |data| 2017-01-18;
+X     [Transaction ID: transaction 0012] |amount| 99.76377333997299 @ |data| 2017-12-05;
+W     [Transaction ID: transaction 0013] |amount| 65.1083338422099 @ |data| 2017-07-02;
+X     [Transaction ID: transaction 0014] |amount| 93.48400679372423 @ |data| 2018-03-01;
+X     [Transaction ID: transaction 0015] |amount| 88.32745675204974 @ |data| 2017-06-11;
+1  Account # [ 12 3456 0000 0000 7890 0000 0001 ]
+X     [Transaction ID: transaction 0001] |amount| 46.91873713710787 @ |data| 2018-03-26;
+Y     [Transaction ID: transaction 0002] |amount| 27.727217763748648 @ |data| 2018-05-21;
+X     [Transaction ID: transaction 0003] |amount| 76.99521085682328 @ |data| 2018-10-03;
+Y     [Transaction ID: transaction 0004] |amount| 7.6749569032181775 @ |data| 2017-11-04;
+Y     [Transaction ID: transaction 0005] |amount| 49.585379758093076 @ |data| 2017-04-17;
+Customer # Customer 2
+1  Account # [ 12 3456 0000 0000 7890 0000 0003 ]
+X     [Transaction ID: transaction 0021] |amount| 4.102812129893218 @ |data| 2018-08-09;
+W     [Transaction ID: transaction 0022] |amount| 71.1290337525127 @ |data| 2017-12-26;
+X     [Transaction ID: transaction 0023] |amount| 50.48472014645606 @ |data| 2018-06-10;
+X     [Transaction ID: transaction 0024] |amount| 64.30575454819643 @ |data| 2017-11-02;
+X     [Transaction ID: transaction 0025] |amount| 35.95477550355416 @ |data| 2018-06-25;
+1  Account # [ 12 3456 0000 0000 7890 0000 0004 ]
+X     [Transaction ID: transaction 0031] |amount| 73.98086250055805 @ |data| 2017-01-09;
+Y     [Transaction ID: transaction 0032] |amount| 18.425673733508873 @ |data| 2018-01-21;
+X     [Transaction ID: transaction 0033] |amount| 82.58448575725356 @ |data| 2017-03-03;
+X     [Transaction ID: transaction 0034] |amount| 52.46916076565109 @ |data| 2017-10-18;
+W     [Transaction ID: transaction 0035] |amount| 74.2357099853828 @ |data| 2017-09-15;
+Customer # Customer 3
+1  Account # [ 12 3456 0000 0000 7890 0000 0005 ]
+X     [Transaction ID: transaction 0041] |amount| 85.76048116952728 @ |data| 2017-04-08;
+X     [Transaction ID: transaction 0042] |amount| 9.077106248497714 @ |data| 2017-11-24;
+X     [Transaction ID: transaction 0043] |amount| 20.03591856011915 @ |data| 2017-08-01;
+X     [Transaction ID: transaction 0044] |amount| 35.83353161031341 @ |data| 2017-03-22;
+Z     [Transaction ID: transaction 0045] |amount| 36.307419330049925 @ |data| 2017-10-20;

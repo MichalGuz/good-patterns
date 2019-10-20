@@ -2,7 +2,6 @@ package prototype_library;
 
 import java.util.HashSet;
 import java.util.Set;
-import java.util.stream.Collectors;
 
 public final class Library extends PrototypeLibrary {
     private String name;

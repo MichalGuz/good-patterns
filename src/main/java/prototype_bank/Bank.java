@@ -21,7 +21,7 @@ public final class Bank {
 
     @Override
     public String toString() {
-        String s = "Bank [ " + bankBranch + " ]\n";
+        String s = "Bank [ " + bankBranch + " ]";
         for (Customer c : customers) {
             s = s + c.toString();
         }
