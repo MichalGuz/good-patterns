@@ -57,7 +57,7 @@ public class BankTestSuite {
         Bank clonedBank = null;
         try {
             clonedBank = bank.shallowCopy();
-
+            clonedBank.setBankBranch("Bank # 1 - shallow copy");
         }
 
         // then
