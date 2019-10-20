@@ -68,6 +68,7 @@ public class BankTestSuite {
         Bank deepClondedBank = null;
         try {
             deepClondedBank = bank.deepCopy();
+            deepClondedBank.setBankBranch("Bank # 1 - deep copy");
         }
 
         int bankTransactionsNumber = bank.getCustomers().stream()
