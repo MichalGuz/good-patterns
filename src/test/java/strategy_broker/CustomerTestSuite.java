@@ -26,7 +26,10 @@ public class CustomerTestSuite {
     }
 
     @Test
-    public void testIndividualInvestingStrategy() {}
+    public void testIndividualInvestingStrategy() {
+        // given
+        Customer bold  =  new IndividualYoungCustomer("Adam Bold");
+    }
 }
 
 
