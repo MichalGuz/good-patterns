@@ -1,4 +1,4 @@
-package strategy;
+package strategy_calculator;
 
 public class CalculatorToTransform {
     public double calculate(double x, double y, String operator) {

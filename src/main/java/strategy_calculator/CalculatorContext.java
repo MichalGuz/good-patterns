@@ -1,4 +1,4 @@
-package strategy;
+package strategy_calculator;
 
 public class CalculatorContext {
     private CalculatorStrategyInterface calculator;
