@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="strategy_broker.CustomerTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-21T19:54:59" hostname="Dell-Komputer" time="0.023">
+  <properties/>
+  <testcase name="testDefaultInvestingStrategy" classname="strategy_broker.CustomerTestSuite" time="0.023"/>
+  <system-out><![CDATA[Adam Young should buy [Aggressive predictor] buy stock of MysteriousName Inc
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
