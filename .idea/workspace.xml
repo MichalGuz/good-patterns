@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy_broker/AggressivePredictor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy_broker/AggressivePredictor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy_broker/ConservativePredictor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -70,11 +70,20 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/strategy_broker/IndividualOldCustomer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding>
                 <element signature="e#126#127#0" expanded="true" />
                 <element signature="e#149#150#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/strategy_broker/ConservativePredictor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -88,7 +97,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/strategy_broker/AggressivePredictor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -96,6 +105,19 @@
               <folding>
                 <element signature="e#136#137#0" expanded="true" />
                 <element signature="e#160#161#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/strategy_broker/BalancedPredictor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+              <folding>
+                <element signature="e#133#134#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,8 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/easy_eats/EasyEatsRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/easy_eats/EasyEatsOrderRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/easy_eats/EasyEatsProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/easy_eats/OrderRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/easy_eats/EasyEatsProducerProcessor.java" />
@@ -164,10 +184,12 @@
         <option value="$PROJECT_DIR$/src/main/java/strategy_broker/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy_broker/CorporateCustomer.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy_broker/IndividualYoungCustomer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/strategy_broker/IndividualOldCustomer.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy_broker/BuyPredictor.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy_broker/AgressivePredictor.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy_broker/AggressivePredictor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/strategy_broker/BalancedPredictor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/strategy_broker/IndividualOldCustomer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/strategy_broker/ConservativePredictor.java" />
       </list>
     </option>
   </component>
@@ -507,20 +529,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/order_service_solid/OrderMailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="101" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/easy_eats/EasyEatsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="70" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/order_service_solid/OrderServiceProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -933,21 +941,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/strategy_broker/IndividualOldCustomer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy_broker/BalancedPredictor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        <state relative-caret-position="34">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
           <folding>
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/strategy_broker/BuyPredictor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -959,6 +960,31 @@
             <element signature="e#136#137#0" expanded="true" />
             <element signature="e#160#161#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy_broker/BuyPredictor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy_broker/IndividualOldCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy_broker/ConservativePredictor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="34" />
         </state>
       </provider>
     </entry>
