@@ -1,5 +1,6 @@
 package strategy_broker;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class CustomerTestSuite {
@@ -17,6 +18,11 @@ public class CustomerTestSuite {
         System.out.println(cautious.getName() + " should buy: " + cautiousShouldBuy);
         String corporateShouldBuy = corporate.predict();
         System.out.println(corporate.getName() + " should buy: " + corporateShouldBuy);
+
+        // then
+        Assert.assertEquals("[Conservative predictor] buy safe public bonds",cautiousShouldBuy);
+        Assert.assertEquals("[Aggressive predictor] buy stock of MysteriousName Inc", boldShouldBuy);
+        Assert.assertEquals("[Balanced predictor] buy shared units of Famous-&-Old Fund", cautiousShouldBuy);
     }
 }
 
