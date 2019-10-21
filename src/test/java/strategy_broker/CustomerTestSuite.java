@@ -36,6 +36,9 @@ public class CustomerTestSuite {
         bold.setBuyingStrategy(new BalancedPredictor());
         boldChoseInvestingStrategy = bold.predict();
         System.out.println(bold.getName() + " chose to invest in: " + boldChoseInvestingStrategy);
+
+        // then
+        Assert.assertEquals("[Balanced predictor] buy shared units of Famous-&-Old Fund", boldChoseInvestingStrategy);
     }
 }
 
