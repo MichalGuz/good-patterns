@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="strategy_broker.CustomerTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-21T19:54:59" hostname="Dell-Komputer" time="0.023">
+<testsuite name="strategy_broker.CustomerTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-21T20:28:52" hostname="Dell-Komputer" time="0.026">
   <properties/>
-  <testcase name="testDefaultInvestingStrategy" classname="strategy_broker.CustomerTestSuite" time="0.023"/>
-  <system-out><![CDATA[Adam Young should buy [Aggressive predictor] buy stock of MysteriousName Inc
+  <testcase name="testDefaultInvestingStrategy" classname="strategy_broker.CustomerTestSuite" time="0.026"/>
+  <system-out><![CDATA[Adam Young should buy: [Aggressive predictor] buy stock of MysteriousName Inc
+Ian Older should buy: [Conservative predictor] buy safe public bonds
+Unity Ltd should buy: [Balanced predictor] buy shared units of Famous-&-Old Fund
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
