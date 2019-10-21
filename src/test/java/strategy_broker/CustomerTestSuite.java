@@ -13,6 +13,8 @@ public class CustomerTestSuite {
         // when
         String boldShouldBuy = bold.predict();
         System.out.println(bold.getName() + " should buy: " +  boldShouldBuy);
+        String cautiousShouldBuy = cautious.predict();
+        System.out.println(cautious.getName() + " should buy: " + cautiousShouldBuy);
     }
 }
 
