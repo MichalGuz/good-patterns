@@ -11,7 +11,7 @@ public class CustomerTestSuite {
         Customer corporate = new CorporateCustomer("Unity Ltd");
 
         // when
-        String boldShouldBuy = bold.buyPredictor.predictWhatToBuy();
+        String boldShouldBuy = bold.predict();
         System.out.println(bold.getName() + " should buy: " +  boldShouldBuy);
     }
 }

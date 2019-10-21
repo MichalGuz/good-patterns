@@ -455,9 +455,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BankTestSuite_testGetTransactions - 2019.10.20 at 11h 23m 03s.xml">
-      <configuration name="BankTestSuite.testGetTransactions" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="BankTestSuite_testGetTransactions - 2019.10.20 at 15h 43m 44s.xml">
       <configuration name="BankTestSuite.testGetTransactions" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -484,6 +481,9 @@
     </history-entry>
     <history-entry file="BankTestSuite_testGetTransactions - 2019.10.21 at 01h 18m 05s.xml">
       <configuration name="BankTestSuite.testGetTransactions" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="CustomerTestSuite_testDefaultInvestingStrategy - 2019.10.21 at 21h 55m 00s.xml">
+      <configuration name="CustomerTestSuite.testDefaultInvestingStrategy" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
