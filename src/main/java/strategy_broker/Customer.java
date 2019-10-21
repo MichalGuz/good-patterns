@@ -15,4 +15,8 @@ public class Customer {
     public void setBuyingStrategy(BuyPredictor buyPredictor) {
         this.buyPredictor = buyPredictor;
     }
+
+    public String predict() {
+        return buyPredictor.predictWhatToBuy();
+    }
 }
