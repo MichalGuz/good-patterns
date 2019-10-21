@@ -24,6 +24,9 @@ public class CustomerTestSuite {
         Assert.assertEquals("[Aggressive predictor] buy stock of MysteriousName Inc", boldShouldBuy);
         Assert.assertEquals("[Balanced predictor] buy shared units of Famous-&-Old Fund", corporateShouldBuy);
     }
+
+    @Test
+    public void testIndividualInvestingStrategy() {}
 }
 
 
