@@ -11,4 +11,8 @@ public class Customer {
     public String getName() {
         return name;
     }
+
+    public void setBuyingStrategy(BuyPredictor buyPredictor) {
+        this.buyPredictor = buyPredictor;
+    }
 }
