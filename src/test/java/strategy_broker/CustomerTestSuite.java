@@ -15,6 +15,8 @@ public class CustomerTestSuite {
         System.out.println(bold.getName() + " should buy: " +  boldShouldBuy);
         String cautiousShouldBuy = cautious.predict();
         System.out.println(cautious.getName() + " should buy: " + cautiousShouldBuy);
+        String corporateShouldBuy = corporate.predict();
+        System.out.println(corporate.getName() + " should buy: " + corporateShouldBuy);
     }
 }
 
