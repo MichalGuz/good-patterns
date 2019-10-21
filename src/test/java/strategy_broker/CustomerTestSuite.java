@@ -29,6 +29,10 @@ public class CustomerTestSuite {
     public void testIndividualInvestingStrategy() {
         // given
         Customer bold  =  new IndividualYoungCustomer("Adam Bold");
+
+        // when
+        String boldChoseInvestingStrategy = bold.predict();
+        System.out.println(bold.getName() + " chose to invest in: " + boldChoseInvestingStrategy);
     }
 }
 
