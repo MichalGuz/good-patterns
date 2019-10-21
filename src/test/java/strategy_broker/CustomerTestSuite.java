@@ -34,6 +34,8 @@ public class CustomerTestSuite {
         String boldChoseInvestingStrategy = bold.predict();
         System.out.println(bold.getName() + " chose to invest in: " + boldChoseInvestingStrategy);
         bold.setBuyingStrategy(new BalancedPredictor());
+        boldChoseInvestingStrategy = bold.predict();
+        System.out.println(bold.getName() + " chose to invest in: " + boldChoseInvestingStrategy);
     }
 }
 
