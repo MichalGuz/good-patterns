@@ -15,7 +15,7 @@ public class User {
         this.socialPublisher = socialPublisher;
     }
 
-    public void sendMessage() {
-        socialPublisher.share();
+    public String  sendMessage() {
+        return socialPublisher.share();
     }
 }

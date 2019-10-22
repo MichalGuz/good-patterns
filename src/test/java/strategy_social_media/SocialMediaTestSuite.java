@@ -9,5 +9,9 @@ public class SocialMediaTestSuite {
         Millenials millenials = new Millenials("Neo");
         YGeneretion yMan = new YGeneretion("Justin");
         ZGeneretion zMan = new ZGeneretion("Stormzy");
-    }
+
+        // when
+
+        // then
+      }
 }
