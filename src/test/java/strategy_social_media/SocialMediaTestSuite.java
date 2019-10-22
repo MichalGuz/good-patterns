@@ -20,5 +20,8 @@ public class SocialMediaTestSuite {
         Assert.assertEquals("Facebook", millenialsFavouriteSocialMedia);
         Assert.assertEquals("Twitter", yGenerationFavouriteSocialMedia);
         Assert.assertEquals("Snapchat", zGenerationFavouriteSocialMedia);
-      }
+        System.out.println(millenials.getName() + " usually uses " + millenialsFavouriteSocialMedia);
+        System.out.println(yMan.getName() + " usually uses " + yGenerationFavouriteSocialMedia);
+        System.out.println(zMan.getName() + " usually uses " + zGenerationFavouriteSocialMedia);
+    }
 }
