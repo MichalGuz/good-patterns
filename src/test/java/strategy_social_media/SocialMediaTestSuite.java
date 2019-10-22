@@ -1,5 +1,6 @@
 package strategy_social_media;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class SocialMediaTestSuite {
@@ -16,5 +17,8 @@ public class SocialMediaTestSuite {
         String zGenerationFavouriteSocialMedia = zMan.sendMessage();
 
         // then
+        Assert.assertEquals("Facebook", millenialsFavouriteSocialMedia);
+        Assert.assertEquals("Twitter", yGenerationFavouriteSocialMedia;
+        Assert.assertEquals("Snapchat", zGenerationFavouriteSocialMedia);
       }
 }
