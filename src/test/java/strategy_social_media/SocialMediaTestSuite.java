@@ -18,7 +18,7 @@ public class SocialMediaTestSuite {
 
         // then
         Assert.assertEquals("Facebook", millenialsFavouriteSocialMedia);
-        Assert.assertEquals("Twitter", yGenerationFavouriteSocialMedia;
+        Assert.assertEquals("Twitter", yGenerationFavouriteSocialMedia);
         Assert.assertEquals("Snapchat", zGenerationFavouriteSocialMedia);
       }
 }
