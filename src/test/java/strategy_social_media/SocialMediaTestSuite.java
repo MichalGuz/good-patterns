@@ -11,6 +11,9 @@ public class SocialMediaTestSuite {
         ZGeneretion zMan = new ZGeneretion("Stormzy");
 
         // when
+        String millenialsFavouriteSocialMedia = millenials.sendMessage();
+        String yGenerationFavouriteSocialMedia = yMan.sendMessage();
+        String zGenerationFavouriteSocialMedia = zMan.sendMessage();
 
         // then
       }
