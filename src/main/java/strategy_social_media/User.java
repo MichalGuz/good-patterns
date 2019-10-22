@@ -15,5 +15,9 @@ public class User {
         this.socialPublisher = socialPublisher;
     }
 
+    public void sendMessage() {
+        socialPublisher.share();
+    }
+
 
 }
