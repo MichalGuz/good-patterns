@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="" />
+    <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy_social_media/FacebookPublisher.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -23,15 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/strategy_broker/IndividualOldCustomer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/strategy_broker/CustomerTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,7 +78,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/strategy_social_media/ZGeneretion.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -94,6 +87,24 @@
                 <element signature="e#108#109#0" expanded="true" />
                 <element signature="e#135#136#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/strategy_social_media/SocialPublisher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/strategy_social_media/FacebookPublisher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -141,8 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/easy_eats/OrganicFoodProducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/easy_eats/HealthyEatsProducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/easy_eats/EasyEatsOrderService.java" />
         <option value="$PROJECT_DIR$/src/main/java/easy_eats/EasyEatsApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/easy_eats/EasyEatsMail.java" />
@@ -192,6 +201,8 @@
         <option value="$PROJECT_DIR$/src/main/java/strategy_social_media/Millenials.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy_social_media/YGeneretion.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy_social_media/ZGeneretion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/strategy_social_media/SocialPublisher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/strategy_social_media/FacebookPublisher.java" />
       </list>
     </option>
   </component>
@@ -545,20 +556,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/order_service_solid/OrderRepositoryProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/order_service_solid/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/order_service_solid/OrderMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1018,6 +1015,20 @@
             <element signature="e#108#109#0" expanded="true" />
             <element signature="e#135#136#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy_social_media/SocialPublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/strategy_social_media/FacebookPublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>
