@@ -27,6 +27,7 @@ public class SocialMediaTestSuite {
 
     @Test
     public void testIndividualPreferencesAboutSocialMedia() {
-
+        // given
+        Millenials millenials = new Millenials("Neo");
     }
 }
