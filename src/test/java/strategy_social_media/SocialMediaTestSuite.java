@@ -36,5 +36,9 @@ public class SocialMediaTestSuite {
         millenials.setSocialPublisher(new TwitterPublisher());
         String secondChoiceOfNeo = millenials.sendMessage();
         System.out.println("But " + millenials.getName() + " also likes to use " + secondChoiceOfNeo + ".");
+
+        // then
+        Assert.assertEquals("Facebook", defaultChoiceOfNeo);
+        Assert.assertEquals("Twitter", secondChoiceOfNeo);
     }
 }
