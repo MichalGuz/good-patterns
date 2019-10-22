@@ -10,4 +10,10 @@ public class User {
     public String getName() {
         return name;
     }
+
+    public void setSocialPublisher(SocialPublisher socialPublisher) {
+        this.socialPublisher = socialPublisher;
+    }
+
+
 }
