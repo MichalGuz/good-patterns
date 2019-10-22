@@ -34,6 +34,7 @@ public class SocialMediaTestSuite {
         String defaultChoiceOfNeo = millenials.sendMessage();
         System.out.println(millenials.getName() + "'s first choice is " + defaultChoiceOfNeo + ".");
         millenials.setSocialPublisher(new TwitterPublisher());
-        System.out.println("But " + millenials.getName() + " also likes to use " + millenials.sendMessage() + ".");
+        String secondChoiceOfNeo = millenials.sendMessage();
+        System.out.println("But " + millenials.getName() + " also likes to use " + secondChoiceOfNeo + ".");
     }
 }
