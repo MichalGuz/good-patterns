@@ -24,4 +24,9 @@ public class SocialMediaTestSuite {
         System.out.println(yMan.getName() + " usually uses " + yGenerationFavouriteSocialMedia);
         System.out.println(zMan.getName() + " usually uses " + zGenerationFavouriteSocialMedia);
     }
+
+    @Test
+    public void testIndividualPreferencesAboutSocialMedia() {
+
+    }
 }

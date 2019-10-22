@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="strategy_broker.CustomerTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-21T20:44:04" hostname="Dell-Komputer" time="0.018">
-  <properties/>
-  <testcase name="testIndividualInvestingStrategy" classname="strategy_broker.CustomerTestSuite" time="0.018"/>
-  <system-out><![CDATA[Adam Bold chose to invest in: [Aggressive predictor] buy stock of MysteriousName Inc
-Adam Bold chose to invest in: [Balanced predictor] buy shared units of Famous-&-Old Fund
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
