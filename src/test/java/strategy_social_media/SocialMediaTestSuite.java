@@ -33,6 +33,6 @@ public class SocialMediaTestSuite {
         // when
         String defaultChoiceOfNeo = millenials.sendMessage();
         System.out.println(millenials.getName() + "'s first choice is " + defaultChoiceOfNeo);
-
+        millenials.setSocialPublisher(new TwitterPublisher());
     }
 }
