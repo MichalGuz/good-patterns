@@ -29,4 +29,10 @@ public class ShapeFactoryTestSuite {
         Assert.assertEquals( 28, shape.getArea(), 0);
         Assert.assertEquals("The square", shape.getName());
     }
+
+    @Test
+    public void testFactoryRectangle() {
+
+    }
+
 }
