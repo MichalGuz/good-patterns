@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory_shape/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory_shape/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory_shape/Square.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -53,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/factory_shape/Square.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="68">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -75,7 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/easy_eats/EasyEatsMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/flights_finder/Flight.java" />
         <option value="$PROJECT_DIR$/src/main/java/flights_finder/RepositoryInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/flights_finder/FlightsRepository.java" />
@@ -126,6 +125,7 @@
         <option value="$PROJECT_DIR$/src/test/java/strategy_social_media/SocialMediaTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_shape/Shape.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_shape/Circle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory_shape/Square.java" />
       </list>
     </option>
   </component>
@@ -966,8 +966,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/factory_shape/Square.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="68">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
         </state>
       </provider>
     </entry>
