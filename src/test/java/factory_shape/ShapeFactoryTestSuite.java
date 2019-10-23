@@ -24,5 +24,9 @@ public class ShapeFactoryTestSuite {
 
         // when
         Shape shape = shapeFactory.makeShapoe(shapeFactory.SQUARE);
+
+        // then
+        Assert.assertEquals( 28, shape.getArea(), 0);
+        Assert.assertEquals("The square", shape.getName());
     }
 }
