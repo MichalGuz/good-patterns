@@ -19,6 +19,9 @@ public class ShapeFactoryTestSuite {
 
     @Test
     public void testFactorySquare() {
+        // given
+        ShapeFactory shapeFactory = new ShapeFactory();
+
 
     }
 }
