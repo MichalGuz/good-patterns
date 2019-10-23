@@ -32,6 +32,8 @@ public class ShapeFactoryTestSuite {
 
     @Test
     public void testFactoryRectangle() {
+        // given
+
 
     }
 
