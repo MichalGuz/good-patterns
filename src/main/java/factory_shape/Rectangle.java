@@ -20,7 +20,12 @@ public final class Rectangle implements Shape {
     public double getArea() {
     return width * lenght;
     }
+
+    @Override
+    public double getCircumference() {
+        return 2 * width + 2 * lenght;
 }
+
 
 
 
