@@ -16,4 +16,9 @@ public class ShapeFactoryTestSuite {
         Assert.assertEquals(Math.PI * Math.pow(10.0, 4.0), shape.getArea(), 0);
         Assert.assertEquals("The circle", shape.getName());
     }
+
+    @Test
+    public void testFactorySquare() {
+
+    }
 }
