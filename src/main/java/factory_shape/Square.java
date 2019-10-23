@@ -1,4 +1,4 @@
 package factory_shape;
 
-public class Square {
+public class Square implements Shape {
 }
