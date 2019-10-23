@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory_shape/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory_shape/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory_shape/ShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory_shape/ShapeFactory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -67,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/factory_shape/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="265">
@@ -80,6 +80,15 @@
                 <element signature="e#502#503#0" expanded="true" />
                 <element signature="e#547#548#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/factory_shape/ShapeFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -100,7 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/flights_finder/RepositoryInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/flights_finder/FlightsRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/singleton/Settings.java" />
         <option value="$PROJECT_DIR$/src/main/java/flights_finder/FlightFinderMain.java" />
@@ -151,10 +159,11 @@
         <option value="$PROJECT_DIR$/src/main/java/factory_shape/Circle.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_shape/Square.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_shape/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory_shape/ShapeFactory.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="31" />
     <option name="width" value="1260" />
     <option name="height" value="425" />
@@ -480,20 +489,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/singleton/SettingsFileManagerTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sigleton_logger/SingletonLoggerTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -964,6 +959,13 @@
             <element signature="e#502#503#0" expanded="true" />
             <element signature="e#547#548#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory_shape/ShapeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
