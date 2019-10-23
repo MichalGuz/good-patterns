@@ -8,4 +8,9 @@ public final class Circle implements Shape {
         this.name = name;
         this.radius = radius;
     }
+
+    @Override
+    public String getName(){
+        return name;
+    }
 }
