@@ -7,7 +7,8 @@ public final class ShapeFactory {
 
     public final Shape makeShapoe(final String shapeClass) {
         switch (shapeClass) {
-
+            case CIRCLE:
+                return new Circle("The circle", 4.5);
         }
 
         return null;
