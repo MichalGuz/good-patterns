@@ -70,13 +70,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/factory_shape/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+            <state relative-caret-position="265">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
                 <element signature="e#347#348#0" expanded="true" />
                 <element signature="e#374#375#0" expanded="true" />
                 <element signature="e#415#416#0" expanded="true" />
                 <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#547#548#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -418,7 +420,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20469256" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -953,13 +954,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/factory_shape/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        <state relative-caret-position="265">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
             <element signature="e#347#348#0" expanded="true" />
             <element signature="e#374#375#0" expanded="true" />
             <element signature="e#415#416#0" expanded="true" />
             <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
           </folding>
         </state>
       </provider>
