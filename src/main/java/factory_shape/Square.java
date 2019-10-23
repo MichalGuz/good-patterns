@@ -16,6 +16,11 @@ public final class Square implements Shape {
 
     @Override
     public double getArea() {
-        return Math.pow(width, 2,);
+        return Math.pow(width, 2);
+    }
+
+    @Override
+    public double getCircumference() {
+        return 4  * width;
     }
 }
