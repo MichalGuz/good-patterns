@@ -10,4 +10,9 @@ public final class Rectangle implements Shape {
         this.width = width;
         this.lenght = lenght;
     }
+
+    @Override
+    public String getName() {
+        return name;
+    }
 }
