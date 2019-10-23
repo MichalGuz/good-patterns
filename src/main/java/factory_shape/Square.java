@@ -9,5 +9,12 @@ public final class Square implements Shape {
         this.width = width;
     }
 
+    @Override
+    public String getName() {
+        return name
+    }
+
+
+
 
 }
