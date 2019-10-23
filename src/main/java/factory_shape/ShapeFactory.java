@@ -6,6 +6,10 @@ public final class ShapeFactory {
     public static final String RECTANGLE = "RECTANGLE";
 
     public final Shape makeShapoe(final String shapeClass) {
+        switch (shapeClass) {
 
+        }
+
+        return null;
     }
 }
