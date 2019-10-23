@@ -1,4 +1,5 @@
 package factory_shape;
 
-public final class Circle {
+public final class Circle implements Shape {
+
 }
