@@ -9,7 +9,11 @@ public final class ShapeFactory {
         switch (shapeClass) {
             case CIRCLE:
                 return new Circle("The circle", 4.5);
+            case SQUARE:
+                return new Square("The square.", 6.0);
+
         }
+
 
         return null;
     }
