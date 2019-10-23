@@ -8,5 +8,7 @@ public class ShapeFactoryTestSuite {
         // given
         ShapeFactory shapeFactory = new ShapeFactory();
 
+        // when
+        Shape shape = shapeFactory.makeShapoe(ShapeFactory.CIRCLE);
     }
 }
