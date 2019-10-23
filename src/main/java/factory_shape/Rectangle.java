@@ -15,4 +15,21 @@ public final class Rectangle implements Shape {
     public String getName() {
         return name;
     }
+
+    @Override
+    public double getArea() {
+    return width * lenght;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 }
