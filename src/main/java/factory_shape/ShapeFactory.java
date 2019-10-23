@@ -13,7 +13,9 @@ public final class ShapeFactory {
                 return new Square("The square.", 6.0);
             case RECTANGLE:
                 return new Rectangle("The rectangle", 10, 4);
+            default:
+                return  null;
         }
-        return null;
+
     }
 }
