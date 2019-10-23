@@ -1,4 +1,4 @@
 package factory_shape;
 
-public class Rectangle {
+public final class Rectangle implements Shape {
 }
