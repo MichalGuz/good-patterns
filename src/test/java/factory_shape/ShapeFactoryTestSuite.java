@@ -10,7 +10,7 @@ public class ShapeFactoryTestSuite {
         ShapeFactory shapeFactory = new ShapeFactory();
 
         // when
-        Shape shape = shapeFactory.makeShapoe(ShapeFactory.CIRCLE);
+        Shape shape = shapeFactory.makeShape(ShapeFactory.CIRCLE);
 
         // then
         Assert.assertEquals(Math.PI * Math.pow(10.0, 4.0), shape.getArea(), 0);
@@ -23,7 +23,7 @@ public class ShapeFactoryTestSuite {
         ShapeFactory shapeFactory = new ShapeFactory();
 
         // when
-        Shape shape = shapeFactory.makeShapoe(shapeFactory.SQUARE);
+        Shape shape = shapeFactory.makeShape(shapeFactory.SQUARE);
 
         // then
         Assert.assertEquals( 28, shape.getArea(), 0);
@@ -33,6 +33,12 @@ public class ShapeFactoryTestSuite {
     @Test
     public void testFactoryRectangle() {
         // given
+        ShapeFactory shapeFactory = new ShapeFactory();
+
+        // when
+        Shape shape = shapeFactory.makeShape(shapeFactory.RECTANGLE);
+
+
 
 
     }
