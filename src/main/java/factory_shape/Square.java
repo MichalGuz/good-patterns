@@ -11,7 +11,7 @@ public final class Square implements Shape {
 
     @Override
     public String getName() {
-        return name
+        return name;
     }
 
 
