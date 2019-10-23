@@ -13,7 +13,7 @@ public class ShapeFactoryTestSuite {
         Shape shape = shapeFactory.makeShape(ShapeFactory.CIRCLE);
 
         // then
-        Assert.assertEquals(Math.PI * Math.pow(10.0, 4.0), shape.getArea(), 0);
+        Assert.assertEquals(Math.PI * Math.pow(4.5, 2.0), shape.getArea(), 0);
         Assert.assertEquals("The circle", shape.getName());
     }
 
@@ -26,8 +26,8 @@ public class ShapeFactoryTestSuite {
         Shape shape = shapeFactory.makeShape(shapeFactory.SQUARE);
 
         // then
-        Assert.assertEquals( 28, shape.getArea(), 0);
-        Assert.assertEquals("The square", shape.getName());
+        Assert.assertEquals( 36, shape.getArea(), 0);
+        Assert.assertEquals("The square.", shape.getName());
     }
 
     @Test
@@ -41,8 +41,6 @@ public class ShapeFactoryTestSuite {
         // then
         Assert.assertEquals(40, shape.getArea(), 0);
         Assert.assertEquals("The rectangle", shape.getName());
-
-
     }
 
 }

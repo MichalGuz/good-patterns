@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="strategy_social_media.SocialMediaTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-22T20:19:55" hostname="Dell-Komputer" time="0.039">
-  <properties/>
-  <testcase name="testIndividualPreferencesAboutSocialMedia" classname="strategy_social_media.SocialMediaTestSuite" time="0.039"/>
-  <system-out><![CDATA[Neo's first choice is Facebook.
-But Neo also likes to use Twitter.
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
