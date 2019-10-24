@@ -11,6 +11,14 @@ public class ShoppingTask implements Task{
         this.quantity = quantity;
     }
 
+    public String getWhatToBuy() {
+        return whatToBuy;
+    }
+
+    public double getQuantity() {
+        return quantity;
+    }
+
     @Override
     public void executeTask() {
         System.out.println("Execute task: ");
