@@ -23,4 +23,14 @@ public class PaintingTask implements Task {
     public String getWhatToColor() {
         return whatToColor;
     }
+
+    @Override
+    public void executeTask() {
+        System.out.println("Execute task: " + getTaskName() +"\n[ " + "paint the " + getWhatToColor() + " with a color " + getColor() + " ]");
+    }
+
+    @Override
+    public boolean isTaskExecuted() {
+        return true;
+    }
 }
