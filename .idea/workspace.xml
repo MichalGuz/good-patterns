@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory_task/PaintingTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory_task/PaintingTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory_task/StoringTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory_task/StoringTask.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -112,11 +112,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/factory_task/PaintingTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state>
               <folding>
                 <element signature="e#357#358#0" expanded="true" />
                 <element signature="e#388#389#0" expanded="true" />
@@ -124,6 +123,23 @@
                 <element signature="e#448#449#0" expanded="true" />
                 <element signature="e#486#487#0" expanded="true" />
                 <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#803#804#0" expanded="true" />
+                <element signature="e#829#830#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/factory_task/StoringTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,7 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/singleton/SettingsFileManagerTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/sigleton_logger/Logger.java" />
         <option value="$PROJECT_DIR$/src/test/java/sigleton_logger/SingletonLoggerTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/singleton_token/TokenKey.java" />
@@ -208,6 +223,7 @@
         <option value="$PROJECT_DIR$/src/main/java/factory_task/Task.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_task/ShoppingTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_task/PaintingTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory_task/StoringTask.java" />
       </list>
     </option>
   </component>
@@ -477,7 +493,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2079288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -538,19 +553,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/prototype_tasks/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding>
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1007,8 +1009,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/factory_task/PaintingTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state>
           <folding>
             <element signature="e#357#358#0" expanded="true" />
             <element signature="e#388#389#0" expanded="true" />
@@ -1016,6 +1017,21 @@
             <element signature="e#448#449#0" expanded="true" />
             <element signature="e#486#487#0" expanded="true" />
             <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory_task/StoringTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
           </folding>
         </state>
       </provider>

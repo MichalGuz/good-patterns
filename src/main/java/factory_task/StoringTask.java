@@ -18,4 +18,19 @@ public class StoringTask implements Task  {
     public String getWhereToStore() {
         return whereToStore;
     }
+
+    @Override
+    public String getTaskName() {
+        return taskName;
+    }
+
+    @Override
+    public void executeTask() {
+        System.out.println("Execute task: " + getTaskName() + "\n[ Store the " + getWhatToStore() + " in the " + getWhereToStore() + " ]");
+    }
+
+    @Override
+    public boolean isTaskExecuted() {
+        return true;
+    }
 }
