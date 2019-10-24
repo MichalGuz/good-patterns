@@ -34,6 +34,9 @@ public class TaskFactoryTestSuite {
 
     @Test
     public void testOfStoringTask() {
+        // given
+        TaskFactory taskFactory = new TaskFactory();
+
 
     }
 }
