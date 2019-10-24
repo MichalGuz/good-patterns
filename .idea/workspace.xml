@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory_task/ShoppingTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory_task/ShoppingTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory_task/PaintingTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory_task/PaintingTask.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -93,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/factory_task/ShoppingTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="23" column="125" selection-start-line="23" selection-start-column="125" selection-end-line="23" selection-end-column="125" />
+            <state relative-caret-position="350">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#377#378#0" expanded="true" />
                 <element signature="e#409#410#0" expanded="true" />
@@ -108,6 +108,15 @@
                 <element signature="e#581#582#0" expanded="true" />
                 <element signature="e#603#604#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/factory_task/PaintingTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -140,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/singleton/SettingsFileManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/singleton/SettingsFileManagerTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/sigleton_logger/Logger.java" />
         <option value="$PROJECT_DIR$/src/test/java/sigleton_logger/SingletonLoggerTestSuite.java" />
@@ -191,6 +199,7 @@
         <option value="$PROJECT_DIR$/src/test/java/factory_shape/ShapeFactoryTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_task/Task.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_task/ShoppingTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory_task/PaintingTask.java" />
       </list>
     </option>
   </component>
@@ -520,17 +529,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/sigleton_logger/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-          <folding>
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/prototype_tasks/Task.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -983,8 +981,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/factory_task/ShoppingTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="23" column="125" selection-start-line="23" selection-start-column="125" selection-end-line="23" selection-end-column="125" />
+        <state relative-caret-position="350">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#377#378#0" expanded="true" />
             <element signature="e#409#410#0" expanded="true" />
@@ -995,6 +993,13 @@
             <element signature="e#581#582#0" expanded="true" />
             <element signature="e#603#604#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory_task/PaintingTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>
