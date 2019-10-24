@@ -1,6 +1,6 @@
 package factory_task;
 
-public class ShoppingTask {
+public class ShoppingTask implements Task{
     private String taskName;
     private String whatToBuy;
     private double quantity;
@@ -9,5 +9,10 @@ public class ShoppingTask {
         this.taskName = taskName;
         this.whatToBuy = whatToBuy;
         this.quantity = quantity;
+    }
+
+    @Override
+    public void executeTask() {
+        System.out.println("Execute task: ");
     }
 }
