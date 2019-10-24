@@ -1,9 +1,9 @@
 package factory_task;
 
 public class TaskFactory {
-    private static final String SHOPPING_TASK = "SHOPPING";
-    private static final String PAINTING_TASK = "PAITING";
-    private static final String STORING_TASK = "STORING";
+    public static final String SHOPPING_TASK = "SHOPPING";
+    public static final String PAINTING_TASK = "PAITING";
+    public static final String STORING_TASK = "STORING";
 
     public final Task processTask(final String taskClass) {
         switch (taskClass) {
