@@ -1,5 +1,6 @@
 package factory_task;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class TaskFactoryTestSuite {
@@ -10,6 +11,10 @@ public class TaskFactoryTestSuite {
 
         // when
         Task shoppingTask = taskFactory.processTask(TaskFactory.SHOPPING_TASK);
-        }
+
+        // then
+        shoppingTask.executeTask();
+        Assert.assertEquals("Easter task #1", shoppingTask.getTaskName());
+        Assert.assertEquals(true, shoppingTask.isTaskExecuted());
     }
 }
