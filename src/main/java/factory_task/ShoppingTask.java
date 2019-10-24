@@ -4,6 +4,7 @@ public class ShoppingTask implements Task{
     private String taskName;
     private String whatToBuy;
     private double quantity;
+    private boolean executedTask;
 
     public ShoppingTask(String taskName, String whatToBuy, double quantity) {
         this.taskName = taskName;
@@ -21,7 +22,7 @@ public class ShoppingTask implements Task{
 
     @Override
     public void executeTask() {
-        System.out.println("Execute task: " + getTaskName() + ";\n[ buy " + getQuantity() + " pieces of " + getWhatToBuy() + " ]");
+        System.out.println("Execute task: " + getTaskName() + ";\n[ buy " + getQuantity() + " pieces of " + getWhatToBuy() + " ]" );
     }
 
     @Override
