@@ -30,6 +30,10 @@ public class ShoppingTask implements Task{
         return taskName;
     }
 
+    public void setIsTaskExecuted(boolean executedTask) {
+        this.executedTask = executedTask;
+    }
+
     @Override
     public boolean isTaskExecuted() {
         return true;
