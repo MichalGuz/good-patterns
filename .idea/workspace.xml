@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory_task/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory_task/Task.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -85,6 +85,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/factory_task/Task.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/factory_shape/ShapeFactoryTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="282">
@@ -101,8 +110,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -112,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/singleton/Settings.java" />
         <option value="$PROJECT_DIR$/src/main/java/flights_finder/FlightFinderMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/singleton/SettingsFileManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/singleton/SettingsFileManagerTestSuite.java" />
@@ -163,6 +171,7 @@
         <option value="$PROJECT_DIR$/src/main/java/factory_shape/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_shape/ShapeFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/factory_shape/ShapeFactoryTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory_task/Task.java" />
       </list>
     </option>
   </component>
@@ -210,7 +219,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="factory_shape" type="462c0819:PsiDirectoryNode" />
+              <item name="factory_task" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="good-patterns" type="b2602c69:ProjectViewProjectNode" />
@@ -493,13 +502,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/singleton_token/TokenKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/singleton_token/TokenKeyTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -947,13 +949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory_shape/ShapeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/factory_shape/ShapeFactoryTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
@@ -961,6 +956,20 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory_shape/ShapeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory_task/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
