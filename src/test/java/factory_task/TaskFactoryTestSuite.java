@@ -37,6 +37,7 @@ public class TaskFactoryTestSuite {
         // given
         TaskFactory taskFactory = new TaskFactory();
 
-
+        // when
+        Task storingTask = taskFactory.processTask(TaskFactory.STORING_TASK);
     }
 }
