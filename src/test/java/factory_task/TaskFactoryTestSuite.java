@@ -30,6 +30,10 @@ public class TaskFactoryTestSuite {
         paintingTask.executeTask();
         Assert.assertEquals("Easter task #2", paintingTask.getTaskName());
         Assert.assertEquals(true, paintingTask.isTaskExecuted());
+    }
+
+    @Test
+    public void testOfStoringTask() {
 
     }
 }

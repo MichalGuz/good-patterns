@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="factory_task.TaskFactoryTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-24T22:47:40" hostname="Dell-Komputer" time="0.026">
+  <properties/>
+  <testcase name="testOfPaintingTask" classname="factory_task.TaskFactoryTestSuite" time="0.026"/>
+  <system-out><![CDATA[Execute task: Easter task #2
+[ paint the boiled eggs with a color red ]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
