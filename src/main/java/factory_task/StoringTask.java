@@ -10,4 +10,12 @@ public class StoringTask {
         this.whatToStore = whatToStore;
         this.whereToStore = whereToStore;
     }
+
+    public String getWhatToStore() {
+        return whatToStore;
+    }
+
+    public String getWhereToStore() {
+        return whereToStore;
+    }
 }
