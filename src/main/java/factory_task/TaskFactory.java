@@ -2,7 +2,7 @@ package factory_task;
 
 public class TaskFactory {
     public static final String SHOPPING_TASK = "SHOPPING";
-    public static final String PAINTING_TASK = "PAITING";
+    public static final String PAINTING_TASK = "PAINTING";
     public static final String STORING_TASK = "STORING";
 
     public final Task processTask(final String taskClass) {

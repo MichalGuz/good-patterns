@@ -9,7 +9,7 @@ public class TaskFactoryTestSuite {
         TaskFactory taskFactory = new TaskFactory();
 
         // when
-        ShoppingTask shoppingTask = taskFactory.processTask(TaskFactory.SHOPPING_TASK);
+        Task shoppingTask = taskFactory.processTask(TaskFactory.SHOPPING_TASK);
         }
     }
 }
