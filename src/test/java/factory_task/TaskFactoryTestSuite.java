@@ -20,5 +20,8 @@ public class TaskFactoryTestSuite {
 
     @Test
     public void testOfPaintingTask() {
+        // given
+        TaskFactory taskFactory = new TaskFactory();
+
     }
 }
