@@ -23,5 +23,8 @@ public class TaskFactoryTestSuite {
         // given
         TaskFactory taskFactory = new TaskFactory();
 
+        // when
+        Task paintingTask = taskFactory.processTask(TaskFactory.PAINTING_TASK);
+
     }
 }
