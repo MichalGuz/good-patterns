@@ -6,7 +6,11 @@ public class TaskFactory {
     private static final String STORING_TASK = "STORING";
 
     public final Task processTask(final String taskClass) {
+        switch (taskClass) {
+            case SHOPPING_TASK:
+                return new ShoppingTask("Easter task #1", "eggs", 10);
 
+        }
     }
 
 }
