@@ -10,4 +10,16 @@ public class PaintingTask {
         this.color = color;
         this.whatToColor = whatToColor;
     }
+
+    public String getTaskName() {
+        return taskName;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public String getWhatToColor() {
+        return whatToColor;
+    }
 }
