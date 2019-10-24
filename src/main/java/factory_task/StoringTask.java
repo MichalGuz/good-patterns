@@ -1,6 +1,6 @@
 package factory_task;
 
-public class StoringTask {
+public class StoringTask implements Task  {
     private String taskName;
     private String whatToStore;
     private String whereToStore;
