@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/factory_shape/ShapeFactoryTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factory_shape/ShapeFactoryTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -37,14 +37,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/factory_shape/Circle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
+            <state relative-caret-position="306">
               <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
               <folding>
+                <element signature="e#271#272#0" expanded="true" />
                 <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,15 +50,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/factory_shape/Square.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            <state relative-caret-position="340">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
                 <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,11 +63,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/factory_shape/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
+            <state relative-caret-position="340">
               <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
                 <element signature="e#415#416#0" expanded="true" />
                 <element signature="e#448#449#0" expanded="true" />
                 <element signature="e#502#503#0" expanded="true" />
@@ -87,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/factory_shape/ShapeFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -96,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/factory_shape/ShapeFactoryTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+            <state relative-caret-position="282">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -187,6 +178,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,19 +225,10 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="good-patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="good-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="factory_shape" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,32 +252,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.SocialMediaTestSuite.testIndividualPreferencesAboutSocialMedia">
+  <component name="RunManager" selected="Gradle.ShapeFactoryTestSuite">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="BankTestSuite.testGetTransactions" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;prototype_bank.BankTestSuite.testGetTransactions&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="CustomerTestSuite.testDefaultInvestingStrategy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -322,6 +285,26 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;strategy_broker.CustomerTestSuite.testIndividualInvestingStrategy&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ShapeFactoryTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;factory_shape.ShapeFactoryTestSuite&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -394,11 +377,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ShapeFactoryTestSuite" />
         <item itemvalue="Gradle.SocialMediaTestSuite.testIndividualPreferencesAboutSocialMedia" />
         <item itemvalue="Gradle.SocialMediaTestSuite.testDefaultSocialMediaMessagesSending" />
         <item itemvalue="Gradle.CustomerTestSuite.testIndividualInvestingStrategy" />
         <item itemvalue="Gradle.CustomerTestSuite.testDefaultInvestingStrategy" />
-        <item itemvalue="Gradle.BankTestSuite.testGetTransactions" />
       </list>
     </recent_temporary>
   </component>
@@ -416,41 +399,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BankTestSuite_testGetTransactions - 2019.10.21 at 01h 13m 15s.xml">
-      <configuration name="BankTestSuite.testGetTransactions" configurationId="GradleRunConfiguration" />
+    <history-entry file="ShapeFactoryTestSuite - 2019.10.24 at 01h 16m 57s.xml">
+      <configuration name="ShapeFactoryTestSuite" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="BankTestSuite_testGetTransactions - 2019.10.21 at 01h 16m 08s.xml">
-      <configuration name="BankTestSuite.testGetTransactions" configurationId="GradleRunConfiguration" />
+    <history-entry file="ShapeFactoryTestSuite - 2019.10.24 at 01h 19m 01s.xml">
+      <configuration name="ShapeFactoryTestSuite" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="BankTestSuite_testGetTransactions - 2019.10.21 at 01h 18m 05s.xml">
-      <configuration name="BankTestSuite.testGetTransactions" configurationId="GradleRunConfiguration" />
+    <history-entry file="ShapeFactoryTestSuite - 2019.10.24 at 01h 19m 12s.xml">
+      <configuration name="ShapeFactoryTestSuite" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CustomerTestSuite_testDefaultInvestingStrategy - 2019.10.21 at 21h 55m 00s.xml">
-      <configuration name="CustomerTestSuite.testDefaultInvestingStrategy" configurationId="GradleRunConfiguration" />
+    <history-entry file="ShapeFactoryTestSuite - 2019.10.24 at 01h 19m 36s.xml">
+      <configuration name="ShapeFactoryTestSuite" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CustomerTestSuite_testDefaultInvestingStrategy - 2019.10.21 at 22h 28m 03s.xml">
-      <configuration name="CustomerTestSuite.testDefaultInvestingStrategy" configurationId="GradleRunConfiguration" />
+    <history-entry file="ShapeFactoryTestSuite - 2019.10.24 at 01h 21m 06s.xml">
+      <configuration name="ShapeFactoryTestSuite" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CustomerTestSuite_testDefaultInvestingStrategy - 2019.10.21 at 22h 28m 53s.xml">
-      <configuration name="CustomerTestSuite.testDefaultInvestingStrategy" configurationId="GradleRunConfiguration" />
+    <history-entry file="ShapeFactoryTestSuite - 2019.10.24 at 01h 21m 25s.xml">
+      <configuration name="ShapeFactoryTestSuite" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CustomerTestSuite_testDefaultInvestingStrategy - 2019.10.21 at 22h 43m 44s.xml">
-      <configuration name="CustomerTestSuite.testDefaultInvestingStrategy" configurationId="GradleRunConfiguration" />
+    <history-entry file="ShapeFactoryTestSuite - 2019.10.24 at 01h 21m 51s.xml">
+      <configuration name="ShapeFactoryTestSuite" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="CustomerTestSuite_testIndividualInvestingStrategy - 2019.10.21 at 22h 44m 05s.xml">
-      <configuration name="CustomerTestSuite.testIndividualInvestingStrategy" configurationId="GradleRunConfiguration" />
+    <history-entry file="ShapeFactoryTestSuite - 2019.10.24 at 01h 23m 55s.xml">
+      <configuration name="ShapeFactoryTestSuite" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SocialMediaTestSuite_testDefaultSocialMediaMessagesSending - 2019.10.22 at 21h 51m 21s.xml">
-      <configuration name="SocialMediaTestSuite.testDefaultSocialMediaMessagesSending" configurationId="GradleRunConfiguration" />
+    <history-entry file="ShapeFactoryTestSuite - 2019.10.24 at 01h 24m 45s.xml">
+      <configuration name="ShapeFactoryTestSuite" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="SocialMediaTestSuite_testIndividualPreferencesAboutSocialMedia - 2019.10.22 at 22h 19m 56s.xml">
-      <configuration name="SocialMediaTestSuite.testIndividualPreferencesAboutSocialMedia" configurationId="GradleRunConfiguration" />
+    <history-entry file="ShapeFactoryTestSuite - 2019.10.24 at 01h 24m 54s.xml">
+      <configuration name="ShapeFactoryTestSuite" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20469256" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2079288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -930,40 +914,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/factory_shape/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
+        <state relative-caret-position="306">
           <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
           <folding>
+            <element signature="e#271#272#0" expanded="true" />
             <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/factory_shape/Square.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="340">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
             <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/factory_shape/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
+        <state relative-caret-position="340">
           <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
             <element signature="e#415#416#0" expanded="true" />
             <element signature="e#448#449#0" expanded="true" />
             <element signature="e#502#503#0" expanded="true" />
@@ -974,15 +949,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/factory_shape/ShapeFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/factory_shape/ShapeFactoryTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        <state relative-caret-position="282">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
