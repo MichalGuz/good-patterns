@@ -15,4 +15,14 @@ public class ShoppingTask implements Task{
     public void executeTask() {
         System.out.println("Execute task: ");
     }
+
+    @Override
+    public String getTaskName() {
+        return taskName;
+    }
+
+    @Override
+    public boolean isTaskExecuted() {
+        return true;
+    }
 }
