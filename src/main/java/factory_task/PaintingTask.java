@@ -37,6 +37,6 @@ public class PaintingTask implements Task {
 
     @Override
     public boolean isTaskExecuted() {
-        return true;
+        return executedTask;
     }
 }
