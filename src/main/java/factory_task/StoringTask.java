@@ -37,6 +37,6 @@ public class StoringTask implements Task  {
 
     @Override
     public boolean isTaskExecuted() {
-        return true;
+        return executedTask;
     }
 }
