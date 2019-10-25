@@ -27,6 +27,7 @@ public class StoringTask implements Task  {
 
     @Override
     public void executeTask() {
+        setIsTaskExecuted(true);
         System.out.println("Execute task: " + getTaskName() + "\n[ Store the " + getWhatToStore() + " in the " + getWhereToStore() + " ]");
     }
 
