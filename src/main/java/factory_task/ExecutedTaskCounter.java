@@ -11,4 +11,8 @@ public class ExecutedTaskCounter {
             executedTasks.add(1);
         }
     }
+
+    public int getNumberOfExecutedTasks() {
+        return executedTasks.size();
+    }
 }
