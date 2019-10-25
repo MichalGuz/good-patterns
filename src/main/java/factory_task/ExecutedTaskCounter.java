@@ -6,4 +6,9 @@ import java.util.Set;
 public class ExecutedTaskCounter {
     Set<Integer> executedTasks = new HashSet<>();
 
+    public void addExecution(boolean executedTask) {
+        if (executedTask == true) {
+            executedTasks.add(1);
+        }
+    }
 }
