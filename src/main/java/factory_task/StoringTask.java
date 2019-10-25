@@ -30,6 +30,10 @@ public class StoringTask implements Task  {
         System.out.println("Execute task: " + getTaskName() + "\n[ Store the " + getWhatToStore() + " in the " + getWhereToStore() + " ]");
     }
 
+    public void setIsTaskExecuted(boolean executedTask) {
+        this.executedTask = executedTask;
+    }
+
     @Override
     public boolean isTaskExecuted() {
         return true;
