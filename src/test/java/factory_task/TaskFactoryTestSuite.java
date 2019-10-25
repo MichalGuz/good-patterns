@@ -34,6 +34,8 @@ public class TaskFactoryTestSuite {
         // when
         Task paintingTask = taskFactory.processTask(TaskFactory.PAINTING_TASK);
         paintingTask.executeTask();
+        boolean execution = paintingTask.isTaskExecuted();
+
 
         // then
         Assert.assertEquals("Easter task #2", paintingTask.getTaskName());
