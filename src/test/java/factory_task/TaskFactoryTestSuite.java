@@ -27,9 +27,9 @@ public class TaskFactoryTestSuite {
 
         // when
         Task paintingTask = taskFactory.processTask(TaskFactory.PAINTING_TASK);
+        paintingTask.executeTask();
 
         // then
-        paintingTask.executeTask();
         Assert.assertEquals("Easter task #2", paintingTask.getTaskName());
         Assert.assertEquals(true, paintingTask.isTaskExecuted());
       }
@@ -41,9 +41,9 @@ public class TaskFactoryTestSuite {
 
         // when
         Task storingTask = taskFactory.processTask(TaskFactory.STORING_TASK);
+        storingTask.executeTask();
 
         // then
-        storingTask.executeTask();
         Assert.assertEquals("Easter task #3", storingTask.getTaskName());
         Assert.assertEquals(true, storingTask.isTaskExecuted());
     }
