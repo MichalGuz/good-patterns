@@ -10,6 +10,7 @@ public class TaskFactoryTestSuite {
 
         // given
         TaskFactory taskFactory = new TaskFactory();
+        ExecutedTaskCounter e = new ExecutedTaskCounter();
 
         // when
         Task shoppingTask = taskFactory.processTask(TaskFactory.SHOPPING_TASK);
@@ -24,6 +25,7 @@ public class TaskFactoryTestSuite {
     public void testOfPaintingTask() {
         // given
         TaskFactory taskFactory = new TaskFactory();
+        ExecutedTaskCounter e = new ExecutedTaskCounter();
 
         // when
         Task paintingTask = taskFactory.processTask(TaskFactory.PAINTING_TASK);
@@ -38,6 +40,7 @@ public class TaskFactoryTestSuite {
     public void testOfStoringTask() {
         // given
         TaskFactory taskFactory = new TaskFactory();
+        ExecutedTaskCounter e = new ExecutedTaskCounter();
 
         // when
         Task storingTask = taskFactory.processTask(TaskFactory.STORING_TASK);
