@@ -4,6 +4,7 @@ public class StoringTask implements Task  {
     private String taskName;
     private String whatToStore;
     private String whereToStore;
+    private boolean executedTask;
 
     public StoringTask(String taskName, String whatToStore, String whereToStore) {
         this.taskName = taskName;
