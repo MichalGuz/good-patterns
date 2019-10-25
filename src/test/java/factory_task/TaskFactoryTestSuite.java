@@ -15,6 +15,7 @@ public class TaskFactoryTestSuite {
         // when
         Task shoppingTask = taskFactory.processTask(TaskFactory.SHOPPING_TASK);
         shoppingTask.executeTask();
+        boolean execution = shoppingTask.isTaskExecuted();
 
         // then
         Assert.assertEquals("Easter task #1", shoppingTask.getTaskName());
