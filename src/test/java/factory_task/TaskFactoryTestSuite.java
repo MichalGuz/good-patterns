@@ -53,6 +53,8 @@ public class TaskFactoryTestSuite {
         // when
         Task storingTask = taskFactory.processTask(TaskFactory.STORING_TASK);
         storingTask.executeTask();
+        boolean execution = storingTask.isTaskExecuted();
+
 
         // then
         Assert.assertEquals("Easter task #3", storingTask.getTaskName());
