@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="factory_task.TaskFactoryTestSuite" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-10-24T23:05:30" hostname="Dell-Komputer" time="0.106">
+<testsuite name="factory_task.TaskFactoryTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-25T00:03:48" hostname="Dell-Komputer" time="0.018">
   <properties/>
-  <testcase name="testOfStoringTask" classname="factory_task.TaskFactoryTestSuite" time="0.029"/>
-  <testcase name="testOfPaintingTask" classname="factory_task.TaskFactoryTestSuite" time="0.005"/>
-  <testcase name="testOfShoppingTask" classname="factory_task.TaskFactoryTestSuite" time="0.004"/>
-  <system-out><![CDATA[Execute task: Easter task #3
-[ Store the coloured eggs in the fridge ]
-Execute task: Easter task #2
+  <testcase name="testOfPaintingTask" classname="factory_task.TaskFactoryTestSuite" time="0.018"/>
+  <system-out><![CDATA[Execute task: Easter task #2
 [ paint the boiled eggs with a color red ]
-Execute task: Easter task #1;
-[ buy 10.0 pieces of eggs ]
+The numbers of executed task = 1
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

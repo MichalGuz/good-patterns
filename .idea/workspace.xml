@@ -2,6 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory_task/ExecutedTaskCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/factory_task/ShoppingTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/factory_task/ShoppingTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/factory_task/TaskFactoryTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/factory_task/TaskFactoryTestSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/factory_task.TaskFactoryTestSuite.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/factory_task.TaskFactoryTestSuite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/factory_task.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/factory_task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-factory_task.TaskFactoryTestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-factory_task.TaskFactoryTestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/factory_task/TaskFactoryTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factory_task/TaskFactoryTestSuite.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,19 +45,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/factory_shape/Square.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/factory_shape/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,19 +70,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/factory_task/Task.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/factory_task/ShoppingTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="11" />
+            <state relative-caret-position="234">
+              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
                 <element signature="e#377#378#0" expanded="true" />
                 <element signature="e#409#410#0" expanded="true" />
@@ -83,8 +81,24 @@
                 <element signature="e#475#476#0" expanded="true" />
                 <element signature="e#493#494#0" expanded="true" />
                 <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+                <element signature="e#887#888#0" expanded="true" />
+                <element signature="e#939#940#0" expanded="true" />
+                <element signature="e#974#975#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/factory_task/ExecutedTaskCounter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,8 +144,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/factory_task/TaskFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="197">
+              <caret line="12" column="55" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -139,8 +153,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/factory_task/TaskFactoryTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,7 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/singleton_token/TokenKey.java" />
         <option value="$PROJECT_DIR$/src/test/java/singleton_token/TokenKeyTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/prototype_tasks/Prototype.java" />
         <option value="$PROJECT_DIR$/src/main/java/prototype_tasks/TaskList.java" />
@@ -226,6 +239,7 @@
         <option value="$PROJECT_DIR$/src/main/java/factory_task/StoringTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_task/TaskFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_task/ShoppingTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory_task/ExecutedTaskCounter.java" />
         <option value="$PROJECT_DIR$/src/test/java/factory_task/TaskFactoryTestSuite.java" />
       </list>
     </option>
@@ -324,52 +338,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.ShapeFactoryTestSuite">
+  <component name="RunManager" selected="Gradle.TaskFactoryTestSuite.testOfPaintingTask">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="CustomerTestSuite.testDefaultInvestingStrategy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;strategy_broker.CustomerTestSuite.testDefaultInvestingStrategy&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="CustomerTestSuite.testIndividualInvestingStrategy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;strategy_broker.CustomerTestSuite.testIndividualInvestingStrategy&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="ShapeFactoryTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -377,26 +351,6 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;factory_shape.ShapeFactoryTestSuite&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SocialMediaTestSuite.testDefaultSocialMediaMessagesSending" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;strategy_social_media.SocialMediaTestSuite.testDefaultSocialMediaMessagesSending&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -431,6 +385,66 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TaskFactoryTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;factory_task.TaskFactoryTestSuite&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TaskFactoryTestSuite.testOfPaintingTask" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;factory_task.TaskFactoryTestSuite.testOfPaintingTask&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TaskFactoryTestSuite.testOfShoppingTask" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;factory_task.TaskFactoryTestSuite.testOfShoppingTask&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -449,11 +463,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TaskFactoryTestSuite.testOfPaintingTask" />
+        <item itemvalue="Gradle.TaskFactoryTestSuite.testOfShoppingTask" />
+        <item itemvalue="Gradle.TaskFactoryTestSuite" />
         <item itemvalue="Gradle.ShapeFactoryTestSuite" />
         <item itemvalue="Gradle.SocialMediaTestSuite.testIndividualPreferencesAboutSocialMedia" />
-        <item itemvalue="Gradle.SocialMediaTestSuite.testDefaultSocialMediaMessagesSending" />
-        <item itemvalue="Gradle.CustomerTestSuite.testIndividualInvestingStrategy" />
-        <item itemvalue="Gradle.CustomerTestSuite.testDefaultInvestingStrategy" />
       </list>
     </recent_temporary>
   </component>
@@ -471,35 +485,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShapeFactoryTestSuite - 2019.10.24 at 01h 16m 57s.xml">
-      <configuration name="ShapeFactoryTestSuite" configurationId="GradleRunConfiguration" />
+    <history-entry file="TaskFactoryTestSuite_testOfShoppingTask - 2019.10.25 at 01h 28m 51s.xml">
+      <configuration name="TaskFactoryTestSuite.testOfShoppingTask" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ShapeFactoryTestSuite - 2019.10.24 at 01h 19m 01s.xml">
-      <configuration name="ShapeFactoryTestSuite" configurationId="GradleRunConfiguration" />
+    <history-entry file="TaskFactoryTestSuite_testOfShoppingTask - 2019.10.25 at 01h 30m 06s.xml">
+      <configuration name="TaskFactoryTestSuite.testOfShoppingTask" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ShapeFactoryTestSuite - 2019.10.24 at 01h 19m 12s.xml">
-      <configuration name="ShapeFactoryTestSuite" configurationId="GradleRunConfiguration" />
+    <history-entry file="TaskFactoryTestSuite_testOfShoppingTask - 2019.10.25 at 01h 30m 30s.xml">
+      <configuration name="TaskFactoryTestSuite.testOfShoppingTask" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ShapeFactoryTestSuite - 2019.10.24 at 01h 19m 36s.xml">
-      <configuration name="ShapeFactoryTestSuite" configurationId="GradleRunConfiguration" />
+    <history-entry file="TaskFactoryTestSuite_testOfShoppingTask - 2019.10.25 at 01h 31m 00s.xml">
+      <configuration name="TaskFactoryTestSuite.testOfShoppingTask" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ShapeFactoryTestSuite - 2019.10.24 at 01h 21m 06s.xml">
-      <configuration name="ShapeFactoryTestSuite" configurationId="GradleRunConfiguration" />
+    <history-entry file="TaskFactoryTestSuite_testOfShoppingTask - 2019.10.25 at 01h 53m 16s.xml">
+      <configuration name="TaskFactoryTestSuite.testOfShoppingTask" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ShapeFactoryTestSuite - 2019.10.24 at 01h 21m 25s.xml">
-      <configuration name="ShapeFactoryTestSuite" configurationId="GradleRunConfiguration" />
+    <history-entry file="TaskFactoryTestSuite_testOfShoppingTask - 2019.10.25 at 01h 53m 57s.xml">
+      <configuration name="TaskFactoryTestSuite.testOfShoppingTask" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ShapeFactoryTestSuite - 2019.10.24 at 01h 21m 51s.xml">
-      <configuration name="ShapeFactoryTestSuite" configurationId="GradleRunConfiguration" />
+    <history-entry file="TaskFactoryTestSuite_testOfShoppingTask - 2019.10.25 at 02h 00m 39s.xml">
+      <configuration name="TaskFactoryTestSuite.testOfShoppingTask" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ShapeFactoryTestSuite - 2019.10.24 at 01h 23m 55s.xml">
-      <configuration name="ShapeFactoryTestSuite" configurationId="GradleRunConfiguration" />
+    <history-entry file="TaskFactoryTestSuite_testOfShoppingTask - 2019.10.25 at 02h 01m 56s.xml">
+      <configuration name="TaskFactoryTestSuite.testOfShoppingTask" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ShapeFactoryTestSuite - 2019.10.24 at 01h 24m 45s.xml">
-      <configuration name="ShapeFactoryTestSuite" configurationId="GradleRunConfiguration" />
+    <history-entry file="TaskFactoryTestSuite_testOfPaintingTask - 2019.10.25 at 02h 02m 29s.xml">
+      <configuration name="TaskFactoryTestSuite.testOfPaintingTask" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ShapeFactoryTestSuite - 2019.10.24 at 01h 24m 54s.xml">
-      <configuration name="ShapeFactoryTestSuite" configurationId="GradleRunConfiguration" />
+    <history-entry file="TaskFactoryTestSuite_testOfPaintingTask - 2019.10.25 at 02h 03m 48s.xml">
+      <configuration name="TaskFactoryTestSuite.testOfPaintingTask" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -515,12 +529,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919093" weight="0.32919255" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919093" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5008091" side_tool="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
@@ -565,21 +579,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/prototype_library/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-          <folding>
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/prototype_tasks/Board.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1021,10 +1020,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory_task/TaskFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/factory_task/ShoppingTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="11" />
+        <state relative-caret-position="234">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="e#377#378#0" expanded="true" />
             <element signature="e#409#410#0" expanded="true" />
@@ -1032,23 +1038,30 @@
             <element signature="e#475#476#0" expanded="true" />
             <element signature="e#493#494#0" expanded="true" />
             <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory_task/TaskFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory_task/ExecutedTaskCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/factory_task/TaskFactoryTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
