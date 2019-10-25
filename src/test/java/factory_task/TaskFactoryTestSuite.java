@@ -22,6 +22,7 @@ public class TaskFactoryTestSuite {
         Assert.assertEquals("Easter task #1", shoppingTask.getTaskName());
         Assert.assertEquals(true, shoppingTask.isTaskExecuted());
         Assert.assertEquals(1, e.getNumberOfExecutedTasks());
+        System.out.println("The numbers of executed shopping task = " + e.getNumberOfExecutedTasks());
     }
 
     @Test
