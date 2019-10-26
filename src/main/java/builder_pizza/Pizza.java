@@ -15,4 +15,16 @@ public final class Pizza {
             this.ingredients.add(ingredients[n]);
         }
     }
+
+    public String getBottom() {
+        return bottom;
+    }
+
+    public String getSauce() {
+        return sauce;
+    }
+
+    public List<String> getIngredients() {
+        return ingredients;
+    }
 }
