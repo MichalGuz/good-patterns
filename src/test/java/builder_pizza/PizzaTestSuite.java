@@ -1,5 +1,6 @@
 package builder_pizza;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class PizzaTestSuite {
@@ -11,5 +12,8 @@ public class PizzaTestSuite {
 
         // when
         int howManyIngredients = pizza.getIngredients().size();
+
+        // then
+        Assert.assertEquals(4, howManyIngredients);
     }
 }
