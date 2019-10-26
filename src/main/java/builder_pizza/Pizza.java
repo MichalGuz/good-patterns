@@ -27,4 +27,13 @@ public final class Pizza {
     public List<String> getIngredients() {
         return ingredients;
     }
+
+    @Override
+    public String toString() {
+        return "Pizza{" +
+                "bottom='" + bottom + '\'' +
+                ", sauce='" + sauce + '\'' +
+                ", ingredients=" + ingredients +
+                '}';
+    }
 }
