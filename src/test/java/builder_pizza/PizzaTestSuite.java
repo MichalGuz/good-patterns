@@ -8,5 +8,8 @@ public class PizzaTestSuite {
         // given
         Pizza pizza = new Pizza("Thin", "Mild", "Mushrooms", "Pepper", "Onion", "Garlic");
         System.out.println(pizza);
+
+        // when
+        int howManyIngredients = pizza.getIngredients().size();
     }
 }
