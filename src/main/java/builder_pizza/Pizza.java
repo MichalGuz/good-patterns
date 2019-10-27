@@ -31,10 +31,9 @@ public final class Pizza {
         public Pizza build() {
             return new Pizza(bottom, sauce, ingredients);
         }
-
     }
 
-    public Pizza(String bottom, String sauce, String... ingredients) {
+    public Pizza(final String bottom, final String sauce, String... ingredients) {
         this.bottom = bottom;
         this.sauce = sauce;
         for (int n = 0; n < ingredients.length; n++) {
