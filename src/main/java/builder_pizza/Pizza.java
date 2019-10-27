@@ -8,6 +8,10 @@ public final class Pizza {
     private final String sauce;
     private final List<String> ingredients = new ArrayList<>();
 
+    public static class PizzaBuilder {
+
+    }
+
     public Pizza(String bottom, String sauce, String... ingredients) {
         this.bottom = bottom;
         this.sauce = sauce;
