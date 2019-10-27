@@ -13,6 +13,10 @@ public final class Pizza {
         private static String sauce;
         private List<String> ingredients = new ArrayList<>();
 
+        public PizzaBuilder setBottom(String bottom) {
+            this.bottom = bottom;
+        }
+
     }
 
     public Pizza(String bottom, String sauce, String... ingredients) {
