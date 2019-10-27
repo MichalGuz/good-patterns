@@ -29,7 +29,7 @@ public final class Pizza {
         }
 
         public Pizza build() {
-
+            return new Pizza(bottom, sauce, ingredients);
         }
 
     }
