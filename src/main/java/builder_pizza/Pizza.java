@@ -9,6 +9,9 @@ public final class Pizza {
     private final List<String> ingredients = new ArrayList<>();
 
     public static class PizzaBuilder {
+        private static String bottom;
+        private static String sauce;
+        private List<String> ingredients = new ArrayList<>();
 
     }
 
