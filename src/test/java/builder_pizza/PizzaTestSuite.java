@@ -20,7 +20,9 @@ public class PizzaTestSuite {
                 .setBottom("Thin")
                 .setSauce("Mild")
                 .build();
+
         System.out.println(pizza);
+        System.out.println(pizzaOnlyWithSauce);
 
         // when
         int howManyIngredients = pizza.getIngredients().size();
