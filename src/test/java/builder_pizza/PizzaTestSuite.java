@@ -15,6 +15,11 @@ public class PizzaTestSuite {
                 .setIngredient("Pepper")
                 .setIngredient("Mushrooms")
                 .build();
+
+        Pizza pizzaOnlyWithSauce = new Pizza.PizzaBuilder()
+                .setBottom("Thin")
+                .setSauce("Mild")
+                .build();
         System.out.println(pizza);
 
         // when

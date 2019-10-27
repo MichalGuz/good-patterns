@@ -1,1 +1,1 @@
-TPizza{bottom='Thin', sauce='Mild', ingredients=[Mushrooms, Pepper, Onion, Garlic]}
+TPizza{bottom='Thin', sauce='Mild', ingredients=[Garlic, Onion, Pepper, Mushrooms]}

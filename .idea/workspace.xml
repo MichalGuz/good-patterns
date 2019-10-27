@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="" />
+    <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/builder_pizza/PizzaTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/builder_pizza/PizzaTestSuite.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -94,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/builder_pizza/Pizza.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            <state relative-caret-position="17">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#825#826#0" expanded="true" />
@@ -114,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/builder_pizza/PizzaTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+            <state relative-caret-position="306">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -205,8 +207,8 @@
         <option value="$PROJECT_DIR$/src/main/java/factory_task/StoringTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_task/ExecutedTaskCounter.java" />
         <option value="$PROJECT_DIR$/src/test/java/factory_task/TaskFactoryTestSuite.java" />
-        <option value="$PROJECT_DIR$/src/test/java/builder_pizza/PizzaTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/builder_pizza/Pizza.java" />
+        <option value="$PROJECT_DIR$/src/test/java/builder_pizza/PizzaTestSuite.java" />
       </list>
     </option>
   </component>
@@ -312,19 +314,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.PizzaTestSuite.testPizzaNew">
+  <component name="RunManager" selected="Gradle.PizzaTestSuite">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaTestSuite.testPizzaNew" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PizzaTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;builder_pizza.PizzaTestSuite.testPizzaNew&quot;" />
+        <option name="scriptParameters" value="--tests &quot;builder_pizza.PizzaTestSuite&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -339,12 +341,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ShapeFactoryTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PizzaTestSuite.testPizzaNew" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;factory_shape.ShapeFactoryTestSuite&quot;" />
+        <option name="scriptParameters" value="--tests &quot;builder_pizza.PizzaTestSuite.testPizzaNew&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -437,11 +439,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PizzaTestSuite" />
         <item itemvalue="Gradle.PizzaTestSuite.testPizzaNew" />
         <item itemvalue="Gradle.TaskFactoryTestSuite" />
         <item itemvalue="Gradle.TaskFactoryTestSuite.testOfPaintingTask" />
         <item itemvalue="Gradle.TaskFactoryTestSuite.testOfShoppingTask" />
-        <item itemvalue="Gradle.ShapeFactoryTestSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -503,12 +505,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919093" weight="0.32919255" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919093" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5008091" side_tool="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
@@ -986,20 +988,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/builder_pizza/PizzaTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/builder_pizza/Pizza.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="17">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#825#826#0" expanded="true" />
@@ -1010,6 +1002,16 @@
             <element signature="e#603#604#0" expanded="true" />
             <element signature="e#647#648#0" expanded="true" />
             <element signature="e#681#682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/builder_pizza/PizzaTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
