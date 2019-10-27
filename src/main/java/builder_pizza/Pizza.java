@@ -36,9 +36,7 @@ public final class Pizza {
     private Pizza(final String bottom, final String sauce, List<String> ingredients) {
         this.bottom = bottom;
         this.sauce = sauce;
-        for (int n = 0; n < ingredients.length; n++) {
-            this.ingredients.add(ingredients[n]);
-        }
+        this.ingredients = new ArrayList<>(ingredients);
     }
 
     public String getBottom() {
