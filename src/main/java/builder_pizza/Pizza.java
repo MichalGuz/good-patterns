@@ -18,6 +18,10 @@ public final class Pizza {
             return this;
         }
 
+        public PizzaBuilder setSauce(String sauce) {
+            this.sauce = sauce;
+        }
+
     }
 
     public Pizza(String bottom, String sauce, String... ingredients) {
