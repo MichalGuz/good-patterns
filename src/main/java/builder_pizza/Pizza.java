@@ -15,6 +15,7 @@ public final class Pizza {
 
         public PizzaBuilder setBottom(String bottom) {
             this.bottom = bottom;
+            return this;
         }
 
     }
