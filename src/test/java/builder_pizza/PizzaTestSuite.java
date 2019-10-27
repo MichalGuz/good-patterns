@@ -30,5 +30,6 @@ public class PizzaTestSuite {
 
         // then
         Assert.assertEquals(4, howManyIngredients);
+        Assert.assertTrue("true", withoutIngredients == 0);
     }
 }
