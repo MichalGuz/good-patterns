@@ -25,6 +25,7 @@ public final class Pizza {
 
         public PizzaBuilder setIngredient(String ingredient) {
             ingredients.add(ingredient);
+            return this;
         }
 
     }
