@@ -7,7 +7,14 @@ public class PizzaTestSuite {
     @Test
     public void testPizzaNew() {
         // given
-        Pizza pizza = new Pizza("Thin", "Mild", "Mushrooms", "Pepper", "Onion", "Garlic");
+        Pizza pizza = new Pizza.PizzaBuilder()
+                .setIngredient("Garlic")
+                .setBottom("Thin")
+                .setIngredient("Onion")
+                .setSauce("Mild")
+                .setIngredient("Pepper")
+                .setIngredient("Mushrooms")
+                .build();
         System.out.println(pizza);
 
         // when
