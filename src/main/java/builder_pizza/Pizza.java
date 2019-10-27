@@ -20,6 +20,7 @@ public final class Pizza {
 
         public PizzaBuilder setSauce(String sauce) {
             this.sauce = sauce;
+            return this;
         }
 
     }
