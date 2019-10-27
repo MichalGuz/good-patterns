@@ -28,6 +28,10 @@ public final class Pizza {
             return this;
         }
 
+        public Pizza build() {
+
+        }
+
     }
 
     public Pizza(String bottom, String sauce, String... ingredients) {
