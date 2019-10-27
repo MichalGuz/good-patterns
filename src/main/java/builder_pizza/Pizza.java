@@ -33,7 +33,7 @@ public final class Pizza {
         }
     }
 
-    public Pizza(final String bottom, final String sauce, String... ingredients) {
+    private Pizza(final String bottom, final String sauce, String... ingredients) {
         this.bottom = bottom;
         this.sauce = sauce;
         for (int n = 0; n < ingredients.length; n++) {
