@@ -26,6 +26,7 @@ public class PizzaTestSuite {
 
         // when
         int howManyIngredients = pizza.getIngredients().size();
+        int withoutIngredients = pizzaOnlyWithSauce.getIngredients().size();
 
         // then
         Assert.assertEquals(4, howManyIngredients);
