@@ -23,6 +23,10 @@ public final class Pizza {
             return this;
         }
 
+        public PizzaBuilder setIngredient(String ingredient) {
+            ingredients.add(ingredient);
+        }
+
     }
 
     public Pizza(String bottom, String sauce, String... ingredients) {
