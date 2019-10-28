@@ -25,7 +25,16 @@ public class Board {
 
     public String toString() {
         String result = "";
-        for (int n = MIN_INDEX; n <= MAX_INDEX; n++){
-        result += " ";
-    }
-}
+        for (int n = MIN_INDEX; n <= MAX_INDEX; n++) {
+            result += " ";
+            for (int r = MIN_INDEX; r <=  MAX_INDEX; r++) {
+                if (board[n][r] == null) {
+                    result += " ";
+                } else {
+                    result += (board[n][r]).getColor().equals(Figure.BLACK) ? "b" : "w";
+                    result += (board[n][r]) instanceof Pawn ? "P" : "Q";
+                }
+                result += "|";
+            }
+            result += "\n";
+]
