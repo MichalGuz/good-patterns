@@ -6,6 +6,8 @@ public class Figure {
     private final String color;
 
     public Figure(String color) {
-        this.color = color;
+        if (color.equals(WHITE) || color.equals(BLACK)) {
+            this.color = color;
+        }
     }
 }
