@@ -9,6 +9,8 @@ public final class FugureFactory {
             return new Pawn(color);
         } else if (figureTyoe.equals(QUEEN)) {
             return new Queen(color);
+        } else {
+            throw new IllegalStateException("Type of figure should be pawn or queen.");
         }
 
     }
