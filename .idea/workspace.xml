@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/builder_pizza/PizzaTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/builder_pizza/PizzaTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -99,18 +99,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/builder_pizza/Pizza.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            <state relative-caret-position="153">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#825#826#0" expanded="true" />
-                <element signature="e#866#867#0" expanded="true" />
-                <element signature="e#514#515#0" expanded="true" />
-                <element signature="e#543#544#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
-                <element signature="e#647#648#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,8 +111,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/builder_pizza/PizzaTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="248">
+              <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -252,14 +244,6 @@
               <item name="good-patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="good-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="builder_pizza" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="good-patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="good-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -289,8 +273,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -314,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.PizzaTestSuite">
+  <component name="RunManager" selected="Gradle.PizzaTestSuite.testPizzaNew">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -439,8 +423,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PizzaTestSuite" />
         <item itemvalue="Gradle.PizzaTestSuite.testPizzaNew" />
+        <item itemvalue="Gradle.PizzaTestSuite" />
         <item itemvalue="Gradle.TaskFactoryTestSuite" />
         <item itemvalue="Gradle.TaskFactoryTestSuite.testOfPaintingTask" />
         <item itemvalue="Gradle.TaskFactoryTestSuite.testOfShoppingTask" />
@@ -461,15 +445,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TaskFactoryTestSuite_testOfShoppingTask - 2019.10.25 at 01h 31m 00s.xml">
-      <configuration name="TaskFactoryTestSuite.testOfShoppingTask" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TaskFactoryTestSuite_testOfShoppingTask - 2019.10.25 at 01h 53m 16s.xml">
-      <configuration name="TaskFactoryTestSuite.testOfShoppingTask" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TaskFactoryTestSuite_testOfShoppingTask - 2019.10.25 at 01h 53m 57s.xml">
-      <configuration name="TaskFactoryTestSuite.testOfShoppingTask" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="TaskFactoryTestSuite_testOfShoppingTask - 2019.10.25 at 02h 00m 39s.xml">
       <configuration name="TaskFactoryTestSuite.testOfShoppingTask" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -491,12 +466,20 @@
     <history-entry file="PizzaTestSuite_testPizzaNew - 2019.10.26 at 16h 08m 57s.xml">
       <configuration name="PizzaTestSuite.testPizzaNew" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="PizzaTestSuite - 2019.10.27 at 23h 37m 10s.xml">
+      <configuration name="PizzaTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="PizzaTestSuite_testPizzaNew - 2019.10.27 at 23h 50m 10s.xml">
+      <configuration name="PizzaTestSuite.testPizzaNew" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="PizzaTestSuite_testPizzaNew - 2019.10.27 at 23h 50m 48s.xml">
+      <configuration name="PizzaTestSuite.testPizzaNew" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22087379" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22734627" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -505,12 +488,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919093" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919093" weight="0.32919255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" weight="0.32919255" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5008091" side_tool="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
@@ -976,6 +959,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/builder_pizza/Pizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/factory_task/ExecutedTaskCounter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -988,28 +981,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/builder_pizza/Pizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/builder_pizza/PizzaTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        <state relative-caret-position="248">
+          <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
