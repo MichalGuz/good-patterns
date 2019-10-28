@@ -1,5 +1,6 @@
 package builder_checkers;
 
+import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
 import java.util.Arrays;
 
 public class Board {
@@ -24,5 +25,7 @@ public class Board {
 
     public String toString() {
         String result = "";
+        for (int n = MIN_INDEX; n <= MAX_INDEX; n++){
+        result += " ";
     }
 }
