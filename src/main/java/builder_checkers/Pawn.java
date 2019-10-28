@@ -1,4 +1,4 @@
 package builder_checkers;
 
-public class Pawn {
+public class Pawn extends Figure {
 }
