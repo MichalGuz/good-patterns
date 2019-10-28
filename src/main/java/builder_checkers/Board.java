@@ -27,7 +27,7 @@ public class Board {
         String result = "";
         for (int n = MIN_INDEX; n <= MAX_INDEX; n++) {
             result += " ";
-            for (int r = MIN_INDEX; r <=  MAX_INDEX; r++) {
+            for (int r = MIN_INDEX; r <= MAX_INDEX; r++) {
                 if (board[n][r] == null) {
                     result += " ";
                 } else {
@@ -37,4 +37,7 @@ public class Board {
                 result += "|";
             }
             result += "\n";
-]
+        }
+        return result;
+    }
+}
