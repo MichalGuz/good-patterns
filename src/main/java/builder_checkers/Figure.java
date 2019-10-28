@@ -12,4 +12,8 @@ public class Figure {
             throw new IllegalStateException("Figures of checkers should be BLACK or WHITE");
         }
     }
+
+    public String getColor() {
+        return color;
+    }
 }
