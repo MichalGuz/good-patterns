@@ -1,5 +1,7 @@
 package builder_checkers;
 
+import java.util.Arrays;
+
 public class Board {
     public final static int MIN_INDEX = 0;
     public final static int MAX_INDEX = 9;
@@ -18,5 +20,9 @@ public class Board {
 
     public void setFigure(Figure figure, int x, int y) {
         board[x][y] = figure;
+    }
+
+    public String toString() {
+        String result = "";
     }
 }
