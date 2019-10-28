@@ -15,4 +15,8 @@ public class Board {
     public Figure getFigure(int x, int y) {
         return board[x][y];
     }
+
+    public void setFigure(Figure figure, int x, int y) {
+        board[x][y] = figure;
+    }
 }
