@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/builder_checkers/Checkers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builder_checkers/Checkers.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -109,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/builder_checkers/Checkers.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="333">
-              <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+              <caret line="47" column="47" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="47" />
               <folding>
                 <element signature="e#361#362#0" expanded="true" />
                 <element signature="e#389#390#0" expanded="true" />
@@ -474,7 +475,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23543689" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -969,7 +969,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/builder_checkers/Checkers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
-          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+          <caret line="47" column="47" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="47" />
           <folding>
             <element signature="e#361#362#0" expanded="true" />
             <element signature="e#389#390#0" expanded="true" />

@@ -47,7 +47,7 @@ public class Checkers {
             } else {
                 throw new IllegalStateException("Position " + x + ", " + y + " is already occupied.");
             }
-
+            return this;
         }
     }
 }
