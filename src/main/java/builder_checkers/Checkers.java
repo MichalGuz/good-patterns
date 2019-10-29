@@ -43,7 +43,7 @@ public class Checkers {
                 throw new IllegalStateException("X and Y must be in range between " + Board.MIN_INDEX + " and " + Board.MAX_INDEX);
             }
             if (board.getFigure(x, y) == null) {
-                board.setFigure(FugureFactory.makeFigure(figureType, figureColor), x, y);
+                board.setFigure(FigureFactory.makeFigure(figureType, figureColor), x, y);
             }
 
         }
