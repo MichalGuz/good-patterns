@@ -32,5 +32,10 @@ public class Checkers {
             this.playerOne = playerOne;
             return this;
         }
+
+        public CheckersBuilder PlayerTwo(String playerTwo) {
+            this.playerTwo = playerOne;
+            return this;
+        }
     }
 }
