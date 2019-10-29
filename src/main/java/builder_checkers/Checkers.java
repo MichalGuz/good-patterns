@@ -51,6 +51,9 @@ public class Checkers {
         }
 
         public Checkers build(){
+            if (playerOne.length() == 0) {
+                throw new IllegalStateException("There is no playerOne specified!");
+            }
 
         }
     }
