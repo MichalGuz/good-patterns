@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/builder_checkers/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builder_checkers/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builder_checkers/Checkers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builder_checkers/Checkers.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -97,11 +96,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/builder_checkers/Board.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
               <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/builder_checkers/Checkers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -122,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/prototype_library/Book.java" />
         <option value="$PROJECT_DIR$/src/test/java/prototype_library/RandomDate.java" />
         <option value="$PROJECT_DIR$/src/test/java/prototype_library/LibraryTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/prototype_bank/OperationsList.java" />
@@ -173,6 +180,7 @@
         <option value="$PROJECT_DIR$/src/main/java/builder_checkers/Queen.java" />
         <option value="$PROJECT_DIR$/src/main/java/builder_checkers/FugureFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/builder_checkers/Board.java" />
+        <option value="$PROJECT_DIR$/src/main/java/builder_checkers/Checkers.java" />
       </list>
     </option>
   </component>
@@ -519,18 +527,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/prototype_bank/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/prototype_bank/Account.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -959,6 +955,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/builder_checkers/Checkers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
