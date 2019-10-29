@@ -39,6 +39,9 @@ public class Checkers {
         }
 
         public CheckersBuilder Figure(String figureType, String figureColor, int x, int y) {
+            if (x > Board.MAX_INDEX || x < Board.MIN_INDEX || y > Board.MAX_INDEX || y < Board.MIN_INDEX) {
+                throw new IllegalStateException("X and Y must be in range between " + Board.MIN_INDEX + " and " + Board.MAX_INDEX);
+            }
 
         }
     }
