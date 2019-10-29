@@ -22,4 +22,6 @@ public class Checkers {
     public String getPlayerTwo() {
         return playerTwo;
     }
+
+    public static class CheckersBuilder {}
 }
