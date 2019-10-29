@@ -37,5 +37,9 @@ public class Checkers {
             this.playerTwo = playerOne;
             return this;
         }
+
+        public CheckersBuilder Figure(String figureType, String figureColor, int x, int y) {
+
+        }
     }
 }
