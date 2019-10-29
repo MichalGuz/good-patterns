@@ -23,5 +23,9 @@ public class Checkers {
         return playerTwo;
     }
 
-    public static class CheckersBuilder {}
+    public static class CheckersBuilder {
+        private static Board board;
+        private static String playerOne;
+        private static String playerTwo;
+    }
 }
