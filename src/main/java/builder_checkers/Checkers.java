@@ -10,4 +10,16 @@ public class Checkers {
         this.playerOne = playerOne;
         this.playerTwo = playerTwo;
     }
+
+    public Board getBoard() {
+        return board;
+    }
+
+    public String getPlayerOne() {
+        return playerOne;
+    }
+
+    public String getPlayerTwo() {
+        return playerTwo;
+    }
 }
