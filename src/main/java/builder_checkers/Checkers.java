@@ -49,5 +49,9 @@ public class Checkers {
             }
             return this;
         }
+
+        public Checkers build(){
+
+        }
     }
 }
