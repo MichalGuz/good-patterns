@@ -62,8 +62,19 @@ public class Checkers {
             for(int x = Board.MIN_INDEX; x <= Board.MAX_INDEX; x++) {
                 for (int y = Board.MIN_INDEX; y <= Board.MAX_INDEX; y++) {
                     Figure figure = board.getFigure(x, y);
+                    if (figure != null) {
+                        if (figure.getColor().equals(Figure.BLACK)) {
+                            black = true;
+                        } else {
+                            white = true;
+                        }
+                    }
                 }
+
+
             }
+
+            if()
         }
 
 
