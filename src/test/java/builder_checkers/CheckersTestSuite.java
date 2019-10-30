@@ -14,6 +14,6 @@ public class CheckersTestSuite {
                 .Figure(FigureFactory.QUEEN, Figure.WHITE, 0, 3)
                 .Figure(FigureFactory.QUEEN, Figure.BLACK, 9, 5)
                 .build();
-
+        System.out.println(checkers.getBoard());
     }
 }
