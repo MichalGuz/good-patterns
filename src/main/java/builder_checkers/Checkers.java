@@ -50,7 +50,7 @@ public class Checkers {
             return this;
         }
 
-        public Checkers build(){
+        public Checkers build() {
             if (playerOne.length() == 0) {
                 throw new IllegalStateException("There is no playerOne specified!");
             }
@@ -59,7 +59,7 @@ public class Checkers {
             }
 
             boolean white = false, black = false;
-            for(int x = Board.MIN_INDEX; x <= Board.MAX_INDEX; x++) {
+            for (int x = Board.MIN_INDEX; x <= Board.MAX_INDEX; x++) {
                 for (int y = Board.MIN_INDEX; y <= Board.MAX_INDEX; y++) {
                     Figure figure = board.getFigure(x, y);
                     if (figure != null) {
@@ -74,5 +74,7 @@ public class Checkers {
                     throw new IllegalStateException();
                 }
             }
+            return new Checkers(board, playerOne, playerTwo);
+        }
     }
 }
