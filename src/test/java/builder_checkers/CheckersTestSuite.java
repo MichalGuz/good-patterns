@@ -7,7 +7,9 @@ public class CheckersTestSuite {
     public void testCheckersBuilder() {
         // given
         Checkers checkers = new Checkers.CheckersBuilder()
-                .
+                .PlayerOne("Kasparov")
+                .PlayerTwo("Anand")
+                .Figure(FigureFactory.PAWN, Figure.WHITE, 0, 3)
 
     }
 }
