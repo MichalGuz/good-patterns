@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/builder_checkers/Checkers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builder_checkers/Checkers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/builder_checkers/CheckersTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/builder_checkers/CheckersTestSuite.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -105,7 +105,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/builder_checkers/Checkers.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -118,6 +118,15 @@
                 <element signature="e#493#494#0" expanded="true" />
                 <element signature="e#525#526#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/builder_checkers/CheckersTestSuite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -138,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/prototype_library/RandomDate.java" />
         <option value="$PROJECT_DIR$/src/test/java/prototype_library/LibraryTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/prototype_bank/OperationsList.java" />
         <option value="$PROJECT_DIR$/src/main/java/prototype_bank/Transaction.java" />
@@ -189,6 +197,7 @@
         <option value="$PROJECT_DIR$/src/main/java/builder_checkers/FugureFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/builder_checkers/Board.java" />
         <option value="$PROJECT_DIR$/src/main/java/builder_checkers/Checkers.java" />
+        <option value="$PROJECT_DIR$/src/test/java/builder_checkers/CheckersTestSuite.java" />
       </list>
     </option>
   </component>
@@ -248,6 +257,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="good-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="good-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="builder_checkers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="good-patterns" type="b2602c69:ProjectViewProjectNode" />
@@ -474,6 +491,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2394822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -534,16 +552,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/prototype_bank/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/prototype_bank/Transaction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -977,6 +985,13 @@
             <element signature="e#493#494#0" expanded="true" />
             <element signature="e#525#526#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/builder_checkers/CheckersTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
