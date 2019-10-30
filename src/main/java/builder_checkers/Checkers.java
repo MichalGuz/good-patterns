@@ -70,12 +70,10 @@ public class Checkers {
                         }
                     }
                 }
-
-
+                if (!(black && white)) {
+                    throw new IllegalStateException();
+                }
             }
-
-            if()
-        }
 
 
     }
