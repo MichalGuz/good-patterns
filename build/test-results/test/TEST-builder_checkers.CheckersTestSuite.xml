@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="builder_checkers.CheckersTestSuite" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-10-30T23:06:06" hostname="Dell-Komputer" time="0.044">
+<testsuite name="builder_checkers.CheckersTestSuite" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-10-30T23:11:29" hostname="Dell-Komputer" time="0.037">
   <properties/>
-  <testcase name="testCheckersBuilder" classname="builder_checkers.CheckersTestSuite" time="0.044">
+  <testcase name="testCheckersBuilder" classname="builder_checkers.CheckersTestSuite" time="0.037">
     <failure message="java.lang.IllegalStateException: There are no figures of both colors on the board!" type="java.lang.IllegalStateException">java.lang.IllegalStateException: There are no figures of both colors on the board!
 	at builder_checkers.Checkers$CheckersBuilder.build(Checkers.java:74)
 	at builder_checkers.CheckersTestSuite.testCheckersBuilder(CheckersTestSuite.java:17)
