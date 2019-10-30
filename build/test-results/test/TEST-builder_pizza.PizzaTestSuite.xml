@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="builder_pizza.PizzaTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-27T22:50:48" hostname="Dell-Komputer" time="0.023">
-  <properties/>
-  <testcase name="testPizzaNew" classname="builder_pizza.PizzaTestSuite" time="0.023"/>
-  <system-out><![CDATA[Pizza{bottom='Thin', sauce='Mild', ingredients=[Garlic, Onion, Pepper, Mushrooms]}
-Pizza{bottom='Thin', sauce='Mild', ingredients=[]}
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

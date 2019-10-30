@@ -34,7 +34,7 @@ public class Checkers {
         }
 
         public CheckersBuilder PlayerTwo(String playerTwo) {
-            this.playerTwo = playerOne;
+            this.playerTwo = playerTwo;
             return this;
         }
 
@@ -71,7 +71,7 @@ public class Checkers {
                     }
                 }
                 if (!(black && white)) {
-                    throw new IllegalStateException();
+                    throw new IllegalStateException("There are no figures of both colors on the board!");
                 }
             }
             return new Checkers(board, playerOne, playerTwo);
