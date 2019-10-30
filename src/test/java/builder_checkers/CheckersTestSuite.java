@@ -10,6 +10,9 @@ public class CheckersTestSuite {
                 .PlayerOne("Kasparov")
                 .PlayerTwo("Anand")
                 .Figure(FigureFactory.PAWN, Figure.WHITE, 0, 3)
+                .Figure(FigureFactory.PAWN, Figure.WHITE, 0, 7)
+                .Figure(FigureFactory.PAWN, Figure.BLACK, 9, 3)
+                .Figure(FigureFactory.PAWN, Figure.BLACK, 9, 7)
 
     }
 }
