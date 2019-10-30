@@ -1,5 +1,6 @@
 package builder_checkers;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class CheckersTestSuite {
@@ -21,5 +22,11 @@ public class CheckersTestSuite {
         Figure figureTwo = checkers.getBoard().getFigure(8,3);
         Figure figureThree = checkers.getBoard().getFigure(0,3);
         Figure figureFour = checkers.getBoard().getFigure(9,5);
+
+        // then
+        Assert.assertEquals(Figure.WHITE, figureOne.getColor());
+        Assert.assertEquals(Pawn.class, figureTwo.getClass());
+        Assert.assertEquals(Queen.class, figureThree.getClass());
+        Assert.assertEquals(Figure.BLACK, figureFour.getColor());
     }
 }
