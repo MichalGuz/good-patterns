@@ -15,5 +15,11 @@ public class CheckersTestSuite {
                 .Figure(FigureFactory.QUEEN, Figure.BLACK, 9, 5)
                 .build();
         System.out.println(checkers.getBoard());
+
+        // when
+        Figure figureOne = checkers.getBoard().getFigure(1,3);
+        Figure figureTwo = checkers.getBoard().getFigure(8,3);
+        Figure figureThree = checkers.getBoard().getFigure(0,3);
+        Figure figureFour = checkers.getBoard().getFigure(9,5);
     }
 }
