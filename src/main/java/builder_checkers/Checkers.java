@@ -59,6 +59,11 @@ public class Checkers {
             }
 
             boolean white = false, black = false;
+            for(int x = Board.MIN_INDEX; x <= Board.MAX_INDEX; x++) {
+                for (int y = Board.MIN_INDEX; y <= Board.MAX_INDEX; y++) {
+                    Figure figure = board.getFigure(x, y);
+                }
+            }
         }
 
 
