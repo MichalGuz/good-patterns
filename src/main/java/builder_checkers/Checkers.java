@@ -57,8 +57,10 @@ public class Checkers {
             if (playerTwo.length() == 0) {
                 throw new IllegalStateException("There is no playerTwo specified!");
             }
+
+            boolean white = false, black = false;
         }
 
-        boolean white = false, black = false;
+
     }
 }
