@@ -46,4 +46,20 @@ public final class Sailboat {
         this.sailsNumber = sailsNumber;
         this.crew = new ArrayList<>(crew);
     }
+
+    public String getSailboatTyoe() {
+        return sailboatTyoe;
+    }
+
+    public int getBoatLenght() {
+        return boatLenght;
+    }
+
+    public int getSailsNumber() {
+        return sailsNumber;
+    }
+
+    public List<String> getCrew() {
+        return crew;
+    }
 }
