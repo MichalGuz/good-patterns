@@ -34,6 +34,10 @@ public final class Sailboat {
             crew.add(crewMember);
             return this;
         }
+
+        public Sailboat build() {
+            return new Sailboat(sailboatTyoe, boatLenght, sailsNumber, crew);
+        }
     }
 
     public Sailboat(final String sailboatTyoe, final int boatLenght, final int sailsNumber, List<String> crew) {
