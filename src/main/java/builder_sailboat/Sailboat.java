@@ -15,4 +15,11 @@ public final class Sailboat {
         private static int sailsNumber;
         private List<String> crew = new ArrayList<>();
     }
+
+    public Sailboat(String sailboatTyoe, int boatLenght, int sailsNumber, List<String> crew) {
+        this.sailboatTyoe = sailboatTyoe;
+        this.boatLenght = boatLenght;
+        this.sailsNumber = sailsNumber;
+        this.crew = new ArrayList<>(crew);
+    }
 }
