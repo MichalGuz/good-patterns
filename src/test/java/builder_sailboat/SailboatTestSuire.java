@@ -1,4 +1,4 @@
 package builder_sailboat;
 
-public class SailboatsTestSuire {
+public class SailboatTestSuire {
 }
