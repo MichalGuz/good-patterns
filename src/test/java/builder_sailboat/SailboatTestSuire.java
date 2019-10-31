@@ -31,6 +31,8 @@ public class SailboatTestSuire {
         // then
         Assert.assertEquals(3, howManyCrewMembers);
         System.out.println(sailboat1);
+        Assert.assertTrue("true", singleSailor == 1);
+        System.out.println(sailboat2);
 
     }
 }
