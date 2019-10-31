@@ -70,9 +70,9 @@ public class Checkers {
                         }
                     }
                 }
-                if (!(black && white)) {
-                    throw new IllegalStateException("There are no figures of both colors on the board!");
-                }
+            }
+            if (!(black && white)) {
+                throw new IllegalStateException("There are no figures of both colors on the board!");
             }
             return new Checkers(board, playerOne, playerTwo);
         }
