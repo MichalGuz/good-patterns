@@ -40,7 +40,7 @@ public final class Sailboat {
         }
     }
 
-    public Sailboat(final String sailboatTyoe, final int boatLenght, final int sailsNumber, List<String> crew) {
+    private Sailboat(final String sailboatTyoe, final int boatLenght, final int sailsNumber, List<String> crew) {
         this.sailboatTyoe = sailboatTyoe;
         this.boatLenght = boatLenght;
         this.sailsNumber = sailsNumber;
