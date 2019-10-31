@@ -24,9 +24,9 @@ public class Checkers {
     }
 
     public static class CheckersBuilder {
-        private static Board board = new Board();
-        private static String playerOne = "";
-        private static String playerTwo = "";
+        private Board board = new Board();
+        private String playerOne = "";
+        private String playerTwo = "";
 
         public CheckersBuilder PlayerOne(String playerOne) {
             this.playerOne = playerOne;

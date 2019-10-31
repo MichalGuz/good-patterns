@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/builder_pizza/PizzaTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/builder_pizza/PizzaTestSuite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/builder_pizza.PizzaTestSuite.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/builder_pizza.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-builder_pizza.PizzaTestSuite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/builder_checkers/Checkers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builder_checkers/Checkers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builder_checkers/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builder_checkers/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builder_checkers/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builder_checkers/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builder_checkers/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builder_checkers/Pawn.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -59,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/builder_checkers/Figure.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
+            <state relative-caret-position="68">
+              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
               <folding>
                 <element signature="e#457#458#0" expanded="true" />
                 <element signature="e#485#486#0" expanded="true" />
@@ -72,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/builder_checkers/Pawn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
                 <element signature="e#92#93#0" expanded="true" />
                 <element signature="e#120#121#0" expanded="true" />
@@ -85,9 +68,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/builder_checkers/Queen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
+                <element signature="e#94#95#0" expanded="true" />
                 <element signature="e#122#123#0" expanded="true" />
               </folding>
             </state>
@@ -97,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/builder_checkers/FigureFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="43" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="43" />
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -106,17 +90,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/builder_checkers/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+            <state relative-caret-position="67">
+              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/builder_checkers/Checkers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="73" column="103" selection-start-line="73" selection-start-column="103" selection-end-line="73" selection-end-column="103" />
+            <state relative-caret-position="17">
+              <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
               <folding>
                 <element signature="e#361#362#0" expanded="true" />
                 <element signature="e#389#390#0" expanded="true" />
@@ -129,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/builder_checkers/CheckersTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            <state relative-caret-position="17">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -170,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/prototype_library/LibraryTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/prototype_bank/OperationsList.java" />
         <option value="$PROJECT_DIR$/src/main/java/prototype_bank/Transaction.java" />
         <option value="$PROJECT_DIR$/src/test/java/prototype_bank/RandomData.java" />
@@ -214,12 +197,13 @@
         <option value="$PROJECT_DIR$/src/test/java/factory_task/TaskFactoryTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/builder_pizza/Pizza.java" />
         <option value="$PROJECT_DIR$/src/test/java/builder_pizza/PizzaTestSuite.java" />
-        <option value="$PROJECT_DIR$/src/main/java/builder_checkers/Figure.java" />
-        <option value="$PROJECT_DIR$/src/main/java/builder_checkers/Pawn.java" />
         <option value="$PROJECT_DIR$/src/main/java/builder_checkers/Queen.java" />
         <option value="$PROJECT_DIR$/src/main/java/builder_checkers/FugureFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/builder_checkers/Board.java" />
         <option value="$PROJECT_DIR$/src/test/java/builder_checkers/CheckersTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/builder_checkers/FigureFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/builder_checkers/Figure.java" />
+        <option value="$PROJECT_DIR$/src/main/java/builder_checkers/Pawn.java" />
+        <option value="$PROJECT_DIR$/src/main/java/builder_checkers/Board.java" />
         <option value="$PROJECT_DIR$/src/main/java/builder_checkers/Checkers.java" />
       </list>
     </option>
@@ -481,21 +465,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TaskFactoryTestSuite_testOfPaintingTask - 2019.10.25 at 02h 03m 48s.xml">
-      <configuration name="TaskFactoryTestSuite.testOfPaintingTask" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TaskFactoryTestSuite - 2019.10.25 at 02h 45m 12s.xml">
-      <configuration name="TaskFactoryTestSuite" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TaskFactoryTestSuite - 2019.10.25 at 02h 45m 13s.xml">
-      <configuration name="TaskFactoryTestSuite" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="PizzaTestSuite_testPizzaNew - 2019.10.26 at 16h 08m 57s.xml">
-      <configuration name="PizzaTestSuite.testPizzaNew" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="PizzaTestSuite - 2019.10.27 at 23h 37m 10s.xml">
-      <configuration name="PizzaTestSuite" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="PizzaTestSuite_testPizzaNew - 2019.10.27 at 23h 50m 10s.xml">
       <configuration name="PizzaTestSuite.testPizzaNew" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -511,9 +480,25 @@
     <history-entry file="CheckersTestSuite_testCheckersBuilder - 2019.10.30 at 15h 28m 17s.xml">
       <configuration name="CheckersTestSuite.testCheckersBuilder" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="CheckersTestSuite - 2019.10.31 at 00h 02m 48s.xml">
+      <configuration name="CheckersTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="CheckersTestSuite - 2019.10.31 at 00h 06m 08s.xml">
+      <configuration name="CheckersTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="CheckersTestSuite - 2019.10.31 at 00h 11m 30s.xml">
+      <configuration name="CheckersTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="CheckersTestSuite - 2019.10.31 at 00h 32m 15s.xml">
+      <configuration name="CheckersTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="CheckersTestSuite - 2019.10.31 at 00h 32m 16s.xml">
+      <configuration name="CheckersTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2435275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -524,8 +509,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919093" visible="true" weight="0.32919255" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919093" weight="0.32919255" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -543,47 +528,8 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19174758" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919093" visible="true" weight="0.32919255" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" weight="0.32919255" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5008091" side_tool="true" weight="0.32919255" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/prototype_bank/BankTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="100" column="66" selection-start-line="100" selection-start-column="66" selection-end-line="100" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/prototype_bank/PrototypeBank.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -942,67 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/builder_checkers/Figure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-          <folding>
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/builder_checkers/Pawn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#92#93#0" expanded="true" />
-            <element signature="e#120#121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/builder_checkers/Queen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-          <folding>
-            <element signature="e#122#123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/builder_checkers/FigureFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/builder_checkers/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/builder_checkers/Checkers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="73" column="103" selection-start-line="73" selection-start-column="103" selection-end-line="73" selection-end-column="103" />
-          <folding>
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9690">
@@ -1014,12 +899,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/builder_checkers/CheckersTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="17">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/builder_checkers/Figure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding>
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/builder_checkers/Pawn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/builder_checkers/Queen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#94#95#0" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/builder_checkers/FigureFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/builder_checkers/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/builder_checkers/Checkers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+          <folding>
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
           </folding>
         </state>
       </provider>
