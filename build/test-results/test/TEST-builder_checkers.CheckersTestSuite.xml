@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="builder_checkers.CheckersTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-31T00:02:47" hostname="Dell-Komputer" time="0.037">
+<testsuite name="builder_checkers.CheckersTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-31T00:07:49" hostname="Dell-Komputer" time="0.034">
   <properties/>
-  <testcase name="testCheckersBuilder" classname="builder_checkers.CheckersTestSuite" time="0.037"/>
+  <testcase name="testCheckersBuilder" classname="builder_checkers.CheckersTestSuite" time="0.034"/>
   <system-out><![CDATA[| | | |wQ| | | | | | |
 | | | |wP| | | | | | |
 | | | | | | | | | | |
