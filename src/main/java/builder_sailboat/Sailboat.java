@@ -62,4 +62,14 @@ public final class Sailboat {
     public List<String> getCrew() {
         return crew;
     }
+
+    @Override
+    public String toString() {
+        return "Sailboat{" +
+                "sailboatTyoe='" + sailboatTyoe + '\'' +
+                ", boatLenght=" + boatLenght +
+                ", sailsNumber=" + sailsNumber +
+                ", crew=" + crew +
+                '}';
+    }
 }
