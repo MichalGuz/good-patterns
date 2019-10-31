@@ -29,6 +29,11 @@ public final class Sailboat {
             this.sailboatTyoe = sailboatTyoe;
             return this;
         }
+
+        public SailboatBuilder setCrew(String crewMember) {
+            crew.add(crewMember);
+            return this;
+        }
     }
 
     public Sailboat(final String sailboatTyoe, final int boatLenght, final int sailsNumber, List<String> crew) {
