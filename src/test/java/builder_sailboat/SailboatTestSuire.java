@@ -15,5 +15,8 @@ public class SailboatTestSuire {
                 .setCrewMember("Member #3")
                 .build();
 
+        // when
+        int howManyCrewMembers = sailboat1.getCrew().size();
+
     }
 }
