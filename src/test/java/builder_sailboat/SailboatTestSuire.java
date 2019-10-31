@@ -10,6 +10,10 @@ public class SailboatTestSuire {
                 .setSailboatTyoe("Cutter")
                 .setBoatLenght(6)
                 .setSailsNumber(2)
+                .setCrewMember("Captain")
+                .setCrewMember("Member #2")
+                .setCrewMember("Member #3")
+                .build();
 
     }
 }
