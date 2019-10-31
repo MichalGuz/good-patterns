@@ -30,7 +30,7 @@ public final class Sailboat {
             return this;
         }
 
-        public SailboatBuilder setCrew(String crewMember) {
+        public SailboatBuilder setCrewMember(String crewMember) {
             crew.add(crewMember);
             return this;
         }
