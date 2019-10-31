@@ -25,6 +25,8 @@ public class SailboatTestSuire {
 
         // when
         int howManyCrewMembers = sailboat1.getCrew().size();
+        int singleSailor = sailboat2.getCrew().size();
+
 
         // then
         Assert.assertEquals(3, howManyCrewMembers);
