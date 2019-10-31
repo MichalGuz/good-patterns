@@ -9,7 +9,10 @@ public final class Sailboat {
     private final int sailsNumber;
     private List<String> crew = new ArrayList<>();
 
-    public static class SailboatBuilder() {
-
+    public static class SailboatBuilder {
+        private static String sailboatTyoe;
+        private static int boatLenght;
+        private static int sailsNumber;
+        private List<String> crew = new ArrayList<>();
     }
 }
