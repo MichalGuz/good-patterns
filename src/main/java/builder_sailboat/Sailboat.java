@@ -24,6 +24,11 @@ public final class Sailboat {
             this.boatLenght = boatLenght;
             return this;
         }
+
+        public SailboatBuilder setSailsNumber(int sailsNumber) {
+            this.sailboatTyoe = sailboatTyoe;
+            return this;
+        }
     }
 
     public Sailboat(final String sailboatTyoe, final int boatLenght, final int sailsNumber, List<String> crew) {
