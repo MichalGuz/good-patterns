@@ -9,7 +9,7 @@ public final class BigBurger {
     private List<String> sauce;
     private List<String> ingredients;
 
-    public BigBurger(String bun, String burgerType, boolean burgerDouble, List<String> sauce, List<String> ingredients) {
+    public BigBurger(final String bun, final String burgerType, final boolean burgerDouble, List<String> sauce, List<String> ingredients) {
         this.bun = bun;
         this.burgerType = burgerType;
         this.burgerDouble = burgerDouble;
