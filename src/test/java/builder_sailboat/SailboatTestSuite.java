@@ -3,7 +3,7 @@ package builder_sailboat;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class SailboatTestSuire {
+public class SailboatTestSuite {
     @Test
     public void testSailboatNew() {
         // given
