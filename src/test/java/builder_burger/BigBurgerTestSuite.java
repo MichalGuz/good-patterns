@@ -1,5 +1,6 @@
 package builder_burger;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.io.BufferedReader;
@@ -26,6 +27,9 @@ public class BigBurgerTestSuite {
         String chosenIngredient = burger1.getIngredients().get(3);
         boolean wasBurgerDoubled = burger1.isBurgerDouble();
 
-
+        // then
+        Assert.assertEquals(numberOfIngredientsInBurger1, 5);
+        Assert.assertEquals("Cucumber", chosenIngredient);
+        Assert.assertEquals(false, wasBurgerDoubled);
     }
 }
