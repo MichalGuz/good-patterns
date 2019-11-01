@@ -53,8 +53,8 @@ public final class BigBurger {
         private static String bun;
         private static String burgerType;
         private static boolean burgerDouble;
-        private List<String> sauce;
-        private List<String> ingredients;
+        private List<String> sauce = new ArrayList<>();
+        private List<String> ingredients = new ArrayList<>();
 
         public BigBurgerBuilder setBun(String bun) {
             this.bun = bun;
