@@ -28,7 +28,7 @@ public final class Sailboat {
         }
 
         public SailboatBuilder setSailsNumber(int sailsNumber) {
-            this.sailboatTyoe = sailboatTyoe;
+            this.sailsNumber = sailsNumber;
             return this;
         }
 
