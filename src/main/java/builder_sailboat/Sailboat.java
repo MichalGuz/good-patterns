@@ -81,6 +81,7 @@ public final class Sailboat {
                 "sailboatTyoe='" + sailboatTyoe + '\'' +
                 ", boatLenght=" + boatLenght +
                 ", sailsNumber=" + sailsNumber +
+                ", boatName=" + boatName +
                 ", crew=" + crew +
                 '}';
     }
