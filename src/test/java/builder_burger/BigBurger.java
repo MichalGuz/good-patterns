@@ -17,4 +17,24 @@ public final class BigBurger {
         this.sauce = new ArrayList<>(sauce);
         this.ingredients = new ArrayList<>(ingredients);
     }
+
+    public String getBun() {
+        return bun;
+    }
+
+    public String getBurgerType() {
+        return burgerType;
+    }
+
+    public boolean isBurgerDouble() {
+        return burgerDouble;
+    }
+
+    public List<String> getSauce() {
+        return sauce;
+    }
+
+    public List<String> getIngredients() {
+        return ingredients;
+    }
 }
