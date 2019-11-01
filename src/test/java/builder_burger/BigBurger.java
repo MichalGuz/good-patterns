@@ -66,13 +66,13 @@ public final class BigBurger {
             return this;
         }
 
-        public BigBurgerBuilder setSauce(List<String> sauce) {
-            this.sauce = sauce;
+        public BigBurgerBuilder setSauce(String chosenSauce) {
+            sauce.add(chosenSauce);
             return this;
         }
 
-        public BigBurgerBuilder setIngredients(List<String> ingredients) {
-            this.ingredients = ingredients;
+        public BigBurgerBuilder setIngredients(String chosenIngredient) {
+            ingredients.add(chosenIngredient);
             return this;
         }
 
