@@ -67,6 +67,10 @@ public final class Sailboat {
         return sailsNumber;
     }
 
+    public String getBoatName() {
+        return boatName;
+    }
+
     public List<String> getCrew() {
         return crew;
     }
