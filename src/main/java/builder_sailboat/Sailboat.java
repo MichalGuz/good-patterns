@@ -8,7 +8,7 @@ public final class Sailboat {
     private final int boatLenght;
     private final int sailsNumber;
     private final String boatName;
-    private List<String> crew = new ArrayList<>();
+    private List<String> crew;
 
     public static class SailboatBuilder {
         private static String sailboatTyoe;
