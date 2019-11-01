@@ -35,10 +35,15 @@ public class BigBurgerTestSuite {
         String chosenIngredient = burger1.getIngredients().get(3);
         boolean wasBurgerDoubled = burger1.isBurgerDouble();
 
+        int numberOfIngredientsInBurger2 = burger2.getIngredients().size();
+        String chosenIngredient2 = burger2.getIngredients().get(1);
+        boolean wasBurger2Doubled = burger2.isBurgerDouble();
+
         // then
         Assert.assertEquals(numberOfIngredientsInBurger1, 5);
         Assert.assertEquals("Cucumber", chosenIngredient);
         Assert.assertEquals(false, wasBurgerDoubled);
         System.out.println(burger1);
-    }
+
+      }
 }
