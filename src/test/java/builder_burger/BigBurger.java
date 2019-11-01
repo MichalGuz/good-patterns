@@ -1,4 +1,4 @@
 package builder_burger;
 
-public class BigBurger {
+public final class BigBurger {
 }
