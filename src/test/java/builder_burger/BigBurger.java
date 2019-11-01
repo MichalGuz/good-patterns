@@ -1,5 +1,6 @@
 package builder_burger;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public final class BigBurger {
@@ -13,7 +14,7 @@ public final class BigBurger {
         this.bun = bun;
         this.burgerType = burgerType;
         this.burgerDouble = burgerDouble;
-        this.sauce = sauce;
-        this.ingredients = ingredients;
+        this.sauce = new ArrayList<>(sauce);
+        this.ingredients = new ArrayList<>(ingredients);
     }
 }
