@@ -4,21 +4,21 @@ import java.util.ArrayList;
 import java.util.List;
 
 public final class Sailboat {
-    private final String sailboatTyoe;
+    private final String sailboatType;
     private final int boatLenght;
     private final int sailsNumber;
     private final String boatName;
     private List<String> crew;
 
     public static class SailboatBuilder {
-        private static String sailboatTyoe;
+        private static String sailboatType;
         private static int boatLenght;
         private static int sailsNumber;
         private static String boatName;
         private List<String> crew = new ArrayList<>();
 
-        public SailboatBuilder setSailboatTyoe(String sailboatTyoe) {
-            this.sailboatTyoe = sailboatTyoe;
+        public SailboatBuilder setSailboatType(String sailboatType) {
+            this.sailboatType = sailboatType;
             return this;
         }
 
@@ -43,20 +43,20 @@ public final class Sailboat {
         }
 
         public Sailboat build() {
-            return new Sailboat(sailboatTyoe, boatLenght, sailsNumber, boatName, crew);
+            return new Sailboat(sailboatType, boatLenght, sailsNumber, boatName, crew);
         }
     }
 
-    private Sailboat(final String sailboatTyoe, final int boatLenght, final int sailsNumber, final String boatName, List<String> crew) {
-        this.sailboatTyoe = sailboatTyoe;
+    private Sailboat(final String sailboatType, final int boatLenght, final int sailsNumber, final String boatName, List<String> crew) {
+        this.sailboatType = sailboatType;
         this.boatLenght = boatLenght;
         this.sailsNumber = sailsNumber;
         this.boatName = boatName;
         this.crew = new ArrayList<>(crew);
     }
 
-    public String getSailboatTyoe() {
-        return sailboatTyoe;
+    public String getSailboatType() {
+        return sailboatType;
     }
 
     public int getBoatLenght() {
@@ -78,7 +78,7 @@ public final class Sailboat {
     @Override
     public String toString() {
         return "Sailboat{" +
-                "sailboatTyoe='" + sailboatTyoe + '\'' +
+                "sailboatTyoe='" + sailboatType + '\'' +
                 ", boatLenght=" + boatLenght +
                 ", sailsNumber=" + sailsNumber +
                 ", boatName=" + boatName +
