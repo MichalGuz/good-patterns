@@ -80,5 +80,9 @@ public final class BigBurger {
             BigBurgerBuilder.burgerDouble = burgerDouble;
             return this;
         }
+
+        public BigBurger build() {
+            return new BigBurger(bun,burgerType, burgerDouble, sauce, ingredients);
+        }
     }
 }
