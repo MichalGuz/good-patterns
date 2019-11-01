@@ -5,14 +5,14 @@ import java.util.List;
 
 public final class Sailboat {
     private final String sailboatType;
-    private final int boatLenght;
+    private final int boatLength;
     private final int sailsNumber;
     private final String boatName;
     private List<String> crew;
 
     public static class SailboatBuilder {
         private static String sailboatType;
-        private static int boatLenght;
+        private static int boatLength;
         private static int sailsNumber;
         private static String boatName;
         private List<String> crew = new ArrayList<>();
@@ -22,8 +22,8 @@ public final class Sailboat {
             return this;
         }
 
-        public SailboatBuilder setBoatLenght(int boatLenght) {
-            this.boatLenght = boatLenght;
+        public SailboatBuilder setBoatLength(int boatLength) {
+            this.boatLength = boatLength;
             return this;
         }
 
@@ -43,13 +43,13 @@ public final class Sailboat {
         }
 
         public Sailboat build() {
-            return new Sailboat(sailboatType, boatLenght, sailsNumber, boatName, crew);
+            return new Sailboat(sailboatType, boatLength, sailsNumber, boatName, crew);
         }
     }
 
-    private Sailboat(final String sailboatType, final int boatLenght, final int sailsNumber, final String boatName, List<String> crew) {
+    private Sailboat(final String sailboatType, final int boatLength, final int sailsNumber, final String boatName, List<String> crew) {
         this.sailboatType = sailboatType;
-        this.boatLenght = boatLenght;
+        this.boatLength = boatLength;
         this.sailsNumber = sailsNumber;
         this.boatName = boatName;
         this.crew = new ArrayList<>(crew);
@@ -59,8 +59,8 @@ public final class Sailboat {
         return sailboatType;
     }
 
-    public int getBoatLenght() {
-        return boatLenght;
+    public int getBoatLength() {
+        return boatLength;
     }
 
     public int getSailsNumber() {
@@ -79,7 +79,7 @@ public final class Sailboat {
     public String toString() {
         return "Sailboat{" +
                 "sailboatTyoe='" + sailboatType + '\'' +
-                ", boatLenght=" + boatLenght +
+                ", boatLength=" + boatLength +
                 ", sailsNumber=" + sailsNumber +
                 ", boatName=" + boatName +
                 ", crew=" + crew +

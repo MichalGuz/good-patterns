@@ -9,7 +9,7 @@ public class SailboatTestSuite {
         // given
         Sailboat sailboat1 = new Sailboat.SailboatBuilder()
                 .setSailboatType("Cutter")
-                .setBoatLenght(6)
+                .setBoatLength(6)
                 .setSailsNumber(2)
                 .setBoatName("Libra IV")
                 .setCrewMember("Captain")
@@ -19,7 +19,7 @@ public class SailboatTestSuite {
 
         Sailboat sailboat2 = new Sailboat.SailboatBuilder()
                 .setSailboatType("Cat boat")
-                .setBoatLenght(4)
+                .setBoatLength(4)
                 .setSailsNumber(1)
                 .setBoatName("Orlando")
                 .setCrewMember("Sailor")
