@@ -17,7 +17,7 @@ public class BigBurgerTestSuite {
                 .setIngredients("Lettuce")
                 .setIngredients("Tomato")
                 .setIngredients("Cucumber")
-                .setIngredients("Capars")
+                .setIngredients("Capers")
                 .build();
 
         // when
