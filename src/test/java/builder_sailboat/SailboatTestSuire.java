@@ -11,6 +11,7 @@ public class SailboatTestSuire {
                 .setSailboatTyoe("Cutter")
                 .setBoatLenght(6)
                 .setSailsNumber(2)
+                .setBoatName("Libra IV")
                 .setCrewMember("Captain")
                 .setCrewMember("Member #2")
                 .setCrewMember("Member #3")
@@ -20,6 +21,7 @@ public class SailboatTestSuire {
                 .setSailboatTyoe("Cat boat")
                 .setBoatLenght(4)
                 .setSailsNumber(1)
+                .setBoatName("Orlando")
                 .setCrewMember("Sailor")
                 .build();
 
