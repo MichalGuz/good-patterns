@@ -48,4 +48,8 @@ public final class BigBurger {
                 ", ingredients=" + ingredients +
                 '}';
     }
+
+    public static class BigBurgerBuilder {
+
+    }
 }
