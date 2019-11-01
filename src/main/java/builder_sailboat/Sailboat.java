@@ -47,10 +47,11 @@ public final class Sailboat {
         }
     }
 
-    private Sailboat(final String sailboatTyoe, final int boatLenght, final int sailsNumber, List<String> crew) {
+    private Sailboat(final String sailboatTyoe, final int boatLenght, final int sailsNumber, final String boatName, List<String> crew) {
         this.sailboatTyoe = sailboatTyoe;
         this.boatLenght = boatLenght;
         this.sailsNumber = sailsNumber;
+        this.boatName = boatName;
         this.crew = new ArrayList<>(crew);
     }
 
