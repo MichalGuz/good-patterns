@@ -20,6 +20,16 @@ public class BigBurgerTestSuite {
                 .setIngredients("Capers")
                 .build();
 
+        BigBurger burger2= new BigBurger.BigBurgerBuilder()
+                .setBun("Dark")
+                .setBurgerType("Beetroot")
+                .setBurgerDouble(true)
+                .setIngredients("Goat cheese")
+                .setIngredients("Onion")
+                .setIngredients("Nuts")
+                .setIngredients("Rocket")
+                .build();
+
         // when
         int numberOfIngredientsInBurger1 = burger1.getIngredients().size();
         String chosenIngredient = burger1.getIngredients().get(3);
@@ -29,5 +39,6 @@ public class BigBurgerTestSuite {
         Assert.assertEquals(numberOfIngredientsInBurger1, 5);
         Assert.assertEquals("Cucumber", chosenIngredient);
         Assert.assertEquals(false, wasBurgerDoubled);
+        System.out.println(burger1);
     }
 }
