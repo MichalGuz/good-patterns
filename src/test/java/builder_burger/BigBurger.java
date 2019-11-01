@@ -56,5 +56,29 @@ public final class BigBurger {
         private List<String> sauce;
         private List<String> ingredients;
 
+        public BigBurgerBuilder setBun(String bun) {
+            this.bun = bun;
+            return this;
+        }
+
+        public BigBurgerBuilder setBurgerType(String burgerType) {
+            this.burgerType = burgerType;
+            return this;
+        }
+
+        public BigBurgerBuilder setSauce(List<String> sauce) {
+            this.sauce = sauce;
+            return this;
+        }
+
+        public BigBurgerBuilder setIngredients(List<String> ingredients) {
+            this.ingredients = ingredients;
+            return this;
+        }
+
+        public BigBurgerBuilder setBurgerDouble(boolean burgerDouble) {
+            BigBurgerBuilder.burgerDouble = burgerDouble;
+            return this;
+        }
     }
 }
