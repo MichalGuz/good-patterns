@@ -50,6 +50,11 @@ public final class BigBurger {
     }
 
     public static class BigBurgerBuilder {
+        private static String bun;
+        private static String burgerType;
+        private static boolean burgerDouble;
+        private List<String> sauce;
+        private List<String> ingredients;
 
     }
 }
