@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="builder_sailboat.SailboatTestSuire" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-31T21:24:35" hostname="Dell-Komputer" time="0.039">
+<testsuite name="builder_sailboat.SailboatTestSuire" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-31T21:34:38" hostname="Dell-Komputer" time="0.05">
   <properties/>
-  <testcase name="testSailboatNew" classname="builder_sailboat.SailboatTestSuire" time="0.039"/>
+  <testcase name="testSailboatNew" classname="builder_sailboat.SailboatTestSuire" time="0.05"/>
   <system-out><![CDATA[Sailboat{sailboatTyoe='Cutter', boatLenght=6, sailsNumber=0, crew=[Captain, Member #2, Member #3]}
+Sailboat{sailboatTyoe='Cat boat', boatLenght=4, sailsNumber=0, crew=[Sailor]}
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
