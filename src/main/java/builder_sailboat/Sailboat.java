@@ -32,6 +32,11 @@ public final class Sailboat {
             return this;
         }
 
+        public SailboatBuilder setBoatName(String boatName) {
+            this.boatName = boatName;
+            return this;
+        }
+
         public SailboatBuilder setCrewMember(String crewMember) {
             crew.add(crewMember);
             return this;
