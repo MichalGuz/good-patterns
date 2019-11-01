@@ -14,6 +14,7 @@ public final class Sailboat {
         private static String sailboatTyoe;
         private static int boatLenght;
         private static int sailsNumber;
+        private static String boatName;
         private List<String> crew = new ArrayList<>();
 
         public SailboatBuilder setSailboatTyoe(String sailboatTyoe) {
