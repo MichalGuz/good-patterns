@@ -20,5 +20,12 @@ public class BigBurgerTestSuite {
                 .setIngredients("Cucumber")
                 .setIngredients("Capars")
                 .build();
+
+        // when
+        int numberOfIngredientsInBurger1 = burger1.getIngredients().size();
+        String chosenIngredient = burger1.getIngredients().get(3);
+        boolean wasBurgerDoubled = burger1.isBurgerDouble();
+
+
     }
 }
