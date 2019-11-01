@@ -43,7 +43,7 @@ public final class Sailboat {
         }
 
         public Sailboat build() {
-            return new Sailboat(sailboatTyoe, boatLenght, sailsNumber, crew);
+            return new Sailboat(sailboatTyoe, boatLenght, sailsNumber, boatName, crew);
         }
     }
 
