@@ -37,4 +37,15 @@ public final class BigBurger {
     public List<String> getIngredients() {
         return ingredients;
     }
+
+    @Override
+    public String toString() {
+        return "BigBurger{" +
+                "bun='" + bun + '\'' +
+                ", burgerType='" + burgerType + '\'' +
+                ", burgerDouble=" + burgerDouble +
+                ", sauce=" + sauce +
+                ", ingredients=" + ingredients +
+                '}';
+    }
 }
