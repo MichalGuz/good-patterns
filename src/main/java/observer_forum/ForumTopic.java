@@ -11,4 +11,8 @@ public class ForumTopic {
         this.name = name;
         this.messages = new ArrayList<>();
     }
+
+    public void addPost(String post) {
+        messages.add(post);
+    }
 }
