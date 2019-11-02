@@ -29,4 +29,9 @@ public class ForumTopic implements Observable {
             observer.update(this);
         }
     }
+
+    @Override
+    public void removeObserver(Observer observer) {
+        observers.remove(observer);
+    }
 }
