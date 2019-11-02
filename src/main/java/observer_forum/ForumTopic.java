@@ -35,4 +35,12 @@ public class ForumTopic implements Observable {
     public void removeObserver(Observer observer) {
         observers.remove(observer);
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public List<String> getMessages() {
+        return messages;
+    }
 }
