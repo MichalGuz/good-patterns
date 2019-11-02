@@ -17,4 +17,9 @@ public class ForumTopic implements Observable {
     public void addPost(String post) {
         messages.add(post);
     }
+
+    @Override
+    public void registerObserver(Observer observer) {
+        observers.add(observer);
+    }
 }
