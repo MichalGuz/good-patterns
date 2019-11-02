@@ -10,7 +10,8 @@ public class ForumTopic implements Observable {
 
     public ForumTopic(String name) {
         this.name = name;
-        this.messages = new ArrayList<>();
+        messages = new ArrayList<>();
+        observers = new ArrayList<>();
     }
 
     public void addPost(String post) {
