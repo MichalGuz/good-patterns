@@ -6,6 +6,7 @@ import java.util.List;
 public class ForumTopic implements Observable {
     private final String name;
     private final List<String> messages;
+    private final List<Observer> observers;
 
     public ForumTopic(String name) {
         this.name = name;
