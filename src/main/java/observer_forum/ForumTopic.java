@@ -3,7 +3,7 @@ package observer_forum;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ForumTopic {
+public class ForumTopic implements Observable {
     private final String name;
     private final List<String> messages;
 
