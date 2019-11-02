@@ -22,4 +22,11 @@ public class ForumTopic implements Observable {
     public void registerObserver(Observer observer) {
         observers.add(observer);
     }
+
+    @Override
+    public void notifyObservers() {
+        for (Observer observer: observers) {
+            observer.update(this);
+        }
+    }
 }
