@@ -1,4 +1,4 @@
 package observer_forum;
 
-public class JavaToolsForumTopic {
+public class JavaToolsForumTopic extends ForumTopic {
 }
