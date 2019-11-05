@@ -39,13 +39,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/observer_forum/JavaHelpForumTopic.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
               <folding>
                 <element signature="e#110#111#0" expanded="true" />
+                <element signature="e#135#136#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/observer_forum/JavaToolsForumTopic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+              <folding>
+                <element signature="e#112#113#0" expanded="true" />
                 <element signature="e#135#136#0" expanded="true" />
               </folding>
             </state>
@@ -86,7 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/strategy_broker/AggressivePredictor.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy_broker/BalancedPredictor.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy_broker/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy_broker/CorporateCustomer.java" />
@@ -137,6 +149,7 @@
         <option value="$PROJECT_DIR$/src/main/java/observer_forum/Observable.java" />
         <option value="$PROJECT_DIR$/src/main/java/observer_forum/ForumTopic.java" />
         <option value="$PROJECT_DIR$/src/main/java/observer_forum/JavaHelpForumTopic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer_forum/JavaToolsForumTopic.java" />
       </list>
     </option>
   </component>
@@ -437,13 +450,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/strategy_calculator/DivideNumbersStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/strategy_broker/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -886,6 +892,17 @@
           <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
           <folding>
             <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer_forum/JavaToolsForumTopic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding>
+            <element signature="e#112#113#0" expanded="true" />
             <element signature="e#135#136#0" expanded="true" />
           </folding>
         </state>
