@@ -15,5 +15,11 @@ public class ForumUser implements Observer {
     public int getUpdatesCount() {
         return updatesCount;
     }
+
+    @Override
+    public void update(ForumTopic forumTopic) {
+        System.out.println(userName + ": new message in topic " + forumTopic.getName() + "\n" + "(total: " + forumTopic.getMessages().size() + " messages.)");
+        updatesCount++;
+    }
 }
 
