@@ -1,4 +1,4 @@
 package observer_forum;
 
-public class ForumUser {
+public class ForumUser implements Observer {
 }
