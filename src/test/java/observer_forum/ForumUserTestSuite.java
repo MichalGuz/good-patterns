@@ -18,7 +18,7 @@ public class ForumUserTestSuite {
         javaToolForum.registerObserver(martinNovak);
 
         javaHelpForum.registerObserver(adamAdamski);
-        javaHelpForum.registerObserver(evaSmith);
+        javaToolForum.registerObserver(evaSmith);
 
         // when
         javaHelpForum.addPost("Post 1");
