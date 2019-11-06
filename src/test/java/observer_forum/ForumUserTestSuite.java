@@ -16,5 +16,10 @@ public class ForumUserTestSuite {
         javaHelpForum.registerObserver(evaSmith);
 
         // when
+        javaHelpForum.addPost("Post 1");
+        javaHelpForum.addPost("Post 2");
+        javaHelpForum.addPost("Post 3");
+        javaHelpForum.addPost("Post 4");
+        javaHelpForum.addPost("Post 5");
     }
 }
