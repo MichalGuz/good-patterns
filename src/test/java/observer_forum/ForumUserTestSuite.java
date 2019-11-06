@@ -23,8 +23,9 @@ public class ForumUserTestSuite {
         javaHelpForum.addPost("Post 1");
         javaHelpForum.addPost("Post 2");
         javaHelpForum.addPost("Post 3");
-        javaHelpForum.addPost("Post 4");
-        javaHelpForum.addPost("Post 5");
+
+        javaToolForum.addPost("Post 4");
+        javaToolForum.addPost("Post 5");
 
         // then
 
