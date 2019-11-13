@@ -1,4 +1,4 @@
-package observer.request;
+package observer_request;
 
 public class Request {
 }
