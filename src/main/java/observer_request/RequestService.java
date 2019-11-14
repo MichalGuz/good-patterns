@@ -1,6 +1,5 @@
 package observer_request;
 
-import java.io.StringReader;
 import java.util.ArrayDeque;
 import java.util.Queue;
 
