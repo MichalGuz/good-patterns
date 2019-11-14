@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/observer_request/ObserverRequests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/observer_request/ObserverRequests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/observer_request/ObservableRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/observer_request/ObservableRequest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -39,8 +39,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/observer_request/ObserverRequests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/observer_request/ObservableRequest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
@@ -53,8 +62,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -64,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/strategy_broker/CustomerTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy_social_media/Millenials.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy_social_media/YGeneretion.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy_social_media/ZGeneretion.java" />
@@ -115,6 +123,7 @@
         <option value="$PROJECT_DIR$/src/main/java/observer_request/Request.java" />
         <option value="$PROJECT_DIR$/src/main/java/observer_request/RequestService.java" />
         <option value="$PROJECT_DIR$/src/main/java/observer_request/ObserverRequests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer_request/ObservableRequest.java" />
       </list>
     </option>
   </component>
@@ -432,13 +441,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/strategy_broker/IndividualYoungCustomer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/strategy_broker/CorporateCustomer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -880,6 +882,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/observer_request/ObserverRequests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer_request/ObservableRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
