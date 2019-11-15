@@ -21,6 +21,14 @@ public class RequestService implements ObservableRequests {
         notifyObserverOfRequests();
     }
 
+    public Queue<String> getRequests() {
+        return requests;
+    }
+
+    public String getCustomersId() {
+        return customersId;
+    }
+
     @Override
     public void registerObserverOfRequests(ObserverOfRequests observerOfRequests) {
         observers.add(observerOfRequests);
