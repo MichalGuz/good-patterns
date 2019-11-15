@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Queue;
 
-public class RequestService implements ObservableRequest{
+public class RequestService implements ObservableRequests {
     private final Queue<String> reqests;
     private final String customersId;
     private final List<ObserverOfRequests> observers;
