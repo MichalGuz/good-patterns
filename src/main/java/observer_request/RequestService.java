@@ -31,4 +31,9 @@ public class RequestService implements ObservableRequests {
             observerOfRequests.update(this);
         }
     }
+
+    @Override
+    public void removeRequestObserver(ObserverOfRequests observerOfRequests) {
+        observers.remove(observerOfRequests);
+    }
 }
