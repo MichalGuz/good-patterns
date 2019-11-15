@@ -3,6 +3,7 @@ package observer_request;
 import observer_forum.Observer;
 
 import java.util.ArrayDeque;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Queue;
 
@@ -14,6 +15,7 @@ public class RequestService implements ObservableRequest{
     public RequestService(String customersId) {
         reqests = new ArrayDeque<>();
         this.customersId = customersId;
+        observers = new ArrayList<>();
     }
 
     private void addRequest(String request) {
