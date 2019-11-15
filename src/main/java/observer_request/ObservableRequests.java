@@ -1,7 +1,7 @@
 package observer_request;
 
 public interface ObservableRequests {
-    void registerRequestObserver(ObserverOfRequests observerOfRequestst);
+    void registerObserverOfRequests(ObserverOfRequests observerOfRequestst);
     void notifyRequestObserver();
     void removeRequestObserver(ObserverOfRequests observerOfRequests);
 }

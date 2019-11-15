@@ -21,7 +21,7 @@ public class RequestService implements ObservableRequests {
     }
 
     @Override
-    public void registerRequestObserver(ObserverOfRequests observerOfRequests) {
+    public void registerObserverOfRequests(ObserverOfRequests observerOfRequests) {
         observers.add(observerOfRequests);
     }
 
