@@ -3,7 +3,7 @@ package observer_request;
 import java.util.ArrayDeque;
 import java.util.Queue;
 
-public class RequestService {
+public class RequestService implements ObservableRequest{
     private final Queue<String> reqests;
     private final String customersId;
 
