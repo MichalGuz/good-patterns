@@ -1,5 +1,5 @@
 package observer_request;
 
-public interface ObserverRequests {
+public interface ObserverOfRequests {
     void update(RequestService requestService);
 }
