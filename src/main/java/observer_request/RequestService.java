@@ -33,7 +33,7 @@ public class RequestService implements ObservableRequests {
     }
 
     @Override
-    public void removeRequestObserver(ObserverOfRequests observerOfRequests) {
+    public void removeObserverOfRequests(ObserverOfRequests observerOfRequests) {
         observers.remove(observerOfRequests);
     }
 }
