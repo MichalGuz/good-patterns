@@ -26,7 +26,7 @@ public class RequestService implements ObservableRequests {
     }
 
     @Override
-    public void notifyRequestObserver() {
+    public void notifyObserverOfRequests() {
         for(ObserverOfRequests observerOfRequests: observers) {
             observerOfRequests.update(this);
         }
