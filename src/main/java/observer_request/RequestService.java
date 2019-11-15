@@ -18,6 +18,7 @@ public class RequestService implements ObservableRequests {
 
     private void addRequest(String request) {
         requests.add(request);
+        notifyObserverOfRequests();
     }
 
     @Override
