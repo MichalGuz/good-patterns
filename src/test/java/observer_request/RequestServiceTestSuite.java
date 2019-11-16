@@ -11,5 +11,9 @@ public class RequestServiceTestSuite {
         RequestService company20 = new Company20RequestService();
         CustomerAssistant ordinaryAssistant = new CustomerAssistant("Ordinary");
         CustomerAssistant specialAssistant = new CustomerAssistant("Special");
+        company01.registerObserverOfRequests(ordinaryAssistant);
+        company01.registerObserverOfRequests(specialAssistant);
+        company10.registerObserverOfRequests(ordinaryAssistant);
+        company20.registerObserverOfRequests(specialAssistant);
     }
 }
