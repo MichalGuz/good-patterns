@@ -7,4 +7,12 @@ public class CustomerAssistant implements ObserverOfRequests {
     public CustomerAssistant(String assistantName) {
         this.assistantName = assistantName;
     }
+
+    public String getAssistantName() {
+        return assistantName;
+    }
+
+    public int getRequestCounter() {
+        return requestCounter;
+    }
 }
