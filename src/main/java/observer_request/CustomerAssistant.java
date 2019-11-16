@@ -1,4 +1,4 @@
 package observer_request;
 
-public class CustomerAssistant {
+public class CustomerAssistant implements ObserverOfRequests{
 }
