@@ -15,5 +15,8 @@ public class RequestServiceTestSuite {
         company01.registerObserverOfRequests(specialAssistant);
         company10.registerObserverOfRequests(ordinaryAssistant);
         company20.registerObserverOfRequests(specialAssistant);
+
+        // when
+        company01.
     }
 }

@@ -16,7 +16,7 @@ public class RequestService implements ObservableRequests {
         observers = new ArrayList<>();
     }
 
-    private void addRequest(String request) {
+    public void addRequest(String request) {
         requests.add(request);
         notifyObserverOfRequests();
     }
