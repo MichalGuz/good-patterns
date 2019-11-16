@@ -17,6 +17,10 @@ public class RequestServiceTestSuite {
         company20.registerObserverOfRequests(specialAssistant);
 
         // when
-        company01.
+        company01.addRequest("Request of company01 - system failure");
+        company10.addRequest("Request of company10 - unconfirmed payment");
+        company20.addRequest("Request of company20 - unknown user");
+        company01.addRequest("Request of company01 - password error");
+        company10.addRequest("Request of company10 - database failure");
     }
 }
