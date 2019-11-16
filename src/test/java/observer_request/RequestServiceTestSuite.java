@@ -1,5 +1,6 @@
 package observer_request;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class RequestServiceTestSuite {
@@ -22,5 +23,9 @@ public class RequestServiceTestSuite {
         company20.addRequest("Request of company20 - unknown user");
         company01.addRequest("Request of company01 - password error");
         company10.addRequest("Request of company10 - database failure");
+
+        // then
+        Assert.assertEquals(4, ordinaryAssistant.getRequestCounter());
+        Assert.assertEquals(3, specialAssistant.getRequestCounter());
     }
 }

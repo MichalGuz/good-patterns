@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="observer_request.RequestServiceTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-16T20:55:58" hostname="Dell-Komputer" time="0.06">
+  <properties/>
+  <testcase name="testUpdate" classname="observer_request.RequestServiceTestSuite" time="0.06"/>
+  <system-out><![CDATA[Ordinary check new request of Company01 client; request numberCompany01-Sat Nov 16 21:55:58 CET 2019-1
+Special check new request of Company01 client; request numberCompany01-Sat Nov 16 21:55:58 CET 2019-1
+Ordinary check new request of Company10 client; request numberCompany10-Sat Nov 16 21:55:58 CET 2019-2
+Special check new request of Company20 client; request numberCompany20-Sat Nov 16 21:55:58 CET 2019-2
+Ordinary check new request of Company01 client; request numberCompany01-Sat Nov 16 21:55:58 CET 2019-3
+Special check new request of Company01 client; request numberCompany01-Sat Nov 16 21:55:58 CET 2019-3
+Ordinary check new request of Company10 client; request numberCompany10-Sat Nov 16 21:55:58 CET 2019-4
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
