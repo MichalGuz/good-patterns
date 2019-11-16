@@ -9,5 +9,7 @@ public class RequestServiceTestSuite {
         RequestService company01 = new Company01RequestService();
         RequestService company10 = new Company10RequestService();
         RequestService company20 = new Company20RequestService();
+        CustomerAssistant ordinaryAssistant = new CustomerAssistant("Ordinary");
+        CustomerAssistant specialAssistant = new CustomerAssistant("Special");
     }
 }
