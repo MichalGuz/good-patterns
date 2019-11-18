@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/observer_request/Company20RequestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/observer_request/Company20RequestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/observer_request/RequestService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="306">
+              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#659#660#0" expanded="true" />
@@ -67,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/observer_request/Company20RequestService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -81,10 +81,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/observer_request/CustomerAssistant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/observer_request/RequestServiceTestSuite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/observer_request/ObserverOfRequests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -114,8 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/strategy_social_media/FacebookPublisher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/strategy_social_media/SnapchatPublisher.java" />
         <option value="$PROJECT_DIR$/src/main/java/strategy_social_media/User.java" />
         <option value="$PROJECT_DIR$/src/test/java/strategy_social_media/SocialMediaTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_shape/Shape.java" />
@@ -161,10 +189,12 @@
         <option value="$PROJECT_DIR$/src/main/java/observer_request/ObservableRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/observer_request/ObserverOfRequests.java" />
         <option value="$PROJECT_DIR$/src/main/java/observer_request/ObservableRequests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/observer_request/RequestService.java" />
         <option value="$PROJECT_DIR$/src/main/java/observer_request/Company01RequestService.java" />
         <option value="$PROJECT_DIR$/src/main/java/observer_request/Company10RequestService.java" />
         <option value="$PROJECT_DIR$/src/main/java/observer_request/Company20RequestService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer_request/CustomerAssistant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/observer_request/RequestService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/observer_request/RequestServiceTestSuite.java" />
       </list>
     </option>
   </component>
@@ -241,6 +271,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="observer_forum" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="good-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="good-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="observer_request" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -270,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.ForumUserTestSuite.testUpdate">
+  <component name="RunManager" selected="Gradle.RequestServiceTestSuite.testUpdate">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -317,12 +355,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CheckersTestSuite.testCheckersBuilder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ForumUserTestSuite.testUpdate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;builder_checkers.CheckersTestSuite.testCheckersBuilder&quot;" />
+        <option name="scriptParameters" value="--tests &quot;observer_forum.ForumUserTestSuite.testUpdate&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -337,12 +375,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ForumUserTestSuite.testUpdate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RequestServiceTestSuite.testUpdate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;observer_forum.ForumUserTestSuite.testUpdate&quot;" />
+        <option name="scriptParameters" value="--tests &quot;observer_request.RequestServiceTestSuite.testUpdate&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -395,11 +433,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RequestServiceTestSuite.testUpdate" />
         <item itemvalue="Gradle.ForumUserTestSuite.testUpdate" />
         <item itemvalue="Gradle.BigBurgerTestSuite.testBigBurgerNew" />
         <item itemvalue="Gradle.SailboatTestSuire.testSailboatNew" />
         <item itemvalue="Gradle.CheckersTestSuite" />
-        <item itemvalue="Gradle.CheckersTestSuite.testCheckersBuilder" />
       </list>
     </recent_temporary>
   </component>
@@ -417,18 +455,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SailboatTestSuire_testSailboatNew - 2019.10.31 at 22h 24m 11s.xml">
-      <configuration name="SailboatTestSuire.testSailboatNew" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SailboatTestSuire_testSailboatNew - 2019.10.31 at 22h 24m 36s.xml">
-      <configuration name="SailboatTestSuire.testSailboatNew" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SailboatTestSuire_testSailboatNew - 2019.10.31 at 22h 34m 39s.xml">
-      <configuration name="SailboatTestSuire.testSailboatNew" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="BigBurgerTestSuite_testBigBurgerNew - 2019.11.01 at 11h 41m 54s.xml">
-      <configuration name="BigBurgerTestSuite.testBigBurgerNew" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="BigBurgerTestSuite_testBigBurgerNew - 2019.11.01 at 11h 45m 52s.xml">
       <configuration name="BigBurgerTestSuite.testBigBurgerNew" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -446,6 +472,18 @@
     </history-entry>
     <history-entry file="ForumUserTestSuite_testUpdate - 2019.11.07 at 00h 17m 39s.xml">
       <configuration name="ForumUserTestSuite.testUpdate" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ForumUserTestSuite_testUpdate - 2019.11.16 at 21h 53m 21s.xml">
+      <configuration name="ForumUserTestSuite.testUpdate" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ForumUserTestSuite_testUpdate - 2019.11.16 at 21h 53m 58s.xml">
+      <configuration name="ForumUserTestSuite.testUpdate" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="RequestServiceTestSuite_testUpdate - 2019.11.16 at 21h 54m 24s.xml">
+      <configuration name="RequestServiceTestSuite.testUpdate" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="RequestServiceTestSuite_testUpdate - 2019.11.16 at 21h 55m 59s.xml">
+      <configuration name="RequestServiceTestSuite.testUpdate" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -481,28 +519,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/strategy_social_media/FacebookPublisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/strategy_social_media/SnapchatPublisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/strategy_social_media/Millenials.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -884,42 +900,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/observer_request/ObserverOfRequests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/observer_request/ObservableRequests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/observer_request/RequestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/observer_request/Company01RequestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -941,6 +925,64 @@
           <folding>
             <element signature="e#126#127#0" expanded="true" />
             <element signature="e#149#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer_request/ObserverOfRequests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer_request/Company01RequestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer_request/CustomerAssistant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/observer_request/RequestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/observer_request/RequestServiceTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
