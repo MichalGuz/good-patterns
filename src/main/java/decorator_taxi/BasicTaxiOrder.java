@@ -7,4 +7,9 @@ public class BasicTaxiOrder implements TaxiOrder {
     public BigDecimal getCost() {
         return new BigDecimal(10);
     }
+
+    @Override
+    public String getDescription() {
+        return "Selected course";
+    }
 }
