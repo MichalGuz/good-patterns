@@ -1,4 +1,10 @@
 package decorator_taxi;
 
-public class BasicTaxiOrder implements TaxiOrder{
+import java.math.BigDecimal;
+
+public class BasicTaxiOrder implements TaxiOrder {
+    @Override
+    public BigDecimal getCost() {
+        return new BigDecimal(10);
+    }
 }
