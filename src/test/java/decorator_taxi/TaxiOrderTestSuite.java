@@ -17,4 +17,9 @@ public class TaxiOrderTestSuite {
         // then
         Assert.assertEquals(new BigDecimal(10), calculatedCost);
     }
+
+    @Test
+    public void testBasicTaxiOrderGetDescription() {
+
+    }
 }
