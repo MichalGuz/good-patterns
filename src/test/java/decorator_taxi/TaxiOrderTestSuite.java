@@ -1,5 +1,6 @@
 package decorator_taxi;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.math.BigDecimal;
@@ -12,5 +13,8 @@ public class TaxiOrderTestSuite {
 
         // when
         BigDecimal calculatedCost = order.getCost();
+
+        // then
+        Assert.assertEquals(new BigDecimal(10), calculatedCost);
     }
 }
