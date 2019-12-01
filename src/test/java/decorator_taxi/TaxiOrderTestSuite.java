@@ -20,6 +20,7 @@ public class TaxiOrderTestSuite {
 
     @Test
     public void testBasicTaxiOrderGetDescription() {
-
+        // given
+        TaxiOrder order = new BasicTaxiOrder();
     }
 }
