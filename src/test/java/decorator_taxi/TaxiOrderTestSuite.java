@@ -22,5 +22,8 @@ public class TaxiOrderTestSuite {
     public void testBasicTaxiOrderGetDescription() {
         // given
         TaxiOrder order = new BasicTaxiOrder();
+
+        // when
+        String description = order.getDescription();
     }
 }
