@@ -1,4 +1,4 @@
 package decorator_taxi;
 
-public class AbstractTaxiOrderDecorator {
+public class AbstractTaxiOrderDecorator implements TaxiOrder {
 }
