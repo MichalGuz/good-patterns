@@ -25,5 +25,8 @@ public class TaxiOrderTestSuite {
 
         // when
         String description = order.getDescription();
+
+        // then
+        Assert.assertEquals("Selected course", description);
     }
 }
