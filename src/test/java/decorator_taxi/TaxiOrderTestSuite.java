@@ -35,4 +35,9 @@ public class TaxiOrderTestSuite {
     public void testCityTaxiNetworkGetCost() {
 
     }
+
+    @Test
+    public void testCityTaxiNetworkGetDescription() {
+
+    }
 }
