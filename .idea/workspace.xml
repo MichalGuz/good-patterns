@@ -24,15 +24,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/observer_request/Company01RequestService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/observer_request/Company10RequestService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -73,7 +64,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/observer_request/RequestServiceTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="391">
               <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -95,22 +86,34 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/BasicTaxiOrder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="31" />
               <folding>
                 <element signature="e#152#153#0" expanded="true" />
-                <element signature="e#182#183#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/decorator_taxi/TaxiOrderTestSuite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/decorator_taxi/TaxiOrderTestSuite.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/AbstractTaxiOrderDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="31" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="31" />
+              <caret line="2" column="60" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -149,8 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/factory_shape/Shape.java" />
-        <option value="$PROJECT_DIR$/src/main/java/factory_shape/Circle.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_shape/Square.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_shape/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_shape/ShapeFactory.java" />
@@ -200,6 +201,8 @@
         <option value="$PROJECT_DIR$/src/test/java/observer_request/RequestServiceTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/decorator_taxi/TaxiOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/decorator_taxi/BasicTaxiOrder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/decorator_taxi/TaxiOrderTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/decorator_taxi/AbstractTaxiOrderDecorator.java" />
       </list>
     </option>
   </component>
@@ -214,7 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -306,6 +308,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -510,7 +513,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2985437" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30339807" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -540,16 +543,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/strategy_social_media/SocialMediaTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/strategy_social_media/SocialPublisher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -949,6 +942,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/observer_request/RequestServiceTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/observer_request/ObserverOfRequests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -963,16 +966,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/observer_request/RequestServiceTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/TaxiOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -983,20 +976,30 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/BasicTaxiOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="31" />
           <folding>
             <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/decorator_taxi/TaxiOrderTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/AbstractTaxiOrderDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="31" />
+          <caret line="2" column="60" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="60" />
         </state>
       </provider>
     </entry>
