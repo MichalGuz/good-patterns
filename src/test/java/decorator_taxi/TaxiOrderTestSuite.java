@@ -36,6 +36,9 @@ public class TaxiOrderTestSuite {
         // given
         TaxiOrder taxiOrder = new BasicTaxiOrder();
         taxiOrder = new CityTaxiNetworkOrderDecorator(taxiOrder);
+
+        // when
+        BigDecimal theCost = taxiOrder.getCost();
     }
 
     @Test
