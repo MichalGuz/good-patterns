@@ -33,7 +33,8 @@ public class TaxiOrderTestSuite {
 
     @Test
     public void testCityTaxiNetworkGetCost() {
-
+        // given
+        TaxiOrder taxiOrder = new BasicTaxiOrder();
     }
 
     @Test
