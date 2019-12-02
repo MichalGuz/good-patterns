@@ -29,4 +29,10 @@ public class TaxiOrderTestSuite {
         // then
         Assert.assertEquals("Selected course", description);
     }
+
+
+    @Test
+    public void testCityTaxiNetworkGetCost() {
+
+    }
 }
