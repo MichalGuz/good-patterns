@@ -35,6 +35,7 @@ public class TaxiOrderTestSuite {
     public void testCityTaxiNetworkGetCost() {
         // given
         TaxiOrder taxiOrder = new BasicTaxiOrder();
+        taxiOrder = new CityTaxiNetworkOrderDecorator(taxiOrder);
     }
 
     @Test
