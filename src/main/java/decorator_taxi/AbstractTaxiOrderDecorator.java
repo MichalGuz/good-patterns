@@ -5,6 +5,10 @@ import java.math.BigDecimal;
 public class AbstractTaxiOrderDecorator implements TaxiOrder {
     private final TaxiOrder taxiOrder;
 
+    protected AbstractTaxiOrderDecorator(TaxiOrder taxiOrder) {
+        this.taxiOrder = taxiOrder;
+    }
+
     @Override
     public BigDecimal getCost(){
         return taxiOrder.getCost();
