@@ -12,4 +12,9 @@ public class CyberTaxiNetworkOrderDecorator extends AbstractTaxiOrderDecorator {
         return super.getCost().add(new BigDecimal(50));
     }
 
- }
+    @Override
+    public String getDescription() {
+        return super.getDescription() + "by Cyber Taxi network";
+    }
+
+}
