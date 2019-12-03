@@ -12,4 +12,9 @@ public class CiaoTaxiNetworkOrderDecorator extends AbstractTaxiOrderDecorator {
         // hardcoded stub cost = 20
         return super.getCost().add(new BigDecimal(20));
     }
+
+    @Override
+    public String getDescription() {
+        return super.getDescription() + "by Cuaio network.");
+    }
 }
