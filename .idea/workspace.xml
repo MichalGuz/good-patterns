@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/decorator_taxi/TaxiOrderTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/decorator_taxi/TaxiOrderTestSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/decorator_taxi.TaxiOrderTestSuite.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/decorator_taxi.TaxiOrderTestSuite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/decorator_taxi.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/decorator_taxi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-decorator_taxi.TaxiOrderTestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-decorator_taxi.TaxiOrderTestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/decorator_taxi/TaxiOrderTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/decorator_taxi/TaxiOrderTestSuite.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -74,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/BasicTaxiOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="204">
               <caret line="12" column="31" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="31" />
               <folding>
                 <element signature="e#152#153#0" expanded="true" />
@@ -86,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/decorator_taxi/TaxiOrderTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
+            <state relative-caret-position="231">
+              <caret line="56" column="80" selection-start-line="56" selection-start-column="80" selection-end-line="56" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/CityTaxiNetworkOrderDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="40" />
+            <state relative-caret-position="204">
+              <caret line="17" column="65" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -330,72 +343,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.RequestServiceTestSuite.testUpdate">
+  <component name="RunManager" selected="Gradle.TaxiOrderTestSuite.testCityTaxiNetworkGetDescription">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="BigBurgerTestSuite.testBigBurgerNew" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;builder_burger.BigBurgerTestSuite.testBigBurgerNew&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="CheckersTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;builder_checkers.CheckersTestSuite&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ForumUserTestSuite.testUpdate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;observer_forum.ForumUserTestSuite.testUpdate&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="RequestServiceTestSuite.testUpdate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -417,12 +370,72 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SailboatTestSuire.testSailboatNew" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TaxiOrderTestSuite.testBasicTaxiOrderGetCost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;builder_sailboat.SailboatTestSuire.testSailboatNew&quot;" />
+        <option name="scriptParameters" value="--tests &quot;decorator_taxi.TaxiOrderTestSuite.testBasicTaxiOrderGetCost&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TaxiOrderTestSuite.testBasicTaxiOrderGetDescription" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;decorator_taxi.TaxiOrderTestSuite.testBasicTaxiOrderGetDescription&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TaxiOrderTestSuite.testCityTaxiNetworkGetCost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;decorator_taxi.TaxiOrderTestSuite.testCityTaxiNetworkGetCost&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TaxiOrderTestSuite.testCityTaxiNetworkGetDescription" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;decorator_taxi.TaxiOrderTestSuite.testCityTaxiNetworkGetDescription&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -455,11 +468,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TaxiOrderTestSuite.testCityTaxiNetworkGetDescription" />
+        <item itemvalue="Gradle.TaxiOrderTestSuite.testCityTaxiNetworkGetCost" />
+        <item itemvalue="Gradle.TaxiOrderTestSuite.testBasicTaxiOrderGetDescription" />
+        <item itemvalue="Gradle.TaxiOrderTestSuite.testBasicTaxiOrderGetCost" />
         <item itemvalue="Gradle.RequestServiceTestSuite.testUpdate" />
-        <item itemvalue="Gradle.ForumUserTestSuite.testUpdate" />
-        <item itemvalue="Gradle.BigBurgerTestSuite.testBigBurgerNew" />
-        <item itemvalue="Gradle.SailboatTestSuire.testSailboatNew" />
-        <item itemvalue="Gradle.CheckersTestSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -477,24 +490,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BigBurgerTestSuite_testBigBurgerNew - 2019.11.01 at 11h 45m 52s.xml">
-      <configuration name="BigBurgerTestSuite.testBigBurgerNew" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="BigBurgerTestSuite_testBigBurgerNew - 2019.11.01 at 11h 46m 15s.xml">
-      <configuration name="BigBurgerTestSuite.testBigBurgerNew" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="BigBurgerTestSuite_testBigBurgerNew - 2019.11.01 at 12h 05m 10s.xml">
-      <configuration name="BigBurgerTestSuite.testBigBurgerNew" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="BigBurgerTestSuite_testBigBurgerNew - 2019.11.01 at 12h 07m 42s.xml">
-      <configuration name="BigBurgerTestSuite.testBigBurgerNew" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ForumUserTestSuite_testUpdate - 2019.11.07 at 00h 13m 38s.xml">
-      <configuration name="ForumUserTestSuite.testUpdate" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ForumUserTestSuite_testUpdate - 2019.11.07 at 00h 17m 39s.xml">
-      <configuration name="ForumUserTestSuite.testUpdate" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="ForumUserTestSuite_testUpdate - 2019.11.16 at 21h 53m 21s.xml">
       <configuration name="ForumUserTestSuite.testUpdate" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -507,9 +502,27 @@
     <history-entry file="RequestServiceTestSuite_testUpdate - 2019.11.16 at 21h 55m 59s.xml">
       <configuration name="RequestServiceTestSuite.testUpdate" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="TaxiOrderTestSuite_testBasicTaxiOrderGetCost - 2019.12.03 at 22h 17m 42s.xml">
+      <configuration name="TaxiOrderTestSuite.testBasicTaxiOrderGetCost" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TaxiOrderTestSuite_testBasicTaxiOrderGetDescription - 2019.12.03 at 22h 18m 10s.xml">
+      <configuration name="TaxiOrderTestSuite.testBasicTaxiOrderGetDescription" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TaxiOrderTestSuite_testBasicTaxiOrderGetDescription - 2019.12.03 at 22h 18m 11s.xml">
+      <configuration name="TaxiOrderTestSuite.testBasicTaxiOrderGetDescription" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TaxiOrderTestSuite_testCityTaxiNetworkGetCost - 2019.12.03 at 22h 18m 49s.xml">
+      <configuration name="TaxiOrderTestSuite.testCityTaxiNetworkGetCost" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TaxiOrderTestSuite_testCityTaxiNetworkGetCost - 2019.12.03 at 22h 19m 30s.xml">
+      <configuration name="TaxiOrderTestSuite.testCityTaxiNetworkGetCost" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TaxiOrderTestSuite_testCityTaxiNetworkGetDescription - 2019.12.03 at 22h 39m 20s.xml">
+      <configuration name="TaxiOrderTestSuite.testCityTaxiNetworkGetDescription" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="7" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3131068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -943,51 +956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/TaxiOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/BasicTaxiOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="31" />
-          <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/decorator_taxi/TaxiOrderTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/AbstractTaxiOrderDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding>
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/observer_request/ObserverOfRequests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1002,10 +970,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/CityTaxiNetworkOrderDecorator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/AbstractTaxiOrderDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/TaxiOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="40" />
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/CityTaxiNetworkOrderDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/BasicTaxiOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/decorator_taxi/TaxiOrderTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="56" column="80" selection-start-line="56" selection-start-column="80" selection-end-line="56" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -54,6 +54,6 @@ public class TaxiOrderTestSuite {
         String decription  = order.getDescription();
 
         // then
-        Assert.assertEquals(with CityTaxi network");
+        Assert.assertEquals("Selected course with CityTaxi network", decription);
     }
 }
