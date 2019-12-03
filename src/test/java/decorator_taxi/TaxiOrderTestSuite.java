@@ -51,9 +51,9 @@ public class TaxiOrderTestSuite {
         order = new CityTaxiNetworkOrderDecorator(order);
 
         // when
-        String decription  = order.getDescription();
+        String description  = order.getDescription();
 
         // then
-        Assert.assertEquals("Selected course with CityTaxi network", decription);
+        Assert.assertEquals("Selected course with CityTaxi network", description);
     }
 }
