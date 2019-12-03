@@ -52,5 +52,8 @@ public class TaxiOrderTestSuite {
 
         // when
         String decription  = order.getDescription();
+
+        // then
+        Assert.assertEquals(with CityTaxi network");
     }
 }
