@@ -1,4 +1,4 @@
 package decorator_taxi;
 
-public class CyberTaxiNetworkOrderDecorator {
+public class CyberTaxiNetworkOrderDecorator extends AbstractTaxiOrderDecorator {
 }
