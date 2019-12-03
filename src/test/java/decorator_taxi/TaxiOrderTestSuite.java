@@ -48,6 +48,6 @@ public class TaxiOrderTestSuite {
     public void testCityTaxiNetworkGetDescription() {
         // given
         TaxiOrder order = new BasicTaxiOrder();
-
+        order = new CityTaxiNetworkOrderDecorator(order);
     }
 }
