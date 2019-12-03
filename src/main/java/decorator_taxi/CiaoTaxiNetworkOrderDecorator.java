@@ -1,4 +1,4 @@
 package decorator_taxi;
 
-public class CiaoTaxiNetworkOrderDecorator {
+public class CiaoTaxiNetworkOrderDecorator extends AbstractTaxiOrderDecorator{
 }
