@@ -49,5 +49,8 @@ public class TaxiOrderTestSuite {
         // given
         TaxiOrder order = new BasicTaxiOrder();
         order = new CityTaxiNetworkOrderDecorator(order);
+
+        // when
+        String decription  = order.getDescription();
     }
 }
