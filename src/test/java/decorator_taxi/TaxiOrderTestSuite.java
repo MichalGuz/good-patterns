@@ -46,6 +46,8 @@ public class TaxiOrderTestSuite {
 
     @Test
     public void testCityTaxiNetworkGetDescription() {
+        // given
+        TaxiOrder order = new BasicTaxiOrder();
 
     }
 }
