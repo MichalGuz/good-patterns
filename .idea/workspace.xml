@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="" />
+    <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/decorator_taxi/ChildSeatDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decorator_taxi/ChildSeatDecorator.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -98,12 +100,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/ChildseatDecorator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/ChildSeatDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="272">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="38" />
               <folding>
                 <element signature="e#145#146#0" expanded="true" />
                 <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,7 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/factory_task/Task.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_task/TaskFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_task/ShoppingTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_task/PaintingTask.java" />
@@ -203,6 +209,7 @@
         <option value="$PROJECT_DIR$/src/main/java/decorator_taxi/CiaoTaxiNetworkOrderDecorator.java" />
         <option value="$PROJECT_DIR$/src/main/java/decorator_taxi/CyberTaxiNetworkOrderDecorator.java" />
         <option value="$PROJECT_DIR$/src/main/java/decorator_taxi/ChildseatDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/decorator_taxi/ChildSeatDecorator.java" />
       </list>
     </option>
   </component>
@@ -512,6 +519,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32281554" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -998,12 +1006,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/ChildseatDecorator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/ChildSeatDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="272">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="38" />
           <folding>
             <element signature="e#145#146#0" expanded="true" />
             <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
           </folding>
         </state>
       </provider>
