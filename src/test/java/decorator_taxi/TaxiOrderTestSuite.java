@@ -62,5 +62,6 @@ public class TaxiOrderTestSuite {
         // given
         TaxiOrder order = new BasicTaxiOrder();
         order = new CyberTaxiNetworkOrderDecorator(order);
+        order = new ChildSeatDecorator(order);
     }
 }
