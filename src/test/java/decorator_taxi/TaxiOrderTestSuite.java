@@ -63,5 +63,8 @@ public class TaxiOrderTestSuite {
         TaxiOrder order = new BasicTaxiOrder();
         order = new CyberTaxiNetworkOrderDecorator(order);
         order = new ChildSeatDecorator(order);
+
+        // when
+        BigDecimal theCost = order.getCost();
     }
 }
