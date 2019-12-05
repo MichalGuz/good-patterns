@@ -66,5 +66,8 @@ public class TaxiOrderTestSuite {
 
         // when
         BigDecimal theCost = order.getCost();
+
+        // then
+        Assert.assertEquals(new BigDecimal(80), theCost);
     }
 }
