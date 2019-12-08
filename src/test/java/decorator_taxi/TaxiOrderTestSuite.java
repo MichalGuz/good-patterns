@@ -80,5 +80,6 @@ public class TaxiOrderTestSuite {
 
         // when
         String dectription = order.getDescription();
-    }
+
+        }
 }

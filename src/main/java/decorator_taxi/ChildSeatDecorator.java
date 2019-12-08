@@ -14,6 +14,6 @@ public class ChildSeatDecorator extends AbstractTaxiOrderDecorator {
 
     @Override
     public String getDescription() {
-        return super.getDescription() + "child seat.";
+        return super.getDescription() + " with using a child seat.";
     }
 }
