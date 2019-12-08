@@ -81,5 +81,8 @@ public class TaxiOrderTestSuite {
         // when
         String decription = order.getDescription();
 
-        }
+        // then
+        Assert.assertEquals("Selected course with CityTaxi network with using a child seat", descriptiom);
+
+    }
 }
