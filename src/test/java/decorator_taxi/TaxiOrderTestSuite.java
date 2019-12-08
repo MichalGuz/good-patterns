@@ -79,7 +79,7 @@ public class TaxiOrderTestSuite {
         order = new ChildSeatDecorator(order);
 
         // when
-        String decription = order.getDescription();
+        String descriptiom = order.getDescription();
 
         // then
         Assert.assertEquals("Selected course with CityTaxi network with using a child seat", descriptiom);
