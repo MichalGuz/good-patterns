@@ -70,4 +70,9 @@ public class TaxiOrderTestSuite {
         // then
         Assert.assertEquals(new BigDecimal(80), theCost);
     }
+
+    @Test
+    public void testCyberTaxiGetDescriptionWithChildSeat() {
+
+    }
 }
