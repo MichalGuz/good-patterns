@@ -75,5 +75,6 @@ public class TaxiOrderTestSuite {
     public void testCyberTaxiGetDescriptionWithChildSeat() {
         // given
         TaxiOrder order = new BasicTaxiOrder();
+        order = new CyberTaxiNetworkOrderDecorator(order);
     }
 }
