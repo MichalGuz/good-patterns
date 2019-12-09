@@ -111,6 +111,9 @@ public class TaxiOrderTestSuite {
         // when
         String description = order.getDescription();
 
+        // then
+        Assert.assertEquals("Selected course with CiaoTaxi network with using a child seat  with using a child seat", description);
+
 
     }
 }
