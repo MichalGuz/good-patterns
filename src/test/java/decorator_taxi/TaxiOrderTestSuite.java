@@ -104,6 +104,7 @@ public class TaxiOrderTestSuite {
     public void testCiaoTaxiWithTwoChildSeatsGetDescription() {
         // given
         TaxiOrder order = new BasicTaxiOrder();
+        order = new CiaoTaxiNetworkOrderDecorator(order);
 
 
     }
