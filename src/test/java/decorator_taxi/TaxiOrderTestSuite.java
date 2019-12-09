@@ -102,6 +102,9 @@ public class TaxiOrderTestSuite {
 
     @Test
     public void testCiaoTaxiWithTwoChildSeatsGetDescription() {
+        // given
+        TaxiOrder order = new BasicTaxiOrder();
+
 
     }
 }
