@@ -87,6 +87,9 @@ public class TaxiOrderTestSuite {
 
     @Test
     public void testCiaoTaxiWithTwoChildSeatsGetCost() {
+        // given
+        TaxiOrder order = new BasicTaxiOrder();
+
 
     }
 }
