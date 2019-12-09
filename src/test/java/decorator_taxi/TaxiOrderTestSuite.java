@@ -108,6 +108,9 @@ public class TaxiOrderTestSuite {
         order = new ChildSeatDecorator(order);
         order = new ChildSeatDecorator(order);
 
+        // when
+        String description = order.getDescription();
+
 
     }
 }
