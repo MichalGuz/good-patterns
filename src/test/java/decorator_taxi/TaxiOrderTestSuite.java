@@ -92,5 +92,8 @@ public class TaxiOrderTestSuite {
         order = new CiaoTaxiNetworkOrderDecorator(order);
         order = new ChildSeatDecorator(order);
         order = new ChildSeatDecorator(order);
+
+        // when
+        BigDecimal cost = order.getCost();
     }
 }
