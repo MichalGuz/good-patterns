@@ -90,7 +90,6 @@ public class TaxiOrderTestSuite {
         // given
         TaxiOrder order = new BasicTaxiOrder();
         order = new CiaoTaxiNetworkOrderDecorator(order);
-
-
+        order = new ChildSeatDecorator(order);
     }
 }
