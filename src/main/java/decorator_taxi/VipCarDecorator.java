@@ -1,7 +1,14 @@
 package decorator_taxi;
 
-public class VipCarDecorator extends AbstractTaxiOrderDecorator{
-    public VipCarDecorator( TaxiOrder taxiOrder) {
+import java.math.BigDecimal;
+
+public class VipCarDecorator extends AbstractTaxiOrderDecorator {
+    public VipCarDecorator(TaxiOrder taxiOrder) {
         super(taxiOrder);
+    }
+
+    @Override
+    public BigDecimal getCost() {
+        return super.getCost().add(new BigDecimal(20));
     }
 }
