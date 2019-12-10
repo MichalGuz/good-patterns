@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="decorator_taxi.TaxiOrderTestSuite" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-12-10T01:04:28" hostname="Dell-Komputer" time="0.034">
+<testsuite name="decorator_taxi.TaxiOrderTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-10T22:55:50" hostname="Dell-Komputer" time="0.05">
   <properties/>
-  <testcase name="testCityTaxiNetworkGetDescription" classname="decorator_taxi.TaxiOrderTestSuite" time="0.012"/>
-  <testcase name="testBasicTaxiOrderGetCost" classname="decorator_taxi.TaxiOrderTestSuite" time="0.007"/>
-  <testcase name="testCiaoTaxiWithTwoChildSeatsGetCost" classname="decorator_taxi.TaxiOrderTestSuite" time="0.004"/>
-  <testcase name="testCyberTaxiGetCostWithChildSeat" classname="decorator_taxi.TaxiOrderTestSuite" time="0.004"/>
-  <testcase name="testCiaoTaxiWithTwoChildSeatsGetDescription" classname="decorator_taxi.TaxiOrderTestSuite" time="0.0"/>
-  <testcase name="testBasicTaxiOrderGetDescription" classname="decorator_taxi.TaxiOrderTestSuite" time="0.0"/>
-  <testcase name="testCityTaxiNetworkGetCost" classname="decorator_taxi.TaxiOrderTestSuite" time="0.0"/>
-  <testcase name="testCyberTaxiGetDescriptionWithChildSeat" classname="decorator_taxi.TaxiOrderTestSuite" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="testVipTaxiWithChildSeatExpressGetCost" classname="decorator_taxi.TaxiOrderTestSuite" time="0.05"/>
+  <system-out><![CDATA[90
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

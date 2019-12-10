@@ -128,6 +128,6 @@ public class TaxiOrderTestSuite {
         BigDecimal cost = taxiOrder.getCost();
 
         // then
-        Assert.assertEquals(130, cost);
+        Assert.assertEquals(new BigDecimal(90), cost);
     }
 }
