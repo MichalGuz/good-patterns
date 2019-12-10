@@ -11,4 +11,9 @@ public class ExpressDecorator extends AbstractTaxiOrderDecorator {
     public BigDecimal getCost() {
         return super.getCost().add(new BigDecimal(10));
     }
+
+    @Override
+    public String getDescription() {
+        return super.getDescription() + " and express service";
+    }
 }
