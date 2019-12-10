@@ -14,7 +14,7 @@ public class CyberTaxiNetworkOrderDecorator extends AbstractTaxiOrderDecorator {
 
     @Override
     public String getDescription() {
-        return super.getDescription() + "with Cyber Taxi network";
+        return super.getDescription() + " with Cyber Taxi network";
     }
 
 }

@@ -82,7 +82,7 @@ public class TaxiOrderTestSuite {
         String descriptiom = order.getDescription();
 
         // then
-        Assert.assertEquals("Selected course with City Taxi network with using a child seat", descriptiom);
+        Assert.assertEquals("Selected course with Cyber Taxi network with using a child seat", descriptiom);
     }
 
     @Test
