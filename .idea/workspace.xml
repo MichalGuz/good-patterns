@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/decorator_taxi/VipCarDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decorator_taxi/VipCarDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/decorator_taxi/TaxiOrderTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/decorator_taxi/TaxiOrderTestSuite.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/decorator_taxi/TaxiOrderTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="74" column="56" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="56" />
+            <state relative-caret-position="333">
+              <caret line="122" column="39" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/VipCarDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -205,13 +205,13 @@
         <option value="$PROJECT_DIR$/src/main/java/decorator_taxi/CiaoTaxiNetworkOrderDecorator.java" />
         <option value="$PROJECT_DIR$/src/main/java/decorator_taxi/ChildSeatDecorator.java" />
         <option value="$PROJECT_DIR$/src/main/java/decorator_taxi/CyberTaxiNetworkOrderDecorator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/decorator_taxi/TaxiOrderTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/decorator_taxi/ExpressDecorator.java" />
         <option value="$PROJECT_DIR$/src/main/java/decorator_taxi/VipCarDecorator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/decorator_taxi/TaxiOrderTestSuite.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="31" />
     <option name="width" value="1260" />
     <option name="height" value="425" />
@@ -484,7 +484,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="7" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26860842" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -976,16 +977,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/decorator_taxi/TaxiOrderTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="74" column="56" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/TaxiOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1019,6 +1010,16 @@
             <element signature="e#311#312#0" expanded="true" />
             <element signature="e#368#369#0" expanded="true" />
             <element signature="e#417#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/decorator_taxi/TaxiOrderTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="122" column="39" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

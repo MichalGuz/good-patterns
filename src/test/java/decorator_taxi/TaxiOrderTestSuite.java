@@ -120,6 +120,8 @@ public class TaxiOrderTestSuite {
         // given
         TaxiOrder taxiOrder = new BasicTaxiOrder();
         taxiOrder = new CityTaxiNetworkOrderDecorator(taxiOrder);
+        taxiOrder = new VipCarDecorator(taxiOrder);
+        taxiOrder = new ChildSeatDecorator(taxiOrder);
 
 
     }
