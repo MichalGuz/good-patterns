@@ -124,6 +124,9 @@ public class TaxiOrderTestSuite {
         taxiOrder = new ChildSeatDecorator(taxiOrder);
         System.out.println(taxiOrder.getCost());
 
+        // when
+        BigDecimal cost = taxiOrder.getCost();
+
 
     }
 }
