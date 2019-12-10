@@ -1,4 +1,4 @@
 package decorator_taxi;
 
-public class VipCarDecorator {
+public class VipCarDecorator extends AbstractTaxiOrderDecorator{
 }
