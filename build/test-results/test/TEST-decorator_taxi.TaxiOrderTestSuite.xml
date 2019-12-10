@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="decorator_taxi.TaxiOrderTestSuite" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-12-10T23:07:21" hostname="Dell-Komputer" time="0.023">
+<testsuite name="decorator_taxi.TaxiOrderTestSuite" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-12-10T23:11:14" hostname="Dell-Komputer" time="0.089">
   <properties/>
-  <testcase name="testVipTaxiWithChildSeatExpressGetDesription" classname="decorator_taxi.TaxiOrderTestSuite" time="0.023">
-    <failure message="org.junit.ComparisonFailure: expected:&lt;[city]&gt; but was:&lt;[Selected course with City Taxi network variant VIP with using a child seat and express service]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[city]&gt; but was:&lt;[Selected course with City Taxi network variant VIP with using a child seat and express service]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
+  <testcase name="testVipTaxiWithChildSeatExpressGetCost" classname="decorator_taxi.TaxiOrderTestSuite" time="0.089">
+    <failure message="java.lang.AssertionError: expected:&lt;90&gt; but was:&lt;100&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;90&gt; but was:&lt;100&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
 	at org.junit.Assert.assertEquals(Assert.java:144)
-	at decorator_taxi.TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetDesription(TaxiOrderTestSuite.java:147)
+	at decorator_taxi.TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetCost(TaxiOrderTestSuite.java:132)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -55,6 +57,7 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <system-out><![CDATA[]]></system-out>
+  <system-out><![CDATA[100
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
