@@ -130,4 +130,9 @@ public class TaxiOrderTestSuite {
         // then
         Assert.assertEquals(new BigDecimal(90), cost);
     }
+
+    @Test
+    public void testVipTaxiWithChildSeatExpressGetDesription() {
+
+    }
 }
