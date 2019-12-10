@@ -122,6 +122,7 @@ public class TaxiOrderTestSuite {
         taxiOrder = new CityTaxiNetworkOrderDecorator(taxiOrder);
         taxiOrder = new VipCarDecorator(taxiOrder);
         taxiOrder = new ChildSeatDecorator(taxiOrder);
+        System.out.println(taxiOrder.getCost());
 
 
     }
