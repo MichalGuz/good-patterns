@@ -117,6 +117,10 @@ public class TaxiOrderTestSuite {
 
     @Test
     public void testVipTaxiWithChildSeatExpressGetCost() {
+        // given
+        TaxiOrder taxiOrder = new BasicTaxiOrder();
+        taxiOrder = new CityTaxiNetworkOrderDecorator(taxiOrder);
+
 
     }
 }
