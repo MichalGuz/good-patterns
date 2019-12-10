@@ -15,6 +15,6 @@ public class CiaoTaxiNetworkOrderDecorator extends AbstractTaxiOrderDecorator {
 
     @Override
     public String getDescription() {
-        return super.getDescription() + "with CiaoTaxi network.";
+        return super.getDescription() + " with CiaoTaxi network";
     }
 }
