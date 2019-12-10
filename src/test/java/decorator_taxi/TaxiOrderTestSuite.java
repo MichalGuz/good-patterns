@@ -139,5 +139,8 @@ public class TaxiOrderTestSuite {
         taxiOrder = new VipCarDecorator(taxiOrder);
         taxiOrder = new ChildSeatDecorator(taxiOrder);
 
+        // when
+        String description = taxiOrder.getDescription();
+
     }
 }
