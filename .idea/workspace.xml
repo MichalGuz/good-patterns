@@ -52,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/decorator_taxi/TaxiOrderTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="140" selection-start-line="140" selection-end-line="140" />
+            <state relative-caret-position="234">
+              <caret line="146" column="123" selection-start-line="146" selection-start-column="123" selection-end-line="146" selection-end-column="123" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -320,7 +320,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetCost">
+  <component name="RunManager" selected="Gradle.TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetDesription">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -333,26 +333,6 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;decorator_taxi.TaxiOrderTestSuite&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TaxiOrderTestSuite.testCityTaxiNetworkGetCost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;decorator_taxi.TaxiOrderTestSuite.testCityTaxiNetworkGetCost&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -427,6 +407,26 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetDesription" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;decorator_taxi.TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetDesription&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -445,11 +445,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetDesription" />
         <item itemvalue="Gradle.TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetCost" />
         <item itemvalue="Gradle.TaxiOrderTestSuite" />
         <item itemvalue="Gradle.TaxiOrderTestSuite.testCyberTaxiGetCostWithChildSeat" />
         <item itemvalue="Gradle.TaxiOrderTestSuite.testCityTaxiNetworkGetDescription" />
-        <item itemvalue="Gradle.TaxiOrderTestSuite.testCityTaxiNetworkGetCost" />
       </list>
     </recent_temporary>
   </component>
@@ -467,12 +467,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TaxiOrderTestSuite - 2019.12.10 at 01h 53m 13s.xml">
-      <configuration name="TaxiOrderTestSuite" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TaxiOrderTestSuite - 2019.12.10 at 01h 58m 55s.xml">
-      <configuration name="TaxiOrderTestSuite" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="TaxiOrderTestSuite - 2019.12.10 at 01h 59m 29s.xml">
       <configuration name="TaxiOrderTestSuite" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -497,9 +491,16 @@
     <history-entry file="TaxiOrderTestSuite_testVipTaxiWithChildSeatExpressGetCost - 2019.12.10 at 23h 55m 51s.xml">
       <configuration name="TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetCost" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="TaxiOrderTestSuite_testVipTaxiWithChildSeatExpressGetDesription - 2019.12.11 at 00h 06m 11s.xml">
+      <configuration name="TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetDesription" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TaxiOrderTestSuite_testVipTaxiWithChildSeatExpressGetDesription - 2019.12.11 at 00h 07m 22s.xml">
+      <configuration name="TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetDesription" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26860842" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -510,12 +511,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919093" weight="0.32919255" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919093" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5008091" side_tool="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
@@ -1030,8 +1031,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/decorator_taxi/TaxiOrderTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="140" selection-start-line="140" selection-end-line="140" />
+        <state relative-caret-position="234">
+          <caret line="146" column="123" selection-start-line="146" selection-start-column="123" selection-end-line="146" selection-end-column="123" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

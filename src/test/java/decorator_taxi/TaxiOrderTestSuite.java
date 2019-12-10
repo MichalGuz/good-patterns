@@ -138,9 +138,12 @@ public class TaxiOrderTestSuite {
         taxiOrder = new CityTaxiNetworkOrderDecorator(taxiOrder);
         taxiOrder = new VipCarDecorator(taxiOrder);
         taxiOrder = new ChildSeatDecorator(taxiOrder);
+        taxiOrder = new ExpressDecorator(taxiOrder);
 
         // when
         String description = taxiOrder.getDescription();
 
+        // then
+        Assert.assertEquals("Selected course with City Taxi network variant VIP with using a child seat and express service", description);
     }
 }
