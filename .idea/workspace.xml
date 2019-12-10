@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="" />
+    <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/decorator_taxi.TaxiOrderTestSuite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/decorator_taxi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-decorator_taxi.TaxiOrderTestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -50,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/decorator_taxi/TaxiOrderTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="114" column="129" selection-start-line="114" selection-start-column="129" selection-end-line="114" selection-end-column="129" />
+            <state relative-caret-position="112">
+              <caret line="74" column="56" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,11 +80,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/CiaoTaxiNetworkOrderDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+            <state relative-caret-position="289">
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
               <folding>
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
                 <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/CyberTaxiNetworkOrderDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="221">
+              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
               <folding>
                 <element signature="e#280#281#0" expanded="true" />
                 <element signature="e#342#343#0" expanded="true" />
@@ -89,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/ChildSeatDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+              <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
               <folding>
                 <element signature="e#256#257#0" expanded="true" />
                 <element signature="e#318#319#0" expanded="true" />
@@ -112,8 +132,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/CityTaxiNetworkOrderDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="204">
+              <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -197,11 +217,11 @@
         <option value="$PROJECT_DIR$/src/main/java/decorator_taxi/TaxiOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/decorator_taxi/BasicTaxiOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/decorator_taxi/AbstractTaxiOrderDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/decorator_taxi/ChildseatDecorator.java" />
         <option value="$PROJECT_DIR$/src/main/java/decorator_taxi/CityTaxiNetworkOrderDecorator.java" />
         <option value="$PROJECT_DIR$/src/main/java/decorator_taxi/CiaoTaxiNetworkOrderDecorator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/decorator_taxi/CyberTaxiNetworkOrderDecorator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/decorator_taxi/ChildseatDecorator.java" />
         <option value="$PROJECT_DIR$/src/main/java/decorator_taxi/ChildSeatDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/decorator_taxi/CyberTaxiNetworkOrderDecorator.java" />
         <option value="$PROJECT_DIR$/src/test/java/decorator_taxi/TaxiOrderTestSuite.java" />
       </list>
     </option>
@@ -300,19 +320,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TaxiOrderTestSuite.testCyberTaxiGetCostWithChildSeat">
+  <component name="RunManager" selected="Gradle.TaxiOrderTestSuite">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaxiOrderTestSuite.testBasicTaxiOrderGetCost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TaxiOrderTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;decorator_taxi.TaxiOrderTestSuite.testBasicTaxiOrderGetCost&quot;" />
+        <option name="scriptParameters" value="--tests &quot;decorator_taxi.TaxiOrderTestSuite&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -425,11 +445,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TaxiOrderTestSuite" />
         <item itemvalue="Gradle.TaxiOrderTestSuite.testCyberTaxiGetCostWithChildSeat" />
         <item itemvalue="Gradle.TaxiOrderTestSuite.testCityTaxiNetworkGetDescription" />
         <item itemvalue="Gradle.TaxiOrderTestSuite.testCityTaxiNetworkGetCost" />
         <item itemvalue="Gradle.TaxiOrderTestSuite.testBasicTaxiOrderGetDescription" />
-        <item itemvalue="Gradle.TaxiOrderTestSuite.testBasicTaxiOrderGetCost" />
       </list>
     </recent_temporary>
   </component>
@@ -447,35 +467,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RequestServiceTestSuite_testUpdate - 2019.11.16 at 21h 54m 24s.xml">
-      <configuration name="RequestServiceTestSuite.testUpdate" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="RequestServiceTestSuite_testUpdate - 2019.11.16 at 21h 55m 59s.xml">
-      <configuration name="RequestServiceTestSuite.testUpdate" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TaxiOrderTestSuite_testBasicTaxiOrderGetCost - 2019.12.03 at 22h 17m 42s.xml">
-      <configuration name="TaxiOrderTestSuite.testBasicTaxiOrderGetCost" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TaxiOrderTestSuite_testBasicTaxiOrderGetDescription - 2019.12.03 at 22h 18m 10s.xml">
-      <configuration name="TaxiOrderTestSuite.testBasicTaxiOrderGetDescription" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TaxiOrderTestSuite_testBasicTaxiOrderGetDescription - 2019.12.03 at 22h 18m 11s.xml">
-      <configuration name="TaxiOrderTestSuite.testBasicTaxiOrderGetDescription" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TaxiOrderTestSuite_testCityTaxiNetworkGetCost - 2019.12.03 at 22h 18m 49s.xml">
-      <configuration name="TaxiOrderTestSuite.testCityTaxiNetworkGetCost" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TaxiOrderTestSuite_testCityTaxiNetworkGetCost - 2019.12.03 at 22h 19m 30s.xml">
-      <configuration name="TaxiOrderTestSuite.testCityTaxiNetworkGetCost" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TaxiOrderTestSuite_testCityTaxiNetworkGetDescription - 2019.12.03 at 22h 39m 20s.xml">
-      <configuration name="TaxiOrderTestSuite.testCityTaxiNetworkGetDescription" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TaxiOrderTestSuite_testCyberTaxiGetCostWithChildSeat - 2019.12.05 at 23h 59m 48s.xml">
-      <configuration name="TaxiOrderTestSuite.testCyberTaxiGetCostWithChildSeat" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="TaxiOrderTestSuite_testCyberTaxiGetCostWithChildSeat - 2019.12.10 at 00h 01m 23s.xml">
       <configuration name="TaxiOrderTestSuite.testCyberTaxiGetCostWithChildSeat" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TaxiOrderTestSuite - 2019.12.10 at 01h 47m 19s.xml">
+      <configuration name="TaxiOrderTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TaxiOrderTestSuite - 2019.12.10 at 01h 47m 18s.xml">
+      <configuration name="TaxiOrderTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TaxiOrderTestSuite - 2019.12.10 at 01h 50m 19s.xml">
+      <configuration name="TaxiOrderTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TaxiOrderTestSuite - 2019.12.10 at 01h 53m 13s.xml">
+      <configuration name="TaxiOrderTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TaxiOrderTestSuite - 2019.12.10 at 01h 58m 55s.xml">
+      <configuration name="TaxiOrderTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TaxiOrderTestSuite - 2019.12.10 at 01h 59m 29s.xml">
+      <configuration name="TaxiOrderTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TaxiOrderTestSuite - 2019.12.10 at 02h 01m 18s.xml">
+      <configuration name="TaxiOrderTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TaxiOrderTestSuite - 2019.12.10 at 02h 01m 57s.xml">
+      <configuration name="TaxiOrderTestSuite" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TaxiOrderTestSuite - 2019.12.10 at 02h 04m 29s.xml">
+      <configuration name="TaxiOrderTestSuite" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -490,12 +510,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919093" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919093" weight="0.32919255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" weight="0.32919255" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5008091" side_tool="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
@@ -893,28 +913,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/CyberTaxiNetworkOrderDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/AbstractTaxiOrderDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/CityTaxiNetworkOrderDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -932,30 +934,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/CiaoTaxiNetworkOrderDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-          <folding>
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/ChildSeatDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-          <folding>
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/BasicTaxiOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -969,10 +947,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/CityTaxiNetworkOrderDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/CiaoTaxiNetworkOrderDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/ChildSeatDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+          <folding>
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/CyberTaxiNetworkOrderDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/decorator_taxi/TaxiOrderTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="114" column="129" selection-start-line="114" selection-start-column="129" selection-end-line="114" selection-end-column="129" />
+        <state relative-caret-position="112">
+          <caret line="74" column="56" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
