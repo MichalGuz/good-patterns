@@ -113,7 +113,10 @@ public class TaxiOrderTestSuite {
 
         // then
         Assert.assertEquals("Selected course with CiaoTaxi network with using a child seat with using a child seat", description);
+    }
 
+    @Test
+    public void testVipTaxiWithChildSeatExpressGetCost() {
 
     }
 }
