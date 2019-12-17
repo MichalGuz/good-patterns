@@ -15,4 +15,10 @@ public class CourierExpressProduct implements Product {
     public void wrapUpItem() {
         System.out.println("Prepare a package for Courier Expresss.");
     }
+
+    @Override
+    public void processDelivery() {
+        System.out.println("Process the delivery by Courier Express.");
+    }
+
 }
