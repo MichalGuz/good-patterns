@@ -13,7 +13,7 @@ public class CourierAlfaProduct implements Product{
 
     @Override
     public void wrapUpItem() {
-        System.out.println("Wrap the item up for Courier Alfa.");
+        System.out.println("Prepare a package for Courier Alfa.");
     }
 
     @Override
