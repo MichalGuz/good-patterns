@@ -15,4 +15,9 @@ public class CourierAlfaProduct implements Product{
     public void wrapUpItem() {
         System.out.println("Wrap the item up for Courier Alfa.");
     }
+
+    @Override
+    public void processDelivery() {
+        System.out.println("Process the delivery by Courier Alfa.");
+    }
 }
