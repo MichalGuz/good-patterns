@@ -17,4 +17,10 @@ public class CourierProductMain {
 
         product.processDelivery();
     }
+
+    public static void main(String[] args) {
+        CourierProductMain courierProductMain = new CourierProductMain();
+        courierProductMain.process("Alfa");
+    }
+
 }
