@@ -5,4 +5,9 @@ public class CourierAlfaProduct implements Product{
     private String id;
     private String sender;
     private String receiver;
+
+    @Override
+    void initializeDelivery() {
+        System.out.println("Chose the Courier Alfa delivery.");
+    }
 }
