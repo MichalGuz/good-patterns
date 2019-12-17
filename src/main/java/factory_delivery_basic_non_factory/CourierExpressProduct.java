@@ -8,6 +8,11 @@ public class CourierExpressProduct implements Product {
 
     @Override
     public void initializeDelivery() {
-        System.out.println("Chose the Courier Alfa delivery.");
+        System.out.println("Chose the Courier Express delivery.");
+    }
+
+    @Override
+    public void wrapUpItem() {
+        System.out.println("Prepare a package for Courier Expresss.");
     }
 }
