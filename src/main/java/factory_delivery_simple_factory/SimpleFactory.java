@@ -10,7 +10,9 @@ public class SimpleFactory {
         if(type.equals("Alfa")) {
             product = new CourierAlfaProduct();
         } else if (type.equals("Express")) {
-            product= new CourierExpressProduct();
+            product = new CourierExpressProduct();
+        } else {
+            throw new IllegalArgumentException();
         }
         return product;
     }
