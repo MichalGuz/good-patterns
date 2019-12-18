@@ -10,9 +10,15 @@ public class ProductProcess {
     }
 
     public void doProcess(String type) {
-        Product product = simpleFactory.createProduct(type);
-        product.processDelivery();
-        product.wrapUpItem();
-        product.processDelivery();
+        try {
+            Product product = simpleFactory.createProduct(type);
+            product.processDelivery();
+            product.wrapUpItem();
+            product.processDelivery();
+        } catch (IllegalArgumentException e) {
+            System.out.println("Unknown type of courier company.\nPlease check the name of entered type and try again!");
+        } finally {
+            System.out.println("Factory delivery = Born for deliver!");
+        }
        }
 }
