@@ -6,4 +6,6 @@ public class ProductProcess {
     public ProductProcess(SimpleFactory simpleFactory) {
         this.simpleFactory = simpleFactory;
     }
+
+    public void doProcess(String type) {}
 }
