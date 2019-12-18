@@ -11,5 +11,8 @@ public class ProductProcess {
 
     public void doProcess(String type) {
         Product product = simpleFactory.createProduct(type);
+        product.processDelivery();
+        product.wrapUpItem();
+        product.processDelivery();
     }
 }
