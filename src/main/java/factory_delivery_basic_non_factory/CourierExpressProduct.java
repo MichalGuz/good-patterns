@@ -21,4 +21,8 @@ public class CourierExpressProduct implements Product {
         System.out.println("Process the delivery by Courier Express.");
     }
 
+    public void sendMessageToReceiver() {
+        System.out.println("Hello! Your package is in transit.");
+    }
+
 }
