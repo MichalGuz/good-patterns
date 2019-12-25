@@ -20,5 +20,10 @@ public class StaticFactoryTestSuite {
     public void testCreateProductOfInappropriateType()  {
         // given
         ProductProcessor pr = new ProductProcessor();
+
+        // when
+        pr.processProductOfStaticFactory("Mater");
+
+
     }
 }
