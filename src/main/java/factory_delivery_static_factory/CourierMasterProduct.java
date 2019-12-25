@@ -1,4 +1,6 @@
 package factory_delivery_static_factory;
 
-public class CourierMasterProduct {
+import factory_delivery_basic_non_factory.Product;
+
+public class CourierMasterProduct implements Product {
 }
