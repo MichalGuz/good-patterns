@@ -13,7 +13,7 @@ public class StaticFactoryTestSuite {
         pr.processProductOfStaticFactory("Master");
 
         // then
-        Assert.assertTrue("Test ok", true);
+        // do nothing
     }
 
     @Test
@@ -25,6 +25,6 @@ public class StaticFactoryTestSuite {
         pr.processProductOfStaticFactory("Mater");
 
         // then
-        Assert.assertTrue("Test ok.", true);
+        // do nothing
     }
 }
