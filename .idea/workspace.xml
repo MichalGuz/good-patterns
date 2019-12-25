@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/factory_delivery_static_factory/StaticFactoryTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factory_delivery_static_factory/StaticFactoryTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory_delivery_static_factory/StaticFactoryMain.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -68,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_static_factory/ProductProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -78,19 +78,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_static_factory/StaticFactoryMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="53" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/factory_delivery_static_factory/StaticFactoryTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="19" column="47" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="47" />
+            <state relative-caret-position="95">
+              <caret line="19" column="52" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -287,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.StaticFactoryTestSuite">
+  <component name="RunManager" selected="Gradle.StaticFactoryTestSuite.testCreateProductOfInappropriateType">
     <configuration name="CourierProductMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="factory_delivery_basic_non_factory.CourierProductMain" />
       <module name="good-patterns.main" />
@@ -356,12 +347,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetCost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StaticFactoryTestSuite.testCreateProductOfInappropriateType" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;decorator_taxi.TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetCost&quot;" />
+        <option name="scriptParameters" value="--tests &quot;factory_delivery_static_factory.StaticFactoryTestSuite.testCreateProductOfInappropriateType&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -394,11 +385,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.StaticFactoryTestSuite.testCreateProductOfInappropriateType" />
         <item itemvalue="Gradle.StaticFactoryTestSuite" />
         <item itemvalue="Application.StaticFactoryMain" />
         <item itemvalue="Application.SimpleFactoryMain" />
         <item itemvalue="Application.CourierProductMain" />
-        <item itemvalue="Gradle.TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetCost" />
       </list>
     </recent_temporary>
   </component>
@@ -416,15 +407,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TaxiOrderTestSuite - 2019.12.10 at 02h 01m 57s.xml">
-      <configuration name="TaxiOrderTestSuite" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TaxiOrderTestSuite - 2019.12.10 at 02h 04m 29s.xml">
-      <configuration name="TaxiOrderTestSuite" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TaxiOrderTestSuite_testVipTaxiWithChildSeatExpressGetCost - 2019.12.10 at 23h 54m 04s.xml">
-      <configuration name="TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetCost" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="TaxiOrderTestSuite_testVipTaxiWithChildSeatExpressGetCost - 2019.12.10 at 23h 55m 09s.xml">
       <configuration name="TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetCost" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -446,10 +428,18 @@
     <history-entry file="StaticFactoryTestSuite - 2019.12.25 at 23h 32m 39s.xml">
       <configuration name="StaticFactoryTestSuite" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="StaticFactoryTestSuite_testCreateProductOfInappropriateType - 2019.12.25 at 23h 42m 51s.xml">
+      <configuration name="StaticFactoryTestSuite.testCreateProductOfInappropriateType" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="StaticFactoryTestSuite_testCreateProductOfInappropriateType - 2019.12.25 at 23h 44m 11s.xml">
+      <configuration name="StaticFactoryTestSuite.testCreateProductOfInappropriateType" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="StaticFactoryTestSuite_testCreateProductOfInappropriateType - 2019.12.25 at 23h 44m 45s.xml">
+      <configuration name="StaticFactoryTestSuite.testCreateProductOfInappropriateType" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30097088" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -953,10 +943,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_static_factory/ProductProcessor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_static_factory/StaticFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="45" />
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/factory_delivery_static_factory/StaticFactoryTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -967,20 +967,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_static_factory/StaticFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_static_factory/ProductProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory_delivery_static_factory/StaticFactoryTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="45" />
         </state>
       </provider>
     </entry>
