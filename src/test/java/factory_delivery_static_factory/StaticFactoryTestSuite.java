@@ -18,5 +18,7 @@ public class StaticFactoryTestSuite {
 
     @Test
     public void testCreateProductOfInappropriateType()  {
-       }
+        // given
+        ProductProcessor pr = new ProductProcessor();
+    }
 }
