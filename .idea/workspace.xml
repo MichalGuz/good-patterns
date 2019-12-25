@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory_delivery_static_factory/CourierBetaProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory_delivery_static_factory/CourierBetaProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory_delivery_static_factory/CourierMasterProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory_delivery_static_factory/CourierMasterProduct.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -25,8 +25,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_static_factory/CourierBetaProduct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_static_factory/CourierMasterProduct.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
@@ -98,9 +115,9 @@
         <option value="$PROJECT_DIR$/src/main/java/factory_delivery_static_factory/ProductStaticFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_delivery_static_factory/StaticFactoryMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_delivery_static_factory/StaticFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/factory_delivery_static_factory/CourierMasterProduct.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_delivery_static_factory/ProductProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_delivery_static_factory/CourierBetaProduct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory_delivery_static_factory/CourierMasterProduct.java" />
       </list>
     </option>
   </component>
@@ -882,14 +899,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_static_factory/CourierMasterProduct.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_static_factory/CourierBetaProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="255">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_static_factory/CourierBetaProduct.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_static_factory/CourierMasterProduct.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
