@@ -24,6 +24,7 @@ public class StaticFactoryTestSuite {
         // when
         pr.processProductOfStaticFactory("Mater");
 
-
+        // then
+        Assert.assertTrue("Test ok.", true);
     }
 }
