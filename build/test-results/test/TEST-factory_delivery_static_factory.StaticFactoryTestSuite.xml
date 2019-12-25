@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="factory_delivery_static_factory.StaticFactoryTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-25T22:32:37" hostname="Dell-Komputer" time="0.026">
+  <properties/>
+  <testcase name="testCreateProduct" classname="factory_delivery_static_factory.StaticFactoryTestSuite" time="0.026"/>
+  <system-out><![CDATA[Chose the Courier Master delivery.
+Prepare a package for Courier Master.
+Process the delivery by Courier Master.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
