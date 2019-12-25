@@ -258,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SimpleFactoryMain">
+  <component name="RunManager" selected="Application.StaticFactoryMain">
     <configuration name="CourierProductMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="factory_delivery_basic_non_factory.CourierProductMain" />
       <module name="good-patterns.main" />
