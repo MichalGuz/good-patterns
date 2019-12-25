@@ -89,8 +89,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/factory_delivery_static_factory/StaticFactoryTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="197">
+              <caret line="19" column="47" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -284,7 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StaticFactoryMain">
+  <component name="RunManager" selected="Gradle.StaticFactoryTestSuite">
     <configuration name="CourierProductMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="factory_delivery_basic_non_factory.CourierProductMain" />
       <module name="good-patterns.main" />
@@ -333,12 +336,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetCost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StaticFactoryTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;decorator_taxi.TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetCost&quot;" />
+        <option name="scriptParameters" value="--tests &quot;factory_delivery_static_factory.StaticFactoryTestSuite&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -353,12 +356,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetDesription" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetCost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;decorator_taxi.TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetDesription&quot;" />
+        <option name="scriptParameters" value="--tests &quot;decorator_taxi.TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetCost&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -391,11 +394,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.StaticFactoryTestSuite" />
         <item itemvalue="Application.StaticFactoryMain" />
         <item itemvalue="Application.SimpleFactoryMain" />
         <item itemvalue="Application.CourierProductMain" />
         <item itemvalue="Gradle.TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetCost" />
-        <item itemvalue="Gradle.TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetDesription" />
       </list>
     </recent_temporary>
   </component>
@@ -413,9 +416,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TaxiOrderTestSuite - 2019.12.10 at 02h 01m 18s.xml">
-      <configuration name="TaxiOrderTestSuite" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="TaxiOrderTestSuite - 2019.12.10 at 02h 01m 57s.xml">
       <configuration name="TaxiOrderTestSuite" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -442,6 +442,9 @@
     </history-entry>
     <history-entry file="TaxiOrderTestSuite_testVipTaxiWithChildSeatExpressGetCost - 2019.12.11 at 00h 11m 15s.xml">
       <configuration name="TaxiOrderTestSuite.testVipTaxiWithChildSeatExpressGetCost" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="StaticFactoryTestSuite - 2019.12.25 at 23h 32m 39s.xml">
+      <configuration name="StaticFactoryTestSuite" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -973,8 +976,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/factory_delivery_static_factory/StaticFactoryTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="197">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

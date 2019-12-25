@@ -15,4 +15,8 @@ public class StaticFactoryTestSuite {
         // then
         Assert.assertTrue("Test ok", true);
     }
+
+    @Test
+    public void testCreateProductOfInappropriateType()  {
+       }
 }
