@@ -14,5 +14,4 @@ public class CourierBetaProductVenice implements Product {
     public void processDelivery() {
         System.out.println("Process the Courier Beta delivery service by boat.");
     }
-
 }
