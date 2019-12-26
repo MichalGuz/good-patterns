@@ -6,7 +6,7 @@ public class CourierProductMain {
     public void process(String type) {
         Product product = null;
         if(type.equals("Alfa")) {
-            product = new CourierAlfaProduct();
+            product = new CourierAlphaProduct();
         } else if (type.equals("Express")) {
             product= new CourierExpressProduct();
         }
