@@ -1,4 +1,4 @@
 package factory_delivery_factory_method;
 
-public class AmsterdamProductProcess {
+public class AmsterdamProductProcess extends AbstractProductProcessor{
 }
