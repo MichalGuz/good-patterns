@@ -7,5 +7,8 @@ import static factory_delivery_static_factory.StaticFactory.createProduct;
 public abstract class AbstractProductProcessor {
     public void process(String type) {
         Product product = createProduct(type);
+        product.initializeDelivery();
+        product.wrapUpItem();
+        product.processDelivery();
     }
 }
