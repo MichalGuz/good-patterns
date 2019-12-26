@@ -1,5 +1,7 @@
 package factory_delivery_factory_method;
 
-public class CourierBetaProductVenice
-{
+import factory_delivery_basic_non_factory.Product;
+
+public class CourierBetaProductVenice implements Product {
+
 }
