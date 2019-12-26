@@ -1,4 +1,6 @@
 package factory_delivery_factory_method;
 
-public class CourierAlphaProductAmsterdam {
+import factory_delivery_basic_non_factory.Product;
+
+public class CourierAlphaProductAmsterdam implements Product {
 }
