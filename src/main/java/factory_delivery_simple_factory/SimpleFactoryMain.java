@@ -5,9 +5,9 @@ public class SimpleFactoryMain {
         ProductProcess process = new ProductProcess(new SimpleFactory());
 
         // enter wrong name
-        process.doProcess("Alfar");
+        process.processProductOfSimpleFactory("Alfar");
 
         // enter right name
-        process.doProcess("Express");
+        process.processProductOfSimpleFactory("Express");
     }
 }

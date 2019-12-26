@@ -9,7 +9,7 @@ public class ProductProcess {
         this.simpleFactory = simpleFactory;
     }
 
-    public void doProcess(String type) {
+    public void processProductOfSimpleFactory(String type) {
         try {
             Product product = simpleFactory.createProduct(type);
             product.processDelivery();
