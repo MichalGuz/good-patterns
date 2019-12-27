@@ -1,4 +1,6 @@
 package factory_delivery_factory_method;
 
-public class VeniceProductProcess {
+public class VeniceProductProcess extends AbstractProductProcessor {
+
 }
+
