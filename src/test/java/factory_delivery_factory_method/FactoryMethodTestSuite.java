@@ -1,6 +1,5 @@
 package factory_delivery_factory_method;
 
-import factory_delivery_basic_non_factory.Product;
 import org.junit.Test;
 
 public class FactoryMethodTestSuite {
