@@ -5,10 +5,10 @@ public class CourierProductMain {
 
     public void process(String type) {
         Product product = null;
-        if(type.equals("Alfa")) {
+        if(type.equals("Alpha")) {
             product = new CourierAlphaProduct();
         } else if (type.equals("Express")) {
-            product= new CourierExpressProduct();
+            product = new CourierExpressProduct();
         }
 
         product.initializeDelivery();
@@ -20,7 +20,7 @@ public class CourierProductMain {
 
     public static void main(String[] args) {
         CourierProductMain courierProductMain = new CourierProductMain();
-        courierProductMain.process("Alfa");
+        courierProductMain.process("Alpha");
     }
 
 }
