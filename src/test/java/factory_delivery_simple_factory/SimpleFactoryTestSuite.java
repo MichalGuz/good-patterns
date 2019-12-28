@@ -18,4 +18,8 @@ public class SimpleFactoryTestSuite {
         // then
         // do nothing
     }
+
+    @Test
+    public void testProcessProductOfSimpleFactoryWithDbSimpleFactory() {
+    }
 }
