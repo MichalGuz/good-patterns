@@ -1,5 +1,8 @@
 package factory_delivery_simple_factory;
 
-public class SimpleFactoryTestSuite {
+import org.junit.Test;
 
+public class SimpleFactoryTestSuite {
+    @Test
+    public void testProcessProductOfSimpleFactory() {}
 }
