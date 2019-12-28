@@ -21,5 +21,9 @@ public class SimpleFactoryTestSuite {
 
     @Test
     public void testProcessProductOfSimpleFactoryWithDbSimpleFactory() {
+        // given
+        DbSimpleFactory dbSimpleFactory = new DbSimpleFactory("Connection");
+        ProductProcess process = new ProductProcess(dbSimpleFactory);
+
     }
 }
