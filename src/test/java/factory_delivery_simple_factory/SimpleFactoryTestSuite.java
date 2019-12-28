@@ -7,5 +7,9 @@ public class SimpleFactoryTestSuite {
     public void testProcessProductOfSimpleFactory() {
         // given
         ProductProcess process = new ProductProcess(new SimpleFactory());
+
+        // when
+        process.processProductOfSimpleFactory("Express");
+
     }
 }
