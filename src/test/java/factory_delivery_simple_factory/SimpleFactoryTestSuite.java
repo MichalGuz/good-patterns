@@ -25,5 +25,11 @@ public class SimpleFactoryTestSuite {
         DbSimpleFactory dbSimpleFactory = new DbSimpleFactory("Connection");
         ProductProcess process = new ProductProcess(dbSimpleFactory);
 
+        // when
+        // enter right name
+        process.processProductOfSimpleFactory("Express");
+        String connectionsName = dbSimpleFactory.getDbConnection();
+
+
     }
 }
