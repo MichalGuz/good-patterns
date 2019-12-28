@@ -1,8 +1,6 @@
 package factory_delivery_basic_non_factory;
 
 public class CourierProductMain {
-    String type;
-
     public void process(String type) {
         Product product = null;
         if(type.equals("Alpha")) {
@@ -22,5 +20,4 @@ public class CourierProductMain {
         CourierProductMain courierProductMain = new CourierProductMain();
         courierProductMain.process("Alpha");
     }
-
 }
