@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="factory_delivery_simple_factory.SimpleFactoryTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-28T15:59:29" hostname="Dell-Komputer" time="0.039">
+  <properties/>
+  <testcase name="testProcessProductOfSimpleFactory" classname="factory_delivery_simple_factory.SimpleFactoryTestSuite" time="0.039"/>
+  <system-out><![CDATA[Process the delivery by Courier Express.
+Prepare a package for Courier Expresss.
+Process the delivery by Courier Express.
+Factory delivery = Born for deliver!
+Unknown type of courier company.
+Please check the name of entered type and try again!
+Factory delivery = Born for deliver!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

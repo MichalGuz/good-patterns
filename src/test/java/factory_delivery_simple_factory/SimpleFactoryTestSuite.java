@@ -14,5 +14,7 @@ public class SimpleFactoryTestSuite {
         // enter wrong name
         process.processProductOfSimpleFactory("Expresss");
 
+        // then
+        // do nothing
     }
 }
