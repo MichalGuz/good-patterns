@@ -30,6 +30,7 @@ public class SimpleFactoryTestSuite {
         process.processProductOfSimpleFactory("Express");
         String connectionsName = dbSimpleFactory.getDbConnection();
 
-
+        // then
+        Assert.assertEquals("Connection", connectionsName);
     }
 }
