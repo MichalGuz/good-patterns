@@ -8,5 +8,9 @@ public class FactoryMethodTestSuite {
     public void testProcessMethod() {
         // given
         AbstractProductProcessor abstractProductProcessor;
+
+        // when
+        abstractProductProcessor = new VeniceProductProcess();
+        abstractProductProcessor.createProduct("Alpha");
     }
 }
