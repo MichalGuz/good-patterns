@@ -4,7 +4,7 @@ import factory_delivery_basic_non_factory.Product;
 
 public class CourierBetaProduct implements Product {
     public void initializeDelivery() {
-        System.out.println("Chose the Courier Beta delivery.");
+        System.out.println("Choose the Courier Beta delivery.");
     }
 
     public void wrapUpItem() {

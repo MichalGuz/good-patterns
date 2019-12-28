@@ -8,7 +8,7 @@ public class CourierAlphaProduct implements Product{
 
     @Override
     public void initializeDelivery() {
-        System.out.println("Chose the Courier Alpha delivery.");
+        System.out.println("Choose the Courier Alpha delivery.");
     }
 
     @Override

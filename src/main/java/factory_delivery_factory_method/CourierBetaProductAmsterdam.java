@@ -5,7 +5,7 @@ import factory_delivery_basic_non_factory.Product;
 public class CourierBetaProductAmsterdam implements Product {
     @Override
     public void initializeDelivery() {
-        System.out.println("Chose the Courier Beta delivery service by bicycle.");
+        System.out.println("Choose the Courier Beta delivery service by bicycle.");
     }
 
     @Override
