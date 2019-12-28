@@ -4,5 +4,8 @@ import org.junit.Test;
 
 public class SimpleFactoryTestSuite {
     @Test
-    public void testProcessProductOfSimpleFactory() {}
+    public void testProcessProductOfSimpleFactory() {
+        // given
+        ProductProcess process = new ProductProcess(new SimpleFactory());
+    }
 }
