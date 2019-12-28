@@ -28,6 +28,8 @@ public class SimpleFactoryTestSuite {
         // when
         // enter right name
         process.processProductOfSimpleFactory("Express");
+        // enter wrong name
+        process.processProductOfSimpleFactory("Expressss");
         String connectionsName = dbSimpleFactory.getDbConnection();
 
         // then
