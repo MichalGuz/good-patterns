@@ -1,5 +1,6 @@
 package factory_delivery_simple_factory;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class SimpleFactoryTestSuite {

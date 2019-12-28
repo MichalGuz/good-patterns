@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="" />
+    <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/factory_delivery_simple_factory/SimpleFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/factory_delivery_simple_factory/SimpleFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/factory_delivery_simple_factory/SimpleFactoryMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/factory_delivery_simple_factory/SimpleFactoryTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/factory_delivery_simple_factory/SimpleFactoryTestSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/factory_delivery_simple_factory.SimpleFactoryTestSuite.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/factory_delivery_simple_factory.SimpleFactoryTestSuite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/factory_delivery_simple_factory.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/factory_delivery_simple_factory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-factory_delivery_simple_factory.SimpleFactoryTestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-factory_delivery_simple_factory.SimpleFactoryTestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory_delivery_simple_factory/DbSimpleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory_delivery_simple_factory/DbSimpleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/factory_delivery_simple_factory/SimpleFactoryTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factory_delivery_simple_factory/SimpleFactoryTestSuite.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -27,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_basic_non_factory/CourierExpressProduct.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#257#258#0" expanded="true" />
                 <element signature="e#330#331#0" expanded="true" />
@@ -36,47 +59,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_basic_non_factory/CourierProductMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_basic_non_factory/DeliveryBasicProcess.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_simple_factory/DbSimpleFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_factory_method/AbstractProductProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_basic_non_factory/Product.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="14" selection-start-line="3" selection-start-column="4" selection-end-line="7" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_basic_non_factory/CourierAlphaProduct.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="153">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,8 +86,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_simple_factory/SimpleFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            <state relative-caret-position="289">
+              <caret line="17" column="5" selection-start-line="7" selection-start-column="3" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/factory_delivery_simple_factory/SimpleFactoryTestSuite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,19 +108,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/factory_delivery_simple_factory/SimpleFactoryTestSuite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_simple_factory/ProductProcess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="45" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="45" />
+            <state relative-caret-position="119">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -127,7 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/observer_forum/ForumUser.java" />
         <option value="$PROJECT_DIR$/src/test/java/observer_forum/ForumUserTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/observer/request/Request.java" />
         <option value="$PROJECT_DIR$/src/main/java/observer_request/Request.java" />
@@ -161,7 +165,6 @@
         <option value="$PROJECT_DIR$/src/main/java/factory_delivery_static_factory/StaticFactoryMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_delivery_static_factory/ProductProcessor.java" />
         <option value="$PROJECT_DIR$/src/test/java/factory_delivery_static_factory/StaticFactoryTestSuite.java" />
-        <option value="$PROJECT_DIR$/src/main/java/factory_delivery_simple_factory/ProductProcess.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_delivery_factory_method/AmsterdamProductProcess.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_delivery_factory_method/VeniceProductProcess.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_delivery_factory_method/AbstractProductProcessor.java" />
@@ -176,8 +179,10 @@
         <option value="$PROJECT_DIR$/src/main/java/factory_delivery_basic_non_factory/CourierExpressProduct.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_delivery_basic_non_factory/DeliveryBasicProcess.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_delivery_basic_non_factory/CourierProductMain.java" />
-        <option value="$PROJECT_DIR$/src/test/java/factory_delivery_simple_factory/SimpleFactoryTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_delivery_simple_factory/SimpleFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory_delivery_simple_factory/DbSimpleFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory_delivery_simple_factory/ProductProcess.java" />
+        <option value="$PROJECT_DIR$/src/test/java/factory_delivery_simple_factory/SimpleFactoryTestSuite.java" />
       </list>
     </option>
   </component>
@@ -265,14 +270,6 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="good-patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="good-patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="factory_delivery_simple_factory" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -300,7 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.SimpleFactoryTestSuite.testProcessProductOfSimpleFactory">
+  <component name="RunManager" selected="Gradle.SimpleFactoryTestSuite.testProcessProductOfSimpleFactoryWithDbSimpleFactory">
     <configuration name="CourierProductMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="factory_delivery_basic_non_factory.CourierProductMain" />
       <module name="good-patterns.main" />
@@ -361,12 +358,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StaticFactoryTestSuite.testCreateProductOfInappropriateType" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SimpleFactoryTestSuite.testProcessProductOfSimpleFactoryWithDbSimpleFactory" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;factory_delivery_static_factory.StaticFactoryTestSuite.testCreateProductOfInappropriateType&quot;" />
+        <option name="scriptParameters" value="--tests &quot;factory_delivery_simple_factory.SimpleFactoryTestSuite.testProcessProductOfSimpleFactoryWithDbSimpleFactory&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -419,11 +416,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SimpleFactoryTestSuite.testProcessProductOfSimpleFactoryWithDbSimpleFactory" />
         <item itemvalue="Gradle.SimpleFactoryTestSuite.testProcessProductOfSimpleFactory" />
         <item itemvalue="Application.CourierProductMain" />
         <item itemvalue="Gradle.FactoryMethodTestSuite.testProcessMethod" />
         <item itemvalue="Gradle.StaticFactoryTestSuite.testCreateProductOfRightType" />
-        <item itemvalue="Gradle.StaticFactoryTestSuite.testCreateProductOfInappropriateType" />
       </list>
     </recent_temporary>
   </component>
@@ -441,9 +438,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StaticFactoryTestSuite_testCreateProductOfInappropriateType - 2019.12.25 at 23h 44m 11s.xml">
-      <configuration name="StaticFactoryTestSuite.testCreateProductOfInappropriateType" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="StaticFactoryTestSuite_testCreateProductOfInappropriateType - 2019.12.25 at 23h 44m 45s.xml">
       <configuration name="StaticFactoryTestSuite.testCreateProductOfInappropriateType" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -471,12 +465,15 @@
     <history-entry file="SimpleFactoryTestSuite_testProcessProductOfSimpleFactory - 2019.12.28 at 16h 59m 29s.xml">
       <configuration name="SimpleFactoryTestSuite.testProcessProductOfSimpleFactory" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="SimpleFactoryTestSuite_testProcessProductOfSimpleFactoryWithDbSimpleFactory - 2019.12.28 at 17h 22m 33s.xml">
+      <configuration name="SimpleFactoryTestSuite.testProcessProductOfSimpleFactoryWithDbSimpleFactory" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31472492" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31472492" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -485,12 +482,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919093" weight="0.32919255" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919093" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919093" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5008091" side_tool="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32919255" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32919255" />
@@ -510,13 +507,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/observer_request/Company01RequestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/observer_request/Company10RequestService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -868,7 +858,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_basic_non_factory/CourierExpressProduct.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#257#258#0" expanded="true" />
             <element signature="e#330#331#0" expanded="true" />
@@ -890,24 +880,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_simple_factory/ProductProcess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_simple_factory/SimpleFactoryMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="55" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="7" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory_delivery_simple_factory/SimpleFactoryTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -920,18 +896,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_simple_factory/SimpleFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="289">
+          <caret line="17" column="5" selection-start-line="7" selection-start-column="3" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_simple_factory/ProductProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_basic_non_factory/CourierProductMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_simple_factory/DbSimpleFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/factory_delivery_simple_factory/SimpleFactoryTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
