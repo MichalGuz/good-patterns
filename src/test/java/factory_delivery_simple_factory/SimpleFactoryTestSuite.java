@@ -9,7 +9,10 @@ public class SimpleFactoryTestSuite {
         ProductProcess process = new ProductProcess(new SimpleFactory());
 
         // when
+        // enter right name
         process.processProductOfSimpleFactory("Express");
+        // enter wrong name
+        process.processProductOfSimpleFactory("Expresss");
 
     }
 }
