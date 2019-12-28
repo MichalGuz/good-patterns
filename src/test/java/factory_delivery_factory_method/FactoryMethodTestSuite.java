@@ -12,6 +12,9 @@ public class FactoryMethodTestSuite {
         abstractProductProcessor = new VeniceProductProcess();
         abstractProductProcessor.process("Alpha");
 
+        abstractProductProcessor = new AmsterdamProductProcess();
+        abstractProductProcessor.process("Alpha");
+
         // then
         // do nothing
     }
