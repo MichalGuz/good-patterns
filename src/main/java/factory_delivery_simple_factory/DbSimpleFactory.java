@@ -7,4 +7,8 @@ public class DbSimpleFactory extends SimpleFactory {
     public DbSimpleFactory(String dbConnection) {
         this.dbConnection = dbConnection;
     }
+
+    public String getDbConnection() {
+        return dbConnection;
+    }
 }
