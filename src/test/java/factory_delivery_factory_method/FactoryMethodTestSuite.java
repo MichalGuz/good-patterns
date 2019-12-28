@@ -12,5 +12,8 @@ public class FactoryMethodTestSuite {
         // when
         abstractProductProcessor = new VeniceProductProcess();
         abstractProductProcessor.createProduct("Alpha");
+
+        // then
+        // do nothing
     }
 }
