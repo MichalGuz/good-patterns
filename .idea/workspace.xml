@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb38dcc-bf42-4a8e-9ca6-75aceed36383" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory_delivery_abstract_factory/CourierAlpha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory_delivery_abstract_factory/CourierAlpha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory_delivery_abstract_factory/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory_delivery_abstract_factory/Delivery.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -35,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_abstract_factory/Delivery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="136">
+              <caret line="8" column="104" selection-start-line="8" selection-start-column="104" selection-end-line="8" selection-end-column="104" />
             </state>
           </provider>
         </entry>
@@ -53,14 +53,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_abstract_factory/CourierAlpha.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="66" />
+            <state relative-caret-position="85">
+              <caret line="5" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
               <folding>
                 <element signature="e#123#124#0" expanded="true" />
                 <element signature="e#159#160#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_abstract_factory/CourierBeta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,7 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/observer_request/ObservableRequests.java" />
         <option value="$PROJECT_DIR$/src/main/java/observer_request/Company01RequestService.java" />
         <option value="$PROJECT_DIR$/src/main/java/observer_request/Company10RequestService.java" />
         <option value="$PROJECT_DIR$/src/main/java/observer_request/Company20RequestService.java" />
@@ -154,12 +166,13 @@
         <option value="$PROJECT_DIR$/src/main/java/factory_delivery_simple_factory/SimpleFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/factory_delivery_simple_factory/SimpleFactoryTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_delivery_simple_factory/ProductProcess.java" />
-        <option value="$PROJECT_DIR$/src/main/java/factory_delivery_abstract_factory/Delivery.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_delivery_abstract_factory/DeliveryItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_delivery_abstract_factory/DeliveryItemEnvelope.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_delivery_abstract_factory/DeliveryItemPacket.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_delivery_abstract_factory/Courier.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory_delivery_abstract_factory/CourierAlpha.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory_delivery_abstract_factory/CourierBeta.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory_delivery_abstract_factory/Delivery.java" />
       </list>
     </option>
   </component>
@@ -456,7 +469,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31957927" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -492,13 +504,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/VipCarDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/decorator_taxi/CiaoTaxiNetworkOrderDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -864,13 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_abstract_factory/Delivery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_abstract_factory/Courier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -880,12 +878,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_abstract_factory/CourierAlpha.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="66" />
+        <state relative-caret-position="85">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
           <folding>
             <element signature="e#123#124#0" expanded="true" />
             <element signature="e#159#160#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_abstract_factory/CourierBeta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory_delivery_abstract_factory/Delivery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="104" selection-start-line="8" selection-start-column="104" selection-end-line="8" selection-end-column="104" />
         </state>
       </provider>
     </entry>
