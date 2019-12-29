@@ -12,4 +12,11 @@ public class Delivery {
         this.deliveryItem = factory.createDeliveryItem();
         this.courier = factory.createCourier();
     }
+
+    private void processDelivery() {
+        System.out.println("Initializing delivery.");
+        deliveryItem.prepareDeliveryItem();
+        courier.chooseCourier();
+        System.out.println("Delivery was successful created.");
+    }
 }
