@@ -11,6 +11,7 @@ public class Delivery {
         this.idDelivery = idDelivery;
         this.deliveryItem = factory.createDeliveryItem();
         this.courier = factory.createCourier();
+        processDelivery();
     }
 
     private void processDelivery() {
