@@ -6,10 +6,10 @@ public class Delivery {
     private DeliveryItem deliveryItem;
     private Courier courier;
 
-    public Delivery(String destination, String idDelivery, DeliveryItem deliveryItem, Courier courier) {
+    public Delivery(String destination, String idDelivery, DeliveryFactory factory) {
         this.destination = destination;
         this.idDelivery = idDelivery;
-        this.deliveryItem = deliveryItem;
-        this.courier = courier;
+        this.deliveryItem = factory.createDeliveryItem();
+        this.courier = factory.createCourier();
     }
 }
