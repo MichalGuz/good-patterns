@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="factory_delivery_abstract_factory.DeliveryAbstractFactoryTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-29T23:01:58" hostname="Dell-Komputer" time="0.02">
+<testsuite name="factory_delivery_abstract_factory.DeliveryAbstractFactoryTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-29T23:04:14" hostname="Dell-Komputer" time="0.053">
   <properties/>
-  <testcase name="testDeliveryFactory" classname="factory_delivery_abstract_factory.DeliveryAbstractFactoryTestSuite" time="0.02"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="testDeliveryFactory" classname="factory_delivery_abstract_factory.DeliveryAbstractFactoryTestSuite" time="0.053"/>
+  <system-out><![CDATA[Initializing delivery.
+Prepare envelope.
+Courier Beta was chosen for delivery.
+Delivery was successful created.
+Initializing delivery.
+Prepare packet.
+Courier Alpha was chosen for delivery.
+Delivery was successful created.
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
