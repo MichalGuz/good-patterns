@@ -13,7 +13,7 @@ public class Delivery {
         this.courier = factory.createCourier();
     }
 
-    private void processDelivery() {
+    public void processDelivery() {
         System.out.println("Initializing delivery.");
         deliveryItem.prepareDeliveryItem();
         courier.chooseCourier();
