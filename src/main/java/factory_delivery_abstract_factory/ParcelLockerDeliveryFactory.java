@@ -1,7 +1,7 @@
 package factory_delivery_abstract_factory;
 
-public class PacketDeliveryFactory implements DeliveryFactory {
-    public ModeOfDelivery createDeliveryItem() {
+public class ParcelLockerDeliveryFactory implements DeliveryFactory {
+    public ModeOfDelivery chooseModeOfDelivery() {
         return new ModeOfParcelLockerOfDelivery();
     }
 
