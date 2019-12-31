@@ -9,7 +9,7 @@ public class Delivery {
     public Delivery(String destination, String idDelivery, DeliveryFactory factory) {
         this.destination = destination;
         this.idDelivery = idDelivery;
-        this.modeOfDelivery = factory.chooseModeOfDelivery();
+        this.modeOfDelivery = factory.createModeOfDelivery();
         this.courier = factory.createCourier();
         processDelivery();
     }
