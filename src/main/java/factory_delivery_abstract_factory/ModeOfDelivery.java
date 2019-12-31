@@ -1,5 +1,5 @@
 package factory_delivery_abstract_factory;
 
-public interface DeliveryMode {
+public interface ModeOfDelivery {
     void prepareDeliveryItem();
 }
