@@ -1,7 +1,5 @@
 package observer_request;
 
-import sun.util.calendar.BaseCalendar;
-
 import java.util.Date;
 
 public class CustomerAssistant implements ObserverOfRequests {
