@@ -9,14 +9,14 @@ public class Delivery {
     public Delivery(String destination, String idDelivery, DeliveryFactory factory) {
         this.destination = destination;
         this.idDelivery = idDelivery;
-        this.modeOfDelivery = factory.createDeliveryItem();
+        this.modeOfDelivery = factory.chooseModeOfDelivery();
         this.courier = factory.createCourier();
         processDelivery();
     }
 
     private void processDelivery() {
         System.out.println("Initializing delivery.");
-        modeOfDelivery.prepareDeliveryItem();
+        modeOfDelivery.chooseModeOfDelivery();
         courier.chooseCourier();
         System.out.println("Delivery was successful created.");
     }
