@@ -1,8 +1,8 @@
 package factory_delivery_abstract_factory;
 
-public class EnvelopeDeliveryFactory implements DeliveryFactory {
+public class DoorToDoorDeliveryFactory implements DeliveryFactory {
     @Override
-    public ModeOfDelivery createDeliveryItem() {
+    public ModeOfDelivery chooseModeOfDelivery() {
         return new ModeOfDeliveryDoorToDoor();
     }
 
