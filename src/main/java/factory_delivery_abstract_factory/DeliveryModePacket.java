@@ -1,6 +1,6 @@
 package factory_delivery_abstract_factory;
 
-public class DeliveryItemPacket implements DeliveryItem {
+public class DeliveryModePacket implements DeliveryMode {
     public void prepareDeliveryItem(){
         System.out.println("Prepare packet.");
     }

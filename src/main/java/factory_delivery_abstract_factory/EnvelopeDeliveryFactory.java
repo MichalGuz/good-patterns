@@ -2,8 +2,8 @@ package factory_delivery_abstract_factory;
 
 public class EnvelopeDeliveryFactory implements DeliveryFactory {
     @Override
-    public DeliveryItem createDeliveryItem() {
-        return new DeliveryItemEnvelope();
+    public DeliveryMode createDeliveryItem() {
+        return new DeliveryModeEnvelope();
     }
 
     @Override
